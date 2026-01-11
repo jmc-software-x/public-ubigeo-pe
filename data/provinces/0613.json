@@ -1,0 +1,44 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0613",
+    "name": "San Pablo"
+  },
+  "districts": [
+    {
+      "id": "061302",
+      "name": "San Bernardino",
+      "provinceId": "0613",
+      "departmentId": "06",
+      "inei": "061202",
+      "entityId": 676
+    },
+    {
+      "id": "061303",
+      "name": "San Luis",
+      "provinceId": "0613",
+      "departmentId": "06",
+      "inei": "061203",
+      "entityId": 677
+    },
+    {
+      "id": "061301",
+      "name": "San Pablo",
+      "provinceId": "0613",
+      "departmentId": "06",
+      "inei": "061201",
+      "entityId": 675
+    },
+    {
+      "id": "061304",
+      "name": "Tumbaden",
+      "provinceId": "0613",
+      "departmentId": "06",
+      "inei": "061204",
+      "entityId": 678
+    }
+  ]
+}

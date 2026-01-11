@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "19",
+    "name": "Piura"
+  },
+  "province": {
+    "id": "1901",
+    "name": "Piura"
+  },
+  "district": {
+    "id": "190106",
+    "name": "La Union",
+    "provinceId": "1901",
+    "departmentId": "19",
+    "inei": "200110",
+    "entityId": 1572
+  }
+}

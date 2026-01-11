@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0702",
+    "name": "Acomayo"
+  },
+  "district": {
+    "id": "070201",
+    "name": "Acomayo",
+    "provinceId": "0702",
+    "departmentId": "07",
+    "inei": "080201",
+    "entityId": 705
+  }
+}

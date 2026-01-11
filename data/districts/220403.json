@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "22",
+    "name": "Tacna"
+  },
+  "province": {
+    "id": "2204",
+    "name": "Candarave"
+  },
+  "district": {
+    "id": "220403",
+    "name": "Curibaya",
+    "provinceId": "2204",
+    "departmentId": "22",
+    "inei": "230204",
+    "entityId": 1832
+  }
+}

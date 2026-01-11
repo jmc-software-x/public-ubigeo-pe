@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "12",
+    "name": "La Libertad"
+  },
+  "province": {
+    "id": "1210",
+    "name": "Julcan"
+  },
+  "district": {
+    "id": "121003",
+    "name": "Calamarca",
+    "provinceId": "1210",
+    "departmentId": "12",
+    "inei": "130502",
+    "entityId": 1189
+  }
+}

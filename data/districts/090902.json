@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "09",
+    "name": "Huanuco"
+  },
+  "province": {
+    "id": "0909",
+    "name": "Huacaybamba"
+  },
+  "district": {
+    "id": "090902",
+    "name": "Pinra",
+    "provinceId": "0909",
+    "departmentId": "09",
+    "inei": "100404",
+    "entityId": 942
+  }
+}

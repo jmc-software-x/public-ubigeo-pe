@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "10",
+    "name": "Ica"
+  },
+  "province": {
+    "id": "1002",
+    "name": "Chincha"
+  },
+  "district": {
+    "id": "100209",
+    "name": "Alto Laran",
+    "provinceId": "1002",
+    "departmentId": "10",
+    "inei": "110202",
+    "entityId": 1008
+  }
+}

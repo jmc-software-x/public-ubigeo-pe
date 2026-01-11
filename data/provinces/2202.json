@@ -1,0 +1,76 @@
+{
+  "department": {
+    "id": "22",
+    "name": "Tacna"
+  },
+  "province": {
+    "id": "2202",
+    "name": "Tarata"
+  },
+  "districts": [
+    {
+      "id": "220205",
+      "name": "Chucatamani",
+      "provinceId": "2202",
+      "departmentId": "22",
+      "inei": "230402",
+      "entityId": 1839
+    },
+    {
+      "id": "220206",
+      "name": "Estique",
+      "provinceId": "2202",
+      "departmentId": "22",
+      "inei": "230403",
+      "entityId": 1840
+    },
+    {
+      "id": "220207",
+      "name": "Estique-pampa",
+      "provinceId": "2202",
+      "departmentId": "22",
+      "inei": "230404",
+      "entityId": 1841
+    },
+    {
+      "id": "220210",
+      "name": "Sitajara",
+      "provinceId": "2202",
+      "departmentId": "22",
+      "inei": "230405",
+      "entityId": 1842
+    },
+    {
+      "id": "220211",
+      "name": "Susapaya",
+      "provinceId": "2202",
+      "departmentId": "22",
+      "inei": "230406",
+      "entityId": 1843
+    },
+    {
+      "id": "220201",
+      "name": "Tarata",
+      "provinceId": "2202",
+      "departmentId": "22",
+      "inei": "230401",
+      "entityId": 1838
+    },
+    {
+      "id": "220212",
+      "name": "Tarucachi",
+      "provinceId": "2202",
+      "departmentId": "22",
+      "inei": "230407",
+      "entityId": 1844
+    },
+    {
+      "id": "220213",
+      "name": "Ticaco",
+      "provinceId": "2202",
+      "departmentId": "22",
+      "inei": "230408",
+      "entityId": 1845
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "department": {
+    "id": "05",
+    "name": "Ayacucho"
+  },
+  "province": {
+    "id": "0502",
+    "name": "Cangallo"
+  },
+  "districts": [
+    {
+      "id": "050201",
+      "name": "Cangallo",
+      "provinceId": "0502",
+      "departmentId": "05",
+      "inei": null,
+      "entityId": 460
+    },
+    {
+      "id": "050204",
+      "name": "Chuschi",
+      "provinceId": "0502",
+      "departmentId": "05",
+      "inei": "050202",
+      "entityId": 461
+    },
+    {
+      "id": "050206",
+      "name": "Los Morochucos",
+      "provinceId": "0502",
+      "departmentId": "05",
+      "inei": "050203",
+      "entityId": 462
+    },
+    {
+      "id": "050211",
+      "name": "Maria Parado De Bellido",
+      "provinceId": "0502",
+      "departmentId": "05",
+      "inei": "050204",
+      "entityId": 463
+    },
+    {
+      "id": "050207",
+      "name": "Paras",
+      "provinceId": "0502",
+      "departmentId": "05",
+      "inei": "050205",
+      "entityId": 464
+    },
+    {
+      "id": "050208",
+      "name": "Totos",
+      "provinceId": "0502",
+      "departmentId": "05",
+      "inei": "050206",
+      "entityId": 465
+    }
+  ]
+}

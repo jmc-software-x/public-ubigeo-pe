@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "08",
+    "name": "Huancavelica"
+  },
+  "province": {
+    "id": "0806",
+    "name": "Huaytara"
+  },
+  "district": {
+    "id": "080610",
+    "name": "San Antonio De Cusicancha",
+    "provinceId": "0806",
+    "departmentId": "08",
+    "inei": "090610",
+    "entityId": 881
+  }
+}

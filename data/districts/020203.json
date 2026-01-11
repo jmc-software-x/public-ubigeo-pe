@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0202",
+    "name": "Aija"
+  },
+  "district": {
+    "id": "020203",
+    "name": "Coris",
+    "provinceId": "0202",
+    "departmentId": "02",
+    "inei": "020202",
+    "entityId": 98
+  }
+}

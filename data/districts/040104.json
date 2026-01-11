@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "04",
+    "name": "Arequipa"
+  },
+  "province": {
+    "id": "0401",
+    "name": "Arequipa"
+  },
+  "district": {
+    "id": "040104",
+    "name": "Characato",
+    "provinceId": "0401",
+    "departmentId": "04",
+    "inei": "040105",
+    "entityId": 339
+  }
+}

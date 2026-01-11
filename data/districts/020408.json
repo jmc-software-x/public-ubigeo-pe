@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0204",
+    "name": "Carhuaz"
+  },
+  "district": {
+    "id": "020408",
+    "name": "San Miguel De Aco",
+    "provinceId": "0204",
+    "departmentId": "02",
+    "inei": "020608",
+    "entityId": 132
+  }
+}

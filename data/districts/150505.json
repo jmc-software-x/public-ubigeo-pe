@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "15",
+    "name": "Loreto"
+  },
+  "province": {
+    "id": "1505",
+    "name": "Ucayali"
+  },
+  "district": {
+    "id": "150505",
+    "name": "Sarayacu",
+    "provinceId": "1505",
+    "departmentId": "15",
+    "inei": "160605",
+    "entityId": 1494
+  }
+}

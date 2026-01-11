@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2106",
+    "name": "San Martin"
+  },
+  "district": {
+    "id": "210601",
+    "name": "Tarapoto",
+    "provinceId": "2106",
+    "departmentId": "21",
+    "inei": "220901",
+    "entityId": 1799
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "15",
+    "name": "Loreto"
+  },
+  "province": {
+    "id": "1503",
+    "name": "Loreto"
+  },
+  "district": {
+    "id": "150301",
+    "name": "Nauta",
+    "provinceId": "1503",
+    "departmentId": "15",
+    "inei": "160301",
+    "entityId": 1470
+  }
+}

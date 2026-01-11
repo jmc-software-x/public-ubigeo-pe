@@ -1,0 +1,140 @@
+{
+  "department": {
+    "id": "08",
+    "name": "Huancavelica"
+  },
+  "province": {
+    "id": "0806",
+    "name": "Huaytara"
+  },
+  "districts": [
+    {
+      "id": "080601",
+      "name": "Ayavi",
+      "provinceId": "0806",
+      "departmentId": "08",
+      "inei": "090602",
+      "entityId": 873
+    },
+    {
+      "id": "080602",
+      "name": "Cordova",
+      "provinceId": "0806",
+      "departmentId": "08",
+      "inei": "090603",
+      "entityId": 874
+    },
+    {
+      "id": "080603",
+      "name": "Huayacundo Arma",
+      "provinceId": "0806",
+      "departmentId": "08",
+      "inei": "090604",
+      "entityId": 875
+    },
+    {
+      "id": "080604",
+      "name": "Huaytara",
+      "provinceId": "0806",
+      "departmentId": "08",
+      "inei": "090601",
+      "entityId": 872
+    },
+    {
+      "id": "080605",
+      "name": "Laramarca",
+      "provinceId": "0806",
+      "departmentId": "08",
+      "inei": "090605",
+      "entityId": 876
+    },
+    {
+      "id": "080606",
+      "name": "Ocoyo",
+      "provinceId": "0806",
+      "departmentId": "08",
+      "inei": "090606",
+      "entityId": 877
+    },
+    {
+      "id": "080607",
+      "name": "Pilpichaca",
+      "provinceId": "0806",
+      "departmentId": "08",
+      "inei": "090607",
+      "entityId": 878
+    },
+    {
+      "id": "080608",
+      "name": "Querco",
+      "provinceId": "0806",
+      "departmentId": "08",
+      "inei": "090608",
+      "entityId": 879
+    },
+    {
+      "id": "080609",
+      "name": "Quito-arma",
+      "provinceId": "0806",
+      "departmentId": "08",
+      "inei": "090609",
+      "entityId": 880
+    },
+    {
+      "id": "080610",
+      "name": "San Antonio De Cusicancha",
+      "provinceId": "0806",
+      "departmentId": "08",
+      "inei": "090610",
+      "entityId": 881
+    },
+    {
+      "id": "080611",
+      "name": "San Francisco De Sangayaico",
+      "provinceId": "0806",
+      "departmentId": "08",
+      "inei": "090611",
+      "entityId": 882
+    },
+    {
+      "id": "080612",
+      "name": "San Isidro",
+      "provinceId": "0806",
+      "departmentId": "08",
+      "inei": "090612",
+      "entityId": 883
+    },
+    {
+      "id": "080613",
+      "name": "Santiago De Chocorvos",
+      "provinceId": "0806",
+      "departmentId": "08",
+      "inei": "090613",
+      "entityId": 884
+    },
+    {
+      "id": "080614",
+      "name": "Santiago De Quirahuara",
+      "provinceId": "0806",
+      "departmentId": "08",
+      "inei": "090614",
+      "entityId": 885
+    },
+    {
+      "id": "080615",
+      "name": "Santo Domingo De Capillas",
+      "provinceId": "0806",
+      "departmentId": "08",
+      "inei": "090615",
+      "entityId": 886
+    },
+    {
+      "id": "080616",
+      "name": "Tambo",
+      "provinceId": "0806",
+      "departmentId": "08",
+      "inei": "090616",
+      "entityId": 887
+    }
+  ]
+}

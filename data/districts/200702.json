@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "20",
+    "name": "Puno"
+  },
+  "province": {
+    "id": "2007",
+    "name": "Melgar"
+  },
+  "district": {
+    "id": "200702",
+    "name": "Antauta",
+    "provinceId": "2007",
+    "departmentId": "20",
+    "inei": "210802",
+    "entityId": 1702
+  }
+}

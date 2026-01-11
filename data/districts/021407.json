@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0214",
+    "name": "Sihuas"
+  },
+  "district": {
+    "id": "021407",
+    "name": "Acobamba",
+    "provinceId": "0214",
+    "departmentId": "02",
+    "inei": "021902",
+    "entityId": 234
+  }
+}

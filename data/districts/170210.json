@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "17",
+    "name": "Moquegua"
+  },
+  "province": {
+    "id": "1702",
+    "name": "General Sanchez Cerro"
+  },
+  "district": {
+    "id": "170210",
+    "name": "Ubinas",
+    "provinceId": "1702",
+    "departmentId": "17",
+    "inei": "180210",
+    "entityId": 1532
+  }
+}

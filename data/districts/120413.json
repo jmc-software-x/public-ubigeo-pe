@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "12",
+    "name": "La Libertad"
+  },
+  "province": {
+    "id": "1204",
+    "name": "Otuzco"
+  },
+  "district": {
+    "id": "120413",
+    "name": "Mache",
+    "provinceId": "1204",
+    "departmentId": "12",
+    "inei": "130608",
+    "entityId": 1197
+  }
+}

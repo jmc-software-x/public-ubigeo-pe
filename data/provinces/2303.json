@@ -1,0 +1,44 @@
+{
+  "department": {
+    "id": "23",
+    "name": "Tumbes"
+  },
+  "province": {
+    "id": "2303",
+    "name": "Zarumilla"
+  },
+  "districts": [
+    {
+      "id": "230304",
+      "name": "Aguas Verdes",
+      "provinceId": "2303",
+      "departmentId": "23",
+      "inei": "240302",
+      "entityId": 1856
+    },
+    {
+      "id": "230302",
+      "name": "Matapalo",
+      "provinceId": "2303",
+      "departmentId": "23",
+      "inei": "240303",
+      "entityId": 1857
+    },
+    {
+      "id": "230303",
+      "name": "Papayal",
+      "provinceId": "2303",
+      "departmentId": "23",
+      "inei": "240304",
+      "entityId": 1858
+    },
+    {
+      "id": "230301",
+      "name": "Zarumilla",
+      "provinceId": "2303",
+      "departmentId": "23",
+      "inei": "240301",
+      "entityId": 1855
+    }
+  ]
+}

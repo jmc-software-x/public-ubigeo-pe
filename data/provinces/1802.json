@@ -1,0 +1,76 @@
+{
+  "department": {
+    "id": "18",
+    "name": "Pasco"
+  },
+  "province": {
+    "id": "1802",
+    "name": "Daniel Alcides Carrion"
+  },
+  "districts": [
+    {
+      "id": "180202",
+      "name": "Chacayan",
+      "provinceId": "1802",
+      "departmentId": "18",
+      "inei": "190202",
+      "entityId": 1551
+    },
+    {
+      "id": "180203",
+      "name": "Goyllarisquizga",
+      "provinceId": "1802",
+      "departmentId": "18",
+      "inei": "190203",
+      "entityId": 1552
+    },
+    {
+      "id": "180204",
+      "name": "Paucar",
+      "provinceId": "1802",
+      "departmentId": "18",
+      "inei": "190204",
+      "entityId": 1553
+    },
+    {
+      "id": "180205",
+      "name": "San Pedro De Pillao",
+      "provinceId": "1802",
+      "departmentId": "18",
+      "inei": "190205",
+      "entityId": 1554
+    },
+    {
+      "id": "180206",
+      "name": "Santa Ana De Tusi",
+      "provinceId": "1802",
+      "departmentId": "18",
+      "inei": "190206",
+      "entityId": 1555
+    },
+    {
+      "id": "180207",
+      "name": "Tapuc",
+      "provinceId": "1802",
+      "departmentId": "18",
+      "inei": "190207",
+      "entityId": 1556
+    },
+    {
+      "id": "180208",
+      "name": "Vilcabamba",
+      "provinceId": "1802",
+      "departmentId": "18",
+      "inei": "190208",
+      "entityId": 1557
+    },
+    {
+      "id": "180201",
+      "name": "Yanahuanca",
+      "provinceId": "1802",
+      "departmentId": "18",
+      "inei": "190201",
+      "entityId": 1550
+    }
+  ]
+}

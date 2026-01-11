@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "01",
+    "name": "Amazonas"
+  },
+  "province": {
+    "id": "0101",
+    "name": "Chachapoyas"
+  },
+  "district": {
+    "id": "010112",
+    "name": "Magdalena",
+    "provinceId": "0101",
+    "departmentId": "01",
+    "inei": null,
+    "entityId": 12
+  }
+}

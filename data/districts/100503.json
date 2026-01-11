@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "10",
+    "name": "Ica"
+  },
+  "province": {
+    "id": "1005",
+    "name": "Palpa"
+  },
+  "district": {
+    "id": "100503",
+    "name": "Rio Grande",
+    "provinceId": "1005",
+    "departmentId": "10",
+    "inei": "110403",
+    "entityId": 1025
+  }
+}

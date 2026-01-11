@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0613",
+    "name": "San Pablo"
+  },
+  "district": {
+    "id": "061301",
+    "name": "San Pablo",
+    "provinceId": "0613",
+    "departmentId": "06",
+    "inei": "061201",
+    "entityId": 675
+  }
+}

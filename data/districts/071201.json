@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0712",
+    "name": "Quispicanchi"
+  },
+  "district": {
+    "id": "071201",
+    "name": "Urcos",
+    "provinceId": "0712",
+    "departmentId": "07",
+    "inei": "081201",
+    "entityId": 790
+  }
+}

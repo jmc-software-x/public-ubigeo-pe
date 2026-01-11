@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "09",
+    "name": "Huanuco"
+  },
+  "province": {
+    "id": "0904",
+    "name": "Huamalies"
+  },
+  "district": {
+    "id": "090401",
+    "name": "Llata",
+    "provinceId": "0904",
+    "departmentId": "09",
+    "inei": "100501",
+    "entityId": 943
+  }
+}

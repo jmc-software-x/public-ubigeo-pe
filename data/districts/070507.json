@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0705",
+    "name": "Canas"
+  },
+  "district": {
+    "id": "070507",
+    "name": "Quehue",
+    "provinceId": "0705",
+    "departmentId": "07",
+    "inei": "080507",
+    "entityId": 735
+  }
+}

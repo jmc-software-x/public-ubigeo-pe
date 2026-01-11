@@ -1,0 +1,68 @@
+{
+  "department": {
+    "id": "25",
+    "name": "Ucayali"
+  },
+  "province": {
+    "id": "2501",
+    "name": "Coronel Portillo"
+  },
+  "districts": [
+    {
+      "id": "250101",
+      "name": "Calleria",
+      "provinceId": "2501",
+      "departmentId": "25",
+      "inei": null,
+      "entityId": 1859
+    },
+    {
+      "id": "250104",
+      "name": "Campoverde",
+      "provinceId": "2501",
+      "departmentId": "25",
+      "inei": "250102",
+      "entityId": 1860
+    },
+    {
+      "id": "250105",
+      "name": "Iparia",
+      "provinceId": "2501",
+      "departmentId": "25",
+      "inei": "250103",
+      "entityId": 1861
+    },
+    {
+      "id": "250107",
+      "name": "Manantay",
+      "provinceId": "2501",
+      "departmentId": "25",
+      "inei": null,
+      "entityId": 1865
+    },
+    {
+      "id": "250103",
+      "name": "Masisea",
+      "provinceId": "2501",
+      "departmentId": "25",
+      "inei": "250104",
+      "entityId": 1862
+    },
+    {
+      "id": "250106",
+      "name": "Nueva Requena",
+      "provinceId": "2501",
+      "departmentId": "25",
+      "inei": null,
+      "entityId": 1864
+    },
+    {
+      "id": "250102",
+      "name": "Yarinacocha",
+      "provinceId": "2501",
+      "departmentId": "25",
+      "inei": "250105",
+      "entityId": 1863
+    }
+  ]
+}

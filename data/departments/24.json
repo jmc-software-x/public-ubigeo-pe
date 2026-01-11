@@ -1,0 +1,13 @@
+{
+  "department": {
+    "id": "24",
+    "name": "Callao"
+  },
+  "provinces": [
+    {
+      "id": "2401",
+      "name": "Callao",
+      "departmentId": "24"
+    }
+  ]
+}

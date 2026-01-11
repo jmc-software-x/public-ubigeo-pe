@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1405",
+    "name": "Huaura"
+  },
+  "district": {
+    "id": "140506",
+    "name": "Hualmay",
+    "provinceId": "1405",
+    "departmentId": "14",
+    "inei": "150805",
+    "entityId": 1406
+  }
+}

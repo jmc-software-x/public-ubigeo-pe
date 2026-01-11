@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "15",
+    "name": "Loreto"
+  },
+  "province": {
+    "id": "1506",
+    "name": "Mariscal Ramon Castilla"
+  },
+  "district": {
+    "id": "150603",
+    "name": "Yavari",
+    "provinceId": "1506",
+    "departmentId": "15",
+    "inei": "160403",
+    "entityId": 1477
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "15",
+    "name": "Loreto"
+  },
+  "province": {
+    "id": "1504",
+    "name": "Requena"
+  },
+  "district": {
+    "id": "150409",
+    "name": "Tapiche",
+    "provinceId": "1504",
+    "departmentId": "15",
+    "inei": "160509",
+    "entityId": 1487
+  }
+}

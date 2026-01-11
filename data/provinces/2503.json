@@ -1,0 +1,44 @@
+{
+  "department": {
+    "id": "25",
+    "name": "Ucayali"
+  },
+  "province": {
+    "id": "2503",
+    "name": "Atalaya"
+  },
+  "districts": [
+    {
+      "id": "250301",
+      "name": "Raymondi",
+      "provinceId": "2503",
+      "departmentId": "25",
+      "inei": "250201",
+      "entityId": 1866
+    },
+    {
+      "id": "250304",
+      "name": "Sepahua",
+      "provinceId": "2503",
+      "departmentId": "25",
+      "inei": "250202",
+      "entityId": 1867
+    },
+    {
+      "id": "250302",
+      "name": "Tahuania",
+      "provinceId": "2503",
+      "departmentId": "25",
+      "inei": "250203",
+      "entityId": 1868
+    },
+    {
+      "id": "250303",
+      "name": "Yurua",
+      "provinceId": "2503",
+      "departmentId": "25",
+      "inei": "250204",
+      "entityId": 1869
+    }
+  ]
+}

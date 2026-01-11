@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0211",
+    "name": "Pomabamba"
+  },
+  "district": {
+    "id": "021103",
+    "name": "Parobamba",
+    "provinceId": "0211",
+    "departmentId": "02",
+    "inei": "021603",
+    "entityId": 212
+  }
+}

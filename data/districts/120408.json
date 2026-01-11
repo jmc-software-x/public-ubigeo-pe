@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "12",
+    "name": "La Libertad"
+  },
+  "province": {
+    "id": "1204",
+    "name": "Otuzco"
+  },
+  "district": {
+    "id": "120408",
+    "name": "Paranday",
+    "provinceId": "1204",
+    "departmentId": "12",
+    "inei": "130610",
+    "entityId": 1198
+  }
+}

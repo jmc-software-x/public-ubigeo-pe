@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "01",
+    "name": "Amazonas"
+  },
+  "province": {
+    "id": "0106",
+    "name": "Condorcanqui"
+  },
+  "district": {
+    "id": "010601",
+    "name": "Nieva",
+    "provinceId": "0106",
+    "departmentId": "01",
+    "inei": "010401",
+    "entityId": 40
+  }
+}

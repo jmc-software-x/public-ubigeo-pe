@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0210",
+    "name": "Pallasca"
+  },
+  "district": {
+    "id": "021005",
+    "name": "Huandoval",
+    "provinceId": "0210",
+    "departmentId": "02",
+    "inei": "021505",
+    "entityId": 203
+  }
+}

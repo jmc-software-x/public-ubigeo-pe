@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0220",
+    "name": "Ocros"
+  },
+  "district": {
+    "id": "022006",
+    "name": "Llipa",
+    "provinceId": "0220",
+    "departmentId": "02",
+    "inei": "021407",
+    "entityId": 195
+  }
+}

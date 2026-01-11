@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "04",
+    "name": "Arequipa"
+  },
+  "province": {
+    "id": "0406",
+    "name": "Condesuyos"
+  },
+  "district": {
+    "id": "040608",
+    "name": "Rio Grande",
+    "provinceId": "0406",
+    "departmentId": "04",
+    "inei": "040606",
+    "entityId": 424
+  }
+}

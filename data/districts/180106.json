@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "18",
+    "name": "Pasco"
+  },
+  "province": {
+    "id": "1801",
+    "name": "Pasco"
+  },
+  "district": {
+    "id": "180106",
+    "name": "Ninacaca",
+    "provinceId": "1801",
+    "departmentId": "18",
+    "inei": "190105",
+    "entityId": 1541
+  }
+}

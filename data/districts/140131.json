@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1401",
+    "name": "Lima"
+  },
+  "district": {
+    "id": "140131",
+    "name": "Surquillo",
+    "provinceId": "1401",
+    "departmentId": "14",
+    "inei": "150141",
+    "entityId": 1321
+  }
+}

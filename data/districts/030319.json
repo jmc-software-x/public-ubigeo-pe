@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "03",
+    "name": "Apurimac"
+  },
+  "province": {
+    "id": "0303",
+    "name": "Andahuaylas"
+  },
+  "district": {
+    "id": "030319",
+    "name": "Kaquiabamba",
+    "provinceId": "0303",
+    "departmentId": "03",
+    "inei": "030219",
+    "entityId": 278
+  }
+}

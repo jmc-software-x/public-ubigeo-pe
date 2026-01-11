@@ -1,0 +1,100 @@
+{
+  "department": {
+    "id": "08",
+    "name": "Huancavelica"
+  },
+  "province": {
+    "id": "0807",
+    "name": "Churcampa"
+  },
+  "districts": [
+    {
+      "id": "080702",
+      "name": "Anco",
+      "provinceId": "0807",
+      "departmentId": "08",
+      "inei": "090502",
+      "entityId": 862
+    },
+    {
+      "id": "080703",
+      "name": "Chinchihuasi",
+      "provinceId": "0807",
+      "departmentId": "08",
+      "inei": "090503",
+      "entityId": 863
+    },
+    {
+      "id": "080701",
+      "name": "Churcampa",
+      "provinceId": "0807",
+      "departmentId": "08",
+      "inei": "090501",
+      "entityId": 861
+    },
+    {
+      "id": "080711",
+      "name": "Cosme",
+      "provinceId": "0807",
+      "departmentId": "08",
+      "inei": "090511",
+      "entityId": 871
+    },
+    {
+      "id": "080704",
+      "name": "El Carmen",
+      "provinceId": "0807",
+      "departmentId": "08",
+      "inei": "090504",
+      "entityId": 864
+    },
+    {
+      "id": "080705",
+      "name": "La Merced",
+      "provinceId": "0807",
+      "departmentId": "08",
+      "inei": "090505",
+      "entityId": 865
+    },
+    {
+      "id": "080706",
+      "name": "Locroja",
+      "provinceId": "0807",
+      "departmentId": "08",
+      "inei": "090506",
+      "entityId": 866
+    },
+    {
+      "id": "080710",
+      "name": "Pachamarca",
+      "provinceId": "0807",
+      "departmentId": "08",
+      "inei": "090510",
+      "entityId": 870
+    },
+    {
+      "id": "080707",
+      "name": "Paucarbamba",
+      "provinceId": "0807",
+      "departmentId": "08",
+      "inei": "090507",
+      "entityId": 867
+    },
+    {
+      "id": "080708",
+      "name": "San Miguel De Mayocc",
+      "provinceId": "0807",
+      "departmentId": "08",
+      "inei": "090508",
+      "entityId": 868
+    },
+    {
+      "id": "080709",
+      "name": "San Pedro De Coris",
+      "provinceId": "0807",
+      "departmentId": "08",
+      "inei": "090509",
+      "entityId": 869
+    }
+  ]
+}

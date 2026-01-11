@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2103",
+    "name": "Lamas"
+  },
+  "district": {
+    "id": "210304",
+    "name": "Caynarachi",
+    "provinceId": "2103",
+    "departmentId": "21",
+    "inei": "220504",
+    "entityId": 1767
+  }
+}

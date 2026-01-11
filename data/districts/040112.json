@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "04",
+    "name": "Arequipa"
+  },
+  "province": {
+    "id": "0401",
+    "name": "Arequipa"
+  },
+  "district": {
+    "id": "040112",
+    "name": "Quequeña",
+    "provinceId": "0401",
+    "departmentId": "04",
+    "inei": "040115",
+    "entityId": 349
+  }
+}

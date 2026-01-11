@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "12",
+    "name": "La Libertad"
+  },
+  "province": {
+    "id": "1206",
+    "name": "Pataz"
+  },
+  "district": {
+    "id": "120613",
+    "name": "Santiago De Challas",
+    "provinceId": "1206",
+    "departmentId": "12",
+    "inei": "130811",
+    "entityId": 1217
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "department": {
+    "id": "19",
+    "name": "Piura"
+  },
+  "province": {
+    "id": "1904",
+    "name": "Morropon"
+  },
+  "districts": [
+    {
+      "id": "190402",
+      "name": "Buenos Aires",
+      "provinceId": "1904",
+      "departmentId": "19",
+      "inei": "200402",
+      "entityId": 1595
+    },
+    {
+      "id": "190403",
+      "name": "Chalaco",
+      "provinceId": "1904",
+      "departmentId": "19",
+      "inei": "200403",
+      "entityId": 1596
+    },
+    {
+      "id": "190401",
+      "name": "Chulucanas",
+      "provinceId": "1904",
+      "departmentId": "19",
+      "inei": "200401",
+      "entityId": 1594
+    },
+    {
+      "id": "190408",
+      "name": "La Matanza",
+      "provinceId": "1904",
+      "departmentId": "19",
+      "inei": "200404",
+      "entityId": 1597
+    },
+    {
+      "id": "190404",
+      "name": "Morropon",
+      "provinceId": "1904",
+      "departmentId": "19",
+      "inei": "200405",
+      "entityId": 1598
+    },
+    {
+      "id": "190405",
+      "name": "Salitral",
+      "provinceId": "1904",
+      "departmentId": "19",
+      "inei": "200406",
+      "entityId": 1599
+    },
+    {
+      "id": "190410",
+      "name": "San Juan De Bigote",
+      "provinceId": "1904",
+      "departmentId": "19",
+      "inei": "200407",
+      "entityId": 1600
+    },
+    {
+      "id": "190406",
+      "name": "Santa Catalina De Mossa",
+      "provinceId": "1904",
+      "departmentId": "19",
+      "inei": "200408",
+      "entityId": 1601
+    },
+    {
+      "id": "190407",
+      "name": "Santo Domingo",
+      "provinceId": "1904",
+      "departmentId": "19",
+      "inei": "200409",
+      "entityId": 1602
+    },
+    {
+      "id": "190409",
+      "name": "Yamango",
+      "provinceId": "1904",
+      "departmentId": "19",
+      "inei": "200410",
+      "entityId": 1603
+    }
+  ]
+}

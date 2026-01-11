@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0606",
+    "name": "Chota"
+  },
+  "district": {
+    "id": "060616",
+    "name": "Tocmoche",
+    "provinceId": "0606",
+    "departmentId": "06",
+    "inei": "060418",
+    "entityId": 608
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0214",
+    "name": "Sihuas"
+  },
+  "districts": [
+    {
+      "id": "021407",
+      "name": "Acobamba",
+      "provinceId": "0214",
+      "departmentId": "02",
+      "inei": "021902",
+      "entityId": 234
+    },
+    {
+      "id": "021402",
+      "name": "Alfonso Ugarte",
+      "provinceId": "0214",
+      "departmentId": "02",
+      "inei": "021903",
+      "entityId": 235
+    },
+    {
+      "id": "021408",
+      "name": "Cashapampa",
+      "provinceId": "0214",
+      "departmentId": "02",
+      "inei": "021904",
+      "entityId": 236
+    },
+    {
+      "id": "021403",
+      "name": "Chingalpo",
+      "provinceId": "0214",
+      "departmentId": "02",
+      "inei": "021905",
+      "entityId": 237
+    },
+    {
+      "id": "021404",
+      "name": "Huayllabamba",
+      "provinceId": "0214",
+      "departmentId": "02",
+      "inei": "021906",
+      "entityId": 238
+    },
+    {
+      "id": "021405",
+      "name": "Quiches",
+      "provinceId": "0214",
+      "departmentId": "02",
+      "inei": "021907",
+      "entityId": 239
+    },
+    {
+      "id": "021409",
+      "name": "Ragash",
+      "provinceId": "0214",
+      "departmentId": "02",
+      "inei": "021908",
+      "entityId": 240
+    },
+    {
+      "id": "021410",
+      "name": "San Juan",
+      "provinceId": "0214",
+      "departmentId": "02",
+      "inei": "021909",
+      "entityId": 241
+    },
+    {
+      "id": "021406",
+      "name": "Sicsibamba",
+      "provinceId": "0214",
+      "departmentId": "02",
+      "inei": "021910",
+      "entityId": 242
+    },
+    {
+      "id": "021401",
+      "name": "Sihuas",
+      "provinceId": "0214",
+      "departmentId": "02",
+      "inei": "021901",
+      "entityId": 233
+    }
+  ]
+}

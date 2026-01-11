@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0208",
+    "name": "Huari"
+  },
+  "district": {
+    "id": "020816",
+    "name": "Anra",
+    "provinceId": "0208",
+    "departmentId": "02",
+    "inei": "021002",
+    "entityId": 151
+  }
+}

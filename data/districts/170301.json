@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "17",
+    "name": "Moquegua"
+  },
+  "province": {
+    "id": "1703",
+    "name": "Ilo"
+  },
+  "district": {
+    "id": "170301",
+    "name": "Ilo",
+    "provinceId": "1703",
+    "departmentId": "17",
+    "inei": "180301",
+    "entityId": 1534
+  }
+}

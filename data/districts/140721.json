@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1407",
+    "name": "Yauyos"
+  },
+  "district": {
+    "id": "140721",
+    "name": "Quinocay",
+    "provinceId": "1407",
+    "departmentId": "14",
+    "inei": "151025",
+    "entityId": 1444
+  }
+}

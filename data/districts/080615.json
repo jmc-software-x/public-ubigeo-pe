@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "08",
+    "name": "Huancavelica"
+  },
+  "province": {
+    "id": "0806",
+    "name": "Huaytara"
+  },
+  "district": {
+    "id": "080615",
+    "name": "Santo Domingo De Capillas",
+    "provinceId": "0806",
+    "departmentId": "08",
+    "inei": "090615",
+    "entityId": 886
+  }
+}

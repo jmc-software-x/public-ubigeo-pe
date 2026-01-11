@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "18",
+    "name": "Pasco"
+  },
+  "province": {
+    "id": "1803",
+    "name": "Oxapampa"
+  },
+  "district": {
+    "id": "180306",
+    "name": "Pozuzo",
+    "provinceId": "1803",
+    "departmentId": "18",
+    "inei": "190305",
+    "entityId": 1562
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "22",
+    "name": "Tacna"
+  },
+  "province": {
+    "id": "2204",
+    "name": "Candarave"
+  },
+  "district": {
+    "id": "220405",
+    "name": "Quilahuani",
+    "provinceId": "2204",
+    "departmentId": "22",
+    "inei": "230206",
+    "entityId": 1834
+  }
+}

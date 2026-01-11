@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0704",
+    "name": "Calca"
+  },
+  "district": {
+    "id": "070401",
+    "name": "Calca",
+    "provinceId": "0704",
+    "departmentId": "07",
+    "inei": "080401",
+    "entityId": 721
+  }
+}

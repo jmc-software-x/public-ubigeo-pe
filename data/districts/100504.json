@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "10",
+    "name": "Ica"
+  },
+  "province": {
+    "id": "1005",
+    "name": "Palpa"
+  },
+  "district": {
+    "id": "100504",
+    "name": "Santa Cruz",
+    "provinceId": "1005",
+    "departmentId": "10",
+    "inei": "110404",
+    "entityId": 1026
+  }
+}

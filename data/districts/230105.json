@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "23",
+    "name": "Tumbes"
+  },
+  "province": {
+    "id": "2301",
+    "name": "Tumbes"
+  },
+  "district": {
+    "id": "230105",
+    "name": "San Jacinto",
+    "provinceId": "2301",
+    "departmentId": "23",
+    "inei": "240105",
+    "entityId": 1850
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0602",
+    "name": "Cajabamba"
+  },
+  "district": {
+    "id": "060202",
+    "name": "Cachachi",
+    "provinceId": "0602",
+    "departmentId": "06",
+    "inei": null,
+    "entityId": 576
+  }
+}

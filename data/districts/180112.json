@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "18",
+    "name": "Pasco"
+  },
+  "province": {
+    "id": "1801",
+    "name": "Pasco"
+  },
+  "district": {
+    "id": "180112",
+    "name": "Tinyahuarco",
+    "provinceId": "1801",
+    "departmentId": "18",
+    "inei": "190111",
+    "entityId": 1547
+  }
+}

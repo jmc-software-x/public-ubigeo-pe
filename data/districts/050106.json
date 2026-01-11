@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "05",
+    "name": "Ayacucho"
+  },
+  "province": {
+    "id": "0501",
+    "name": "Huamanga"
+  },
+  "district": {
+    "id": "050106",
+    "name": "San Jose De Ticllas",
+    "provinceId": "0501",
+    "departmentId": "05",
+    "inei": "050109",
+    "entityId": 452
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "11",
+    "name": "Junin"
+  },
+  "province": {
+    "id": "1106",
+    "name": "Yauli"
+  },
+  "district": {
+    "id": "110605",
+    "name": "Morococha",
+    "provinceId": "1106",
+    "departmentId": "11",
+    "inei": "120805",
+    "entityId": 1145
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "department": {
+    "id": "18",
+    "name": "Pasco"
+  },
+  "province": {
+    "id": "1803",
+    "name": "Oxapampa"
+  },
+  "districts": [
+    {
+      "id": "180302",
+      "name": "Chontabamba",
+      "provinceId": "1803",
+      "departmentId": "18",
+      "inei": "190302",
+      "entityId": 1559
+    },
+    {
+      "id": "180308",
+      "name": "Constitucion",
+      "provinceId": "1803",
+      "departmentId": "18",
+      "inei": "190308",
+      "entityId": 1565
+    },
+    {
+      "id": "180303",
+      "name": "Huancabamba",
+      "provinceId": "1803",
+      "departmentId": "18",
+      "inei": "190303",
+      "entityId": 1560
+    },
+    {
+      "id": "180301",
+      "name": "Oxapampa",
+      "provinceId": "1803",
+      "departmentId": "18",
+      "inei": "190301",
+      "entityId": 1558
+    },
+    {
+      "id": "180307",
+      "name": "Palcazu",
+      "provinceId": "1803",
+      "departmentId": "18",
+      "inei": "190304",
+      "entityId": 1561
+    },
+    {
+      "id": "180306",
+      "name": "Pozuzo",
+      "provinceId": "1803",
+      "departmentId": "18",
+      "inei": "190305",
+      "entityId": 1562
+    },
+    {
+      "id": "180304",
+      "name": "Puerto Bermudez",
+      "provinceId": "1803",
+      "departmentId": "18",
+      "inei": "190306",
+      "entityId": 1563
+    },
+    {
+      "id": "180305",
+      "name": "Villa Rica",
+      "provinceId": "1803",
+      "departmentId": "18",
+      "inei": "190307",
+      "entityId": 1564
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "15",
+    "name": "Loreto"
+  },
+  "province": {
+    "id": "1509",
+    "name": "Putumayo"
+  },
+  "district": {
+    "id": "150901",
+    "name": "Putumayo",
+    "provinceId": "1509",
+    "departmentId": "15",
+    "inei": "160801",
+    "entityId": 1502
+  }
+}

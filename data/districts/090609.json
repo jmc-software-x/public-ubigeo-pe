@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "09",
+    "name": "Huanuco"
+  },
+  "province": {
+    "id": "0906",
+    "name": "Leoncio Prado"
+  },
+  "district": {
+    "id": "090609",
+    "name": "Pueblo Nuevo",
+    "provinceId": "0906",
+    "departmentId": "09",
+    "inei": "100609",
+    "entityId": 962
+  }
+}

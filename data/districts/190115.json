@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "19",
+    "name": "Piura"
+  },
+  "province": {
+    "id": "1901",
+    "name": "Piura"
+  },
+  "district": {
+    "id": "190115",
+    "name": "Veintiseis De Octubre",
+    "provinceId": "1901",
+    "departmentId": "19",
+    "inei": "200115",
+    "entityId": 1575
+  }
+}

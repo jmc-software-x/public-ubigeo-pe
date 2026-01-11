@@ -1,0 +1,84 @@
+{
+  "department": {
+    "id": "09",
+    "name": "Huanuco"
+  },
+  "province": {
+    "id": "0903",
+    "name": "Dos De Mayo"
+  },
+  "districts": [
+    {
+      "id": "090307",
+      "name": "Chuquis",
+      "provinceId": "0903",
+      "departmentId": "09",
+      "inei": "100307",
+      "entityId": 931
+    },
+    {
+      "id": "090301",
+      "name": "La Union",
+      "provinceId": "0903",
+      "departmentId": "09",
+      "inei": "100301",
+      "entityId": 930
+    },
+    {
+      "id": "090312",
+      "name": "Marias",
+      "provinceId": "0903",
+      "departmentId": "09",
+      "inei": "100311",
+      "entityId": 932
+    },
+    {
+      "id": "090314",
+      "name": "Pachas",
+      "provinceId": "0903",
+      "departmentId": "09",
+      "inei": "100313",
+      "entityId": 933
+    },
+    {
+      "id": "090316",
+      "name": "Quivilla",
+      "provinceId": "0903",
+      "departmentId": "09",
+      "inei": "100316",
+      "entityId": 934
+    },
+    {
+      "id": "090317",
+      "name": "Ripan",
+      "provinceId": "0903",
+      "departmentId": "09",
+      "inei": "100317",
+      "entityId": 935
+    },
+    {
+      "id": "090321",
+      "name": "Shunqui",
+      "provinceId": "0903",
+      "departmentId": "09",
+      "inei": "100321",
+      "entityId": 936
+    },
+    {
+      "id": "090322",
+      "name": "Sillapata",
+      "provinceId": "0903",
+      "departmentId": "09",
+      "inei": "100322",
+      "entityId": 937
+    },
+    {
+      "id": "090323",
+      "name": "Yanas",
+      "provinceId": "0903",
+      "departmentId": "09",
+      "inei": "100323",
+      "entityId": 938
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0206",
+    "name": "Corongo"
+  },
+  "district": {
+    "id": "020606",
+    "name": "Yanac",
+    "provinceId": "0206",
+    "departmentId": "02",
+    "inei": "020906",
+    "entityId": 148
+  }
+}

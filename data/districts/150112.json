@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "15",
+    "name": "Loreto"
+  },
+  "province": {
+    "id": "1501",
+    "name": "Maynas"
+  },
+  "district": {
+    "id": "150112",
+    "name": "Belen",
+    "provinceId": "1501",
+    "departmentId": "15",
+    "inei": "160112",
+    "entityId": 1462
+  }
+}

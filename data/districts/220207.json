@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "22",
+    "name": "Tacna"
+  },
+  "province": {
+    "id": "2202",
+    "name": "Tarata"
+  },
+  "district": {
+    "id": "220207",
+    "name": "Estique-pampa",
+    "provinceId": "2202",
+    "departmentId": "22",
+    "inei": "230404",
+    "entityId": 1841
+  }
+}

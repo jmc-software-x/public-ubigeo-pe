@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "25",
+    "name": "Ucayali"
+  },
+  "province": {
+    "id": "2503",
+    "name": "Atalaya"
+  },
+  "district": {
+    "id": "250303",
+    "name": "Yurua",
+    "provinceId": "2503",
+    "departmentId": "25",
+    "inei": "250204",
+    "entityId": 1869
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1404",
+    "name": "Cañete"
+  },
+  "district": {
+    "id": "140406",
+    "name": "Imperial",
+    "provinceId": "1404",
+    "departmentId": "14",
+    "inei": "150507",
+    "entityId": 1348
+  }
+}

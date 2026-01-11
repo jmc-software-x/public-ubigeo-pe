@@ -1,0 +1,92 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2109",
+    "name": "Picota"
+  },
+  "districts": [
+    {
+      "id": "210902",
+      "name": "Buenos Aires",
+      "provinceId": "2109",
+      "departmentId": "21",
+      "inei": "220702",
+      "entityId": 1781
+    },
+    {
+      "id": "210903",
+      "name": "Caspisapa",
+      "provinceId": "2109",
+      "departmentId": "21",
+      "inei": "220703",
+      "entityId": 1782
+    },
+    {
+      "id": "210901",
+      "name": "Picota",
+      "provinceId": "2109",
+      "departmentId": "21",
+      "inei": "220701",
+      "entityId": 1780
+    },
+    {
+      "id": "210904",
+      "name": "Pilluana",
+      "provinceId": "2109",
+      "departmentId": "21",
+      "inei": "220704",
+      "entityId": 1783
+    },
+    {
+      "id": "210905",
+      "name": "Pucacaca",
+      "provinceId": "2109",
+      "departmentId": "21",
+      "inei": "220705",
+      "entityId": 1784
+    },
+    {
+      "id": "210906",
+      "name": "San Cristobal",
+      "provinceId": "2109",
+      "departmentId": "21",
+      "inei": "220706",
+      "entityId": 1785
+    },
+    {
+      "id": "210907",
+      "name": "San Hilarion",
+      "provinceId": "2109",
+      "departmentId": "21",
+      "inei": "220707",
+      "entityId": 1786
+    },
+    {
+      "id": "210910",
+      "name": "Shamboyacu",
+      "provinceId": "2109",
+      "departmentId": "21",
+      "inei": "220708",
+      "entityId": 1787
+    },
+    {
+      "id": "210908",
+      "name": "Tingo De Ponasa",
+      "provinceId": "2109",
+      "departmentId": "21",
+      "inei": "220709",
+      "entityId": 1788
+    },
+    {
+      "id": "210909",
+      "name": "Tres Unidos",
+      "provinceId": "2109",
+      "departmentId": "21",
+      "inei": "220710",
+      "entityId": 1789
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0208",
+    "name": "Huari"
+  },
+  "district": {
+    "id": "020807",
+    "name": "Huantar",
+    "provinceId": "0208",
+    "departmentId": "02",
+    "inei": "021008",
+    "entityId": 157
+  }
+}

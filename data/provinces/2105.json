@@ -1,0 +1,84 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2105",
+    "name": "Rioja"
+  },
+  "districts": [
+    {
+      "id": "210509",
+      "name": "Awajun",
+      "provinceId": "2105",
+      "departmentId": "21",
+      "inei": "220802",
+      "entityId": 1791
+    },
+    {
+      "id": "210506",
+      "name": "Elias Soplin Vargas",
+      "provinceId": "2105",
+      "departmentId": "21",
+      "inei": "220803",
+      "entityId": 1792
+    },
+    {
+      "id": "210505",
+      "name": "Nueva Cajamarca",
+      "provinceId": "2105",
+      "departmentId": "21",
+      "inei": "220804",
+      "entityId": 1793
+    },
+    {
+      "id": "210508",
+      "name": "Pardo Miguel",
+      "provinceId": "2105",
+      "departmentId": "21",
+      "inei": "220805",
+      "entityId": 1794
+    },
+    {
+      "id": "210502",
+      "name": "Posic",
+      "provinceId": "2105",
+      "departmentId": "21",
+      "inei": "220806",
+      "entityId": 1795
+    },
+    {
+      "id": "210501",
+      "name": "Rioja",
+      "provinceId": "2105",
+      "departmentId": "21",
+      "inei": "220801",
+      "entityId": 1790
+    },
+    {
+      "id": "210507",
+      "name": "San Fernando",
+      "provinceId": "2105",
+      "departmentId": "21",
+      "inei": "220807",
+      "entityId": 1796
+    },
+    {
+      "id": "210503",
+      "name": "Yorongos",
+      "provinceId": "2105",
+      "departmentId": "21",
+      "inei": "220808",
+      "entityId": 1797
+    },
+    {
+      "id": "210504",
+      "name": "Yuracyacu",
+      "provinceId": "2105",
+      "departmentId": "21",
+      "inei": "220809",
+      "entityId": 1798
+    }
+  ]
+}

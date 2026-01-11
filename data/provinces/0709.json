@@ -1,0 +1,156 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0709",
+    "name": "La Convencion"
+  },
+  "districts": [
+    {
+      "id": "070917",
+      "name": "Cielo Punco",
+      "provinceId": "0709",
+      "departmentId": "07",
+      "inei": "080916",
+      "entityId": 1888
+    },
+    {
+      "id": "070902",
+      "name": "Echarate",
+      "provinceId": "0709",
+      "departmentId": "07",
+      "inei": "080902",
+      "entityId": 762
+    },
+    {
+      "id": "070903",
+      "name": "Huayopata",
+      "provinceId": "0709",
+      "departmentId": "07",
+      "inei": "080903",
+      "entityId": 763
+    },
+    {
+      "id": "070911",
+      "name": "Inkawasi",
+      "provinceId": "0709",
+      "departmentId": "07",
+      "inei": "080911",
+      "entityId": 771
+    },
+    {
+      "id": "070916",
+      "name": "Kumpirushiato",
+      "provinceId": "0709",
+      "departmentId": "07",
+      "inei": "080915",
+      "entityId": 1887
+    },
+    {
+      "id": "070918",
+      "name": "Manitea",
+      "provinceId": "0709",
+      "departmentId": "07",
+      "inei": "080917",
+      "entityId": 1889
+    },
+    {
+      "id": "070904",
+      "name": "Maranura",
+      "provinceId": "0709",
+      "departmentId": "07",
+      "inei": "080904",
+      "entityId": 764
+    },
+    {
+      "id": "070915",
+      "name": "Megantoni",
+      "provinceId": "0709",
+      "departmentId": "07",
+      "inei": "080914",
+      "entityId": 774
+    },
+    {
+      "id": "070905",
+      "name": "Ocobamba",
+      "provinceId": "0709",
+      "departmentId": "07",
+      "inei": "080905",
+      "entityId": 765
+    },
+    {
+      "id": "070910",
+      "name": "Pichari",
+      "provinceId": "0709",
+      "departmentId": "07",
+      "inei": "080910",
+      "entityId": 770
+    },
+    {
+      "id": "070908",
+      "name": "Quellouno",
+      "provinceId": "0709",
+      "departmentId": "07",
+      "inei": "080906",
+      "entityId": 766
+    },
+    {
+      "id": "070909",
+      "name": "Quimbiri",
+      "provinceId": "0709",
+      "departmentId": "07",
+      "inei": "080907",
+      "entityId": 767
+    },
+    {
+      "id": "070901",
+      "name": "Santa Ana",
+      "provinceId": "0709",
+      "departmentId": "07",
+      "inei": "080901",
+      "entityId": 761
+    },
+    {
+      "id": "070906",
+      "name": "Santa Teresa",
+      "provinceId": "0709",
+      "departmentId": "07",
+      "inei": "080908",
+      "entityId": 768
+    },
+    {
+      "id": "070919",
+      "name": "Union Asháninka",
+      "provinceId": "0709",
+      "departmentId": "07",
+      "inei": "080918",
+      "entityId": 1890
+    },
+    {
+      "id": "070907",
+      "name": "Vilcabamba",
+      "provinceId": "0709",
+      "departmentId": "07",
+      "inei": "080909",
+      "entityId": 769
+    },
+    {
+      "id": "070913",
+      "name": "Villa Kintiarina",
+      "provinceId": "0709",
+      "departmentId": "07",
+      "inei": "080913",
+      "entityId": 773
+    },
+    {
+      "id": "070912",
+      "name": "Villa Virgen",
+      "provinceId": "0709",
+      "departmentId": "07",
+      "inei": "080912",
+      "entityId": 772
+    }
+  ]
+}

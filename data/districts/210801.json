@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2108",
+    "name": "Tocache"
+  },
+  "district": {
+    "id": "210801",
+    "name": "Tocache",
+    "provinceId": "2108",
+    "departmentId": "21",
+    "inei": "221001",
+    "entityId": 1813
+  }
+}

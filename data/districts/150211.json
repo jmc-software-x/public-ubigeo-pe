@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "15",
+    "name": "Loreto"
+  },
+  "province": {
+    "id": "1502",
+    "name": "Alto Amazonas"
+  },
+  "district": {
+    "id": "150211",
+    "name": "Teniente Cesar Lopez Rojas",
+    "provinceId": "1502",
+    "departmentId": "15",
+    "inei": "160211",
+    "entityId": 1469
+  }
+}

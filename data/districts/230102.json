@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "23",
+    "name": "Tumbes"
+  },
+  "province": {
+    "id": "2301",
+    "name": "Tumbes"
+  },
+  "district": {
+    "id": "230102",
+    "name": "Corrales",
+    "provinceId": "2301",
+    "departmentId": "23",
+    "inei": "240102",
+    "entityId": 1847
+  }
+}

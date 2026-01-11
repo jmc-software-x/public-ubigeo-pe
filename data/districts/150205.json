@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "15",
+    "name": "Loreto"
+  },
+  "province": {
+    "id": "1502",
+    "name": "Alto Amazonas"
+  },
+  "district": {
+    "id": "150205",
+    "name": "Jeberos",
+    "provinceId": "1502",
+    "departmentId": "15",
+    "inei": "160205",
+    "entityId": 1466
+  }
+}

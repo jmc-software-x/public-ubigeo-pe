@@ -1,0 +1,92 @@
+{
+  "department": {
+    "id": "05",
+    "name": "Ayacucho"
+  },
+  "province": {
+    "id": "0510",
+    "name": "Paucar Del Sara Sara"
+  },
+  "districts": [
+    {
+      "id": "051002",
+      "name": "Colta",
+      "provinceId": "0510",
+      "departmentId": "05",
+      "inei": "050802",
+      "entityId": 523
+    },
+    {
+      "id": "051003",
+      "name": "Corculla",
+      "provinceId": "0510",
+      "departmentId": "05",
+      "inei": "050803",
+      "entityId": 524
+    },
+    {
+      "id": "051004",
+      "name": "Lampa",
+      "provinceId": "0510",
+      "departmentId": "05",
+      "inei": "050804",
+      "entityId": 525
+    },
+    {
+      "id": "051005",
+      "name": "Marcabamba",
+      "provinceId": "0510",
+      "departmentId": "05",
+      "inei": "050805",
+      "entityId": 526
+    },
+    {
+      "id": "051006",
+      "name": "Oyolo",
+      "provinceId": "0510",
+      "departmentId": "05",
+      "inei": "050806",
+      "entityId": 527
+    },
+    {
+      "id": "051007",
+      "name": "Pararca",
+      "provinceId": "0510",
+      "departmentId": "05",
+      "inei": "050807",
+      "entityId": 528
+    },
+    {
+      "id": "051001",
+      "name": "Pausa",
+      "provinceId": "0510",
+      "departmentId": "05",
+      "inei": "050801",
+      "entityId": 522
+    },
+    {
+      "id": "051008",
+      "name": "San Javier De Alpabamba",
+      "provinceId": "0510",
+      "departmentId": "05",
+      "inei": "050808",
+      "entityId": 529
+    },
+    {
+      "id": "051009",
+      "name": "San Jose De Ushua",
+      "provinceId": "0510",
+      "departmentId": "05",
+      "inei": "050809",
+      "entityId": 530
+    },
+    {
+      "id": "051010",
+      "name": "Sara Sara",
+      "provinceId": "0510",
+      "departmentId": "05",
+      "inei": "050810",
+      "entityId": 531
+    }
+  ]
+}

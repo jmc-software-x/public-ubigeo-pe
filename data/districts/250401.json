@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "25",
+    "name": "Ucayali"
+  },
+  "province": {
+    "id": "2504",
+    "name": "Purus"
+  },
+  "district": {
+    "id": "250401",
+    "name": "Purus",
+    "provinceId": "2504",
+    "departmentId": "25",
+    "inei": null,
+    "entityId": 1875
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1405",
+    "name": "Huaura"
+  },
+  "districts": [
+    {
+      "id": "140502",
+      "name": "Ambar",
+      "provinceId": "1405",
+      "departmentId": "14",
+      "inei": "150802",
+      "entityId": 1403
+    },
+    {
+      "id": "140504",
+      "name": "Caleta De Carquin",
+      "provinceId": "1405",
+      "departmentId": "14",
+      "inei": "150803",
+      "entityId": 1404
+    },
+    {
+      "id": "140505",
+      "name": "Checras",
+      "provinceId": "1405",
+      "departmentId": "14",
+      "inei": "150804",
+      "entityId": 1405
+    },
+    {
+      "id": "140501",
+      "name": "Huacho",
+      "provinceId": "1405",
+      "departmentId": "14",
+      "inei": "150801",
+      "entityId": 1402
+    },
+    {
+      "id": "140506",
+      "name": "Hualmay",
+      "provinceId": "1405",
+      "departmentId": "14",
+      "inei": "150805",
+      "entityId": 1406
+    },
+    {
+      "id": "140507",
+      "name": "Huaura",
+      "provinceId": "1405",
+      "departmentId": "14",
+      "inei": "150806",
+      "entityId": 1407
+    },
+    {
+      "id": "140508",
+      "name": "Leoncio Prado",
+      "provinceId": "1405",
+      "departmentId": "14",
+      "inei": "150807",
+      "entityId": 1408
+    },
+    {
+      "id": "140509",
+      "name": "Paccho",
+      "provinceId": "1405",
+      "departmentId": "14",
+      "inei": "150808",
+      "entityId": 1409
+    },
+    {
+      "id": "140511",
+      "name": "Santa Leonor",
+      "provinceId": "1405",
+      "departmentId": "14",
+      "inei": "150809",
+      "entityId": 1410
+    },
+    {
+      "id": "140512",
+      "name": "Santa Maria",
+      "provinceId": "1405",
+      "departmentId": "14",
+      "inei": "150810",
+      "entityId": 1411
+    },
+    {
+      "id": "140513",
+      "name": "Sayan",
+      "provinceId": "1405",
+      "departmentId": "14",
+      "inei": "150811",
+      "entityId": 1412
+    },
+    {
+      "id": "140516",
+      "name": "Vegueta",
+      "provinceId": "1405",
+      "departmentId": "14",
+      "inei": "150812",
+      "entityId": 1413
+    }
+  ]
+}

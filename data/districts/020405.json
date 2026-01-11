@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0204",
+    "name": "Carhuaz"
+  },
+  "district": {
+    "id": "020405",
+    "name": "Ataquero",
+    "provinceId": "0204",
+    "departmentId": "02",
+    "inei": "020605",
+    "entityId": 129
+  }
+}

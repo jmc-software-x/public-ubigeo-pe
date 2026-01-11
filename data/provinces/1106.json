@@ -1,0 +1,92 @@
+{
+  "department": {
+    "id": "11",
+    "name": "Junin"
+  },
+  "province": {
+    "id": "1106",
+    "name": "Yauli"
+  },
+  "districts": [
+    {
+      "id": "110602",
+      "name": "Chacapalpa",
+      "provinceId": "1106",
+      "departmentId": "11",
+      "inei": "120802",
+      "entityId": 1142
+    },
+    {
+      "id": "110603",
+      "name": "Huay-huay",
+      "provinceId": "1106",
+      "departmentId": "11",
+      "inei": "120803",
+      "entityId": 1143
+    },
+    {
+      "id": "110601",
+      "name": "La Oroya",
+      "provinceId": "1106",
+      "departmentId": "11",
+      "inei": "120801",
+      "entityId": 1141
+    },
+    {
+      "id": "110604",
+      "name": "Marcapomacocha",
+      "provinceId": "1106",
+      "departmentId": "11",
+      "inei": "120804",
+      "entityId": 1144
+    },
+    {
+      "id": "110605",
+      "name": "Morococha",
+      "provinceId": "1106",
+      "departmentId": "11",
+      "inei": "120805",
+      "entityId": 1145
+    },
+    {
+      "id": "110606",
+      "name": "Paccha",
+      "provinceId": "1106",
+      "departmentId": "11",
+      "inei": "120806",
+      "entityId": 1146
+    },
+    {
+      "id": "110607",
+      "name": "Santa Barbara De Carhuacayan",
+      "provinceId": "1106",
+      "departmentId": "11",
+      "inei": "120807",
+      "entityId": 1147
+    },
+    {
+      "id": "110610",
+      "name": "Santa Rosa De Sacco",
+      "provinceId": "1106",
+      "departmentId": "11",
+      "inei": "120808",
+      "entityId": 1148
+    },
+    {
+      "id": "110608",
+      "name": "Suitucancha",
+      "provinceId": "1106",
+      "departmentId": "11",
+      "inei": "120809",
+      "entityId": 1149
+    },
+    {
+      "id": "110609",
+      "name": "Yauli",
+      "provinceId": "1106",
+      "departmentId": "11",
+      "inei": "120810",
+      "entityId": 1150
+    }
+  ]
+}

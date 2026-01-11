@@ -1,0 +1,60 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2108",
+    "name": "Tocache"
+  },
+  "districts": [
+    {
+      "id": "210802",
+      "name": "Nuevo Progreso",
+      "provinceId": "2108",
+      "departmentId": "21",
+      "inei": "221002",
+      "entityId": 1814
+    },
+    {
+      "id": "210803",
+      "name": "Polvora",
+      "provinceId": "2108",
+      "departmentId": "21",
+      "inei": "221003",
+      "entityId": 1815
+    },
+    {
+      "id": "210806",
+      "name": "Santa Lucia",
+      "provinceId": "2108",
+      "departmentId": "21",
+      "inei": "221006",
+      "entityId": 1892
+    },
+    {
+      "id": "210804",
+      "name": "Shunte",
+      "provinceId": "2108",
+      "departmentId": "21",
+      "inei": "221004",
+      "entityId": 1816
+    },
+    {
+      "id": "210801",
+      "name": "Tocache",
+      "provinceId": "2108",
+      "departmentId": "21",
+      "inei": "221001",
+      "entityId": 1813
+    },
+    {
+      "id": "210805",
+      "name": "Uchiza",
+      "provinceId": "2108",
+      "departmentId": "21",
+      "inei": "221005",
+      "entityId": 1817
+    }
+  ]
+}

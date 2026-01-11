@@ -1,0 +1,84 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0703",
+    "name": "Anta"
+  },
+  "districts": [
+    {
+      "id": "070309",
+      "name": "Ancahuasi",
+      "provinceId": "0703",
+      "departmentId": "07",
+      "inei": "080302",
+      "entityId": 713
+    },
+    {
+      "id": "070301",
+      "name": "Anta",
+      "provinceId": "0703",
+      "departmentId": "07",
+      "inei": "080301",
+      "entityId": 712
+    },
+    {
+      "id": "070308",
+      "name": "Cachimayo",
+      "provinceId": "0703",
+      "departmentId": "07",
+      "inei": "080303",
+      "entityId": 714
+    },
+    {
+      "id": "070302",
+      "name": "Chinchaypujio",
+      "provinceId": "0703",
+      "departmentId": "07",
+      "inei": "080304",
+      "entityId": 715
+    },
+    {
+      "id": "070303",
+      "name": "Huarocondo",
+      "provinceId": "0703",
+      "departmentId": "07",
+      "inei": "080305",
+      "entityId": 716
+    },
+    {
+      "id": "070304",
+      "name": "Limatambo",
+      "provinceId": "0703",
+      "departmentId": "07",
+      "inei": "080306",
+      "entityId": 717
+    },
+    {
+      "id": "070305",
+      "name": "Mollepata",
+      "provinceId": "0703",
+      "departmentId": "07",
+      "inei": "080307",
+      "entityId": 718
+    },
+    {
+      "id": "070306",
+      "name": "Pucyura",
+      "provinceId": "0703",
+      "departmentId": "07",
+      "inei": "080308",
+      "entityId": 719
+    },
+    {
+      "id": "070307",
+      "name": "Zurite",
+      "provinceId": "0703",
+      "departmentId": "07",
+      "inei": "080309",
+      "entityId": 720
+    }
+  ]
+}

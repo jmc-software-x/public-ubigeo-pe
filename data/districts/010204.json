@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "01",
+    "name": "Amazonas"
+  },
+  "province": {
+    "id": "0102",
+    "name": "Bagua"
+  },
+  "district": {
+    "id": "010204",
+    "name": "El Parco",
+    "provinceId": "0102",
+    "departmentId": "01",
+    "inei": null,
+    "entityId": 25
+  }
+}

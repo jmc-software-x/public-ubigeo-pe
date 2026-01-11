@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "12",
+    "name": "La Libertad"
+  },
+  "province": {
+    "id": "1205",
+    "name": "Pacasmayo"
+  },
+  "district": {
+    "id": "120504",
+    "name": "Jequetepeque",
+    "provinceId": "1205",
+    "departmentId": "12",
+    "inei": "130703",
+    "entityId": 1204
+  }
+}

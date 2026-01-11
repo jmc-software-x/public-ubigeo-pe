@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "11",
+    "name": "Junin"
+  },
+  "province": {
+    "id": "1108",
+    "name": "Chanchamayo"
+  },
+  "district": {
+    "id": "110803",
+    "name": "Vitoc",
+    "provinceId": "1108",
+    "departmentId": "11",
+    "inei": "120306",
+    "entityId": 1084
+  }
+}

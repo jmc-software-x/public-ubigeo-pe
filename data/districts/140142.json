@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1401",
+    "name": "Lima"
+  },
+  "district": {
+    "id": "140142",
+    "name": "Los Olivos",
+    "provinceId": "1401",
+    "departmentId": "14",
+    "inei": "150117",
+    "entityId": 1297
+  }
+}

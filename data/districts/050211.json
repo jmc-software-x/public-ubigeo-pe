@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "05",
+    "name": "Ayacucho"
+  },
+  "province": {
+    "id": "0502",
+    "name": "Cangallo"
+  },
+  "district": {
+    "id": "050211",
+    "name": "Maria Parado De Bellido",
+    "provinceId": "0502",
+    "departmentId": "05",
+    "inei": "050204",
+    "entityId": 463
+  }
+}

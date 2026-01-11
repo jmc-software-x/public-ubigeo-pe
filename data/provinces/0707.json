@@ -1,0 +1,76 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0707",
+    "name": "Chumbivilcas"
+  },
+  "districts": [
+    {
+      "id": "070702",
+      "name": "Capacmarca",
+      "provinceId": "0707",
+      "departmentId": "07",
+      "inei": "080702",
+      "entityId": 746
+    },
+    {
+      "id": "070704",
+      "name": "Chamaca",
+      "provinceId": "0707",
+      "departmentId": "07",
+      "inei": "080703",
+      "entityId": 747
+    },
+    {
+      "id": "070703",
+      "name": "Colquemarca",
+      "provinceId": "0707",
+      "departmentId": "07",
+      "inei": "080704",
+      "entityId": 748
+    },
+    {
+      "id": "070705",
+      "name": "Livitaca",
+      "provinceId": "0707",
+      "departmentId": "07",
+      "inei": "080705",
+      "entityId": 749
+    },
+    {
+      "id": "070706",
+      "name": "Llusco",
+      "provinceId": "0707",
+      "departmentId": "07",
+      "inei": "080706",
+      "entityId": 750
+    },
+    {
+      "id": "070707",
+      "name": "Quiñota",
+      "provinceId": "0707",
+      "departmentId": "07",
+      "inei": "080707",
+      "entityId": 751
+    },
+    {
+      "id": "070701",
+      "name": "Santo Tomas",
+      "provinceId": "0707",
+      "departmentId": "07",
+      "inei": "080701",
+      "entityId": 745
+    },
+    {
+      "id": "070708",
+      "name": "Velille",
+      "provinceId": "0707",
+      "departmentId": "07",
+      "inei": "080708",
+      "entityId": 752
+    }
+  ]
+}

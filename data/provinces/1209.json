@@ -1,0 +1,36 @@
+{
+  "department": {
+    "id": "12",
+    "name": "La Libertad"
+  },
+  "province": {
+    "id": "1209",
+    "name": "Chepen"
+  },
+  "districts": [
+    {
+      "id": "120901",
+      "name": "Chepen",
+      "provinceId": "1209",
+      "departmentId": "12",
+      "inei": "130401",
+      "entityId": 1185
+    },
+    {
+      "id": "120902",
+      "name": "Pacanga",
+      "provinceId": "1209",
+      "departmentId": "12",
+      "inei": "130402",
+      "entityId": 1186
+    },
+    {
+      "id": "120903",
+      "name": "Pueblo Nuevo",
+      "provinceId": "1209",
+      "departmentId": "12",
+      "inei": "130403",
+      "entityId": 1187
+    }
+  ]
+}

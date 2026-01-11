@@ -1,0 +1,68 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0611",
+    "name": "San Ignacio"
+  },
+  "districts": [
+    {
+      "id": "061102",
+      "name": "Chirinos",
+      "provinceId": "0611",
+      "departmentId": "06",
+      "inei": "060902",
+      "entityId": 649
+    },
+    {
+      "id": "061103",
+      "name": "Huarango",
+      "provinceId": "0611",
+      "departmentId": "06",
+      "inei": "060903",
+      "entityId": 650
+    },
+    {
+      "id": "061105",
+      "name": "La Coipa",
+      "provinceId": "0611",
+      "departmentId": "06",
+      "inei": "060904",
+      "entityId": 651
+    },
+    {
+      "id": "061104",
+      "name": "Namballe",
+      "provinceId": "0611",
+      "departmentId": "06",
+      "inei": "060905",
+      "entityId": 652
+    },
+    {
+      "id": "061101",
+      "name": "San Ignacio",
+      "provinceId": "0611",
+      "departmentId": "06",
+      "inei": "060901",
+      "entityId": 648
+    },
+    {
+      "id": "061106",
+      "name": "San Jose De Lourdes",
+      "provinceId": "0611",
+      "departmentId": "06",
+      "inei": "060906",
+      "entityId": 653
+    },
+    {
+      "id": "061107",
+      "name": "Tabaconas",
+      "provinceId": "0611",
+      "departmentId": "06",
+      "inei": "060907",
+      "entityId": 654
+    }
+  ]
+}

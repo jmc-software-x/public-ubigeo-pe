@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "17",
+    "name": "Moquegua"
+  },
+  "province": {
+    "id": "1702",
+    "name": "General Sanchez Cerro"
+  },
+  "district": {
+    "id": "170211",
+    "name": "Yunga",
+    "provinceId": "1702",
+    "departmentId": "17",
+    "inei": "180211",
+    "entityId": 1533
+  }
+}

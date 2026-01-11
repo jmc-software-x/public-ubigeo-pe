@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "22",
+    "name": "Tacna"
+  },
+  "province": {
+    "id": "2204",
+    "name": "Candarave"
+  },
+  "district": {
+    "id": "220404",
+    "name": "Huanuara",
+    "provinceId": "2204",
+    "departmentId": "22",
+    "inei": "230205",
+    "entityId": 1833
+  }
+}

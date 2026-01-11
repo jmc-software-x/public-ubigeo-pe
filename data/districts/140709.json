@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1407",
+    "name": "Yauyos"
+  },
+  "district": {
+    "id": "140709",
+    "name": "Colonia",
+    "provinceId": "1407",
+    "departmentId": "14",
+    "inei": "151011",
+    "entityId": 1430
+  }
+}

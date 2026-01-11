@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "12",
+    "name": "La Libertad"
+  },
+  "province": {
+    "id": "1207",
+    "name": "Santiago De Chuco"
+  },
+  "district": {
+    "id": "120706",
+    "name": "Santa Cruz De Chuca",
+    "provinceId": "1207",
+    "departmentId": "12",
+    "inei": "131007",
+    "entityId": 1234
+  }
+}

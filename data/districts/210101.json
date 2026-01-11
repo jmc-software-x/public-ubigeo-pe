@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2101",
+    "name": "Moyobamba"
+  },
+  "district": {
+    "id": "210101",
+    "name": "Moyobamba",
+    "provinceId": "2101",
+    "departmentId": "21",
+    "inei": "220101",
+    "entityId": 1741
+  }
+}

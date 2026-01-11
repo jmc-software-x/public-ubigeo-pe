@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "11",
+    "name": "Junin"
+  },
+  "province": {
+    "id": "1102",
+    "name": "Concepcion"
+  },
+  "district": {
+    "id": "110215",
+    "name": "San Jose De Quero",
+    "provinceId": "1102",
+    "departmentId": "11",
+    "inei": "120214",
+    "entityId": 1077
+  }
+}

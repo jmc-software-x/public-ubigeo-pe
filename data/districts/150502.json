@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "15",
+    "name": "Loreto"
+  },
+  "province": {
+    "id": "1505",
+    "name": "Ucayali"
+  },
+  "district": {
+    "id": "150502",
+    "name": "Vargas Guerra",
+    "provinceId": "1505",
+    "departmentId": "15",
+    "inei": "160606",
+    "entityId": 1495
+  }
+}

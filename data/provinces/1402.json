@@ -1,0 +1,52 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1402",
+    "name": "Cajatambo"
+  },
+  "districts": [
+    {
+      "id": "140201",
+      "name": "Cajatambo",
+      "provinceId": "1402",
+      "departmentId": "14",
+      "inei": "150301",
+      "entityId": 1330
+    },
+    {
+      "id": "140205",
+      "name": "Copa",
+      "provinceId": "1402",
+      "departmentId": "14",
+      "inei": "150302",
+      "entityId": 1331
+    },
+    {
+      "id": "140206",
+      "name": "Gorgor",
+      "provinceId": "1402",
+      "departmentId": "14",
+      "inei": "150303",
+      "entityId": 1332
+    },
+    {
+      "id": "140207",
+      "name": "Huancapon",
+      "provinceId": "1402",
+      "departmentId": "14",
+      "inei": "150304",
+      "entityId": 1333
+    },
+    {
+      "id": "140208",
+      "name": "Manas",
+      "provinceId": "1402",
+      "departmentId": "14",
+      "inei": "150305",
+      "entityId": 1334
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1410",
+    "name": "Oyon"
+  },
+  "district": {
+    "id": "141001",
+    "name": "Oyon",
+    "provinceId": "1410",
+    "departmentId": "14",
+    "inei": "150901",
+    "entityId": 1414
+  }
+}

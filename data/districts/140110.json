@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1401",
+    "name": "Lima"
+  },
+  "district": {
+    "id": "140110",
+    "name": "La Molina",
+    "provinceId": "1401",
+    "departmentId": "14",
+    "inei": "150114",
+    "entityId": 1294
+  }
+}

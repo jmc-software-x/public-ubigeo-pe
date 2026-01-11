@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "09",
+    "name": "Huanuco"
+  },
+  "province": {
+    "id": "0901",
+    "name": "Huanuco"
+  },
+  "district": {
+    "id": "090106",
+    "name": "San Francisco De Cayran",
+    "provinceId": "0901",
+    "departmentId": "09",
+    "inei": "100107",
+    "entityId": 915
+  }
+}

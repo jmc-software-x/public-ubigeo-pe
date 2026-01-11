@@ -1,0 +1,140 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0208",
+    "name": "Huari"
+  },
+  "districts": [
+    {
+      "id": "020816",
+      "name": "Anra",
+      "provinceId": "0208",
+      "departmentId": "02",
+      "inei": "021002",
+      "entityId": 151
+    },
+    {
+      "id": "020802",
+      "name": "Cajay",
+      "provinceId": "0208",
+      "departmentId": "02",
+      "inei": "021003",
+      "entityId": 152
+    },
+    {
+      "id": "020803",
+      "name": "Chavin De Huantar",
+      "provinceId": "0208",
+      "departmentId": "02",
+      "inei": "021004",
+      "entityId": 153
+    },
+    {
+      "id": "020804",
+      "name": "Huacachi",
+      "provinceId": "0208",
+      "departmentId": "02",
+      "inei": "021005",
+      "entityId": 154
+    },
+    {
+      "id": "020806",
+      "name": "Huacchis",
+      "provinceId": "0208",
+      "departmentId": "02",
+      "inei": "021006",
+      "entityId": 155
+    },
+    {
+      "id": "020805",
+      "name": "Huachis",
+      "provinceId": "0208",
+      "departmentId": "02",
+      "inei": "021007",
+      "entityId": 156
+    },
+    {
+      "id": "020807",
+      "name": "Huantar",
+      "provinceId": "0208",
+      "departmentId": "02",
+      "inei": "021008",
+      "entityId": 157
+    },
+    {
+      "id": "020801",
+      "name": "Huari",
+      "provinceId": "0208",
+      "departmentId": "02",
+      "inei": "021001",
+      "entityId": 150
+    },
+    {
+      "id": "020808",
+      "name": "Masin",
+      "provinceId": "0208",
+      "departmentId": "02",
+      "inei": "021009",
+      "entityId": 158
+    },
+    {
+      "id": "020809",
+      "name": "Paucas",
+      "provinceId": "0208",
+      "departmentId": "02",
+      "inei": "021010",
+      "entityId": 159
+    },
+    {
+      "id": "020810",
+      "name": "Ponto",
+      "provinceId": "0208",
+      "departmentId": "02",
+      "inei": "021011",
+      "entityId": 160
+    },
+    {
+      "id": "020811",
+      "name": "Rahuapampa",
+      "provinceId": "0208",
+      "departmentId": "02",
+      "inei": "021012",
+      "entityId": 161
+    },
+    {
+      "id": "020812",
+      "name": "Rapayan",
+      "provinceId": "0208",
+      "departmentId": "02",
+      "inei": "021013",
+      "entityId": 162
+    },
+    {
+      "id": "020813",
+      "name": "San Marcos",
+      "provinceId": "0208",
+      "departmentId": "02",
+      "inei": "021014",
+      "entityId": 163
+    },
+    {
+      "id": "020814",
+      "name": "San Pedro De Chana",
+      "provinceId": "0208",
+      "departmentId": "02",
+      "inei": "021015",
+      "entityId": 164
+    },
+    {
+      "id": "020815",
+      "name": "Uco",
+      "provinceId": "0208",
+      "departmentId": "02",
+      "inei": "021016",
+      "entityId": 165
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0610",
+    "name": "San Miguel"
+  },
+  "district": {
+    "id": "061007",
+    "name": "San Gregorio",
+    "provinceId": "0610",
+    "departmentId": "06",
+    "inei": "061110",
+    "entityId": 671
+  }
+}

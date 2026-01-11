@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "01",
+    "name": "Amazonas"
+  },
+  "province": {
+    "id": "0105",
+    "name": "Rodriguez De Mendoza"
+  },
+  "district": {
+    "id": "010502",
+    "name": "Cochamal",
+    "provinceId": "0105",
+    "departmentId": "01",
+    "inei": "010603",
+    "entityId": 68
+  }
+}

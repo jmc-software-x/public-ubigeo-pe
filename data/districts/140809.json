@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1408",
+    "name": "Huaral"
+  },
+  "district": {
+    "id": "140809",
+    "name": "San Miguel De Acos",
+    "provinceId": "1408",
+    "departmentId": "14",
+    "inei": "150609",
+    "entityId": 1366
+  }
+}

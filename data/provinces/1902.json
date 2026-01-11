@@ -1,0 +1,92 @@
+{
+  "department": {
+    "id": "19",
+    "name": "Piura"
+  },
+  "province": {
+    "id": "1902",
+    "name": "Ayabaca"
+  },
+  "districts": [
+    {
+      "id": "190201",
+      "name": "Ayabaca",
+      "provinceId": "1902",
+      "departmentId": "19",
+      "inei": "200201",
+      "entityId": 1576
+    },
+    {
+      "id": "190202",
+      "name": "Frias",
+      "provinceId": "1902",
+      "departmentId": "19",
+      "inei": "200202",
+      "entityId": 1577
+    },
+    {
+      "id": "190209",
+      "name": "Jilili",
+      "provinceId": "1902",
+      "departmentId": "19",
+      "inei": "200203",
+      "entityId": 1578
+    },
+    {
+      "id": "190203",
+      "name": "Lagunas",
+      "provinceId": "1902",
+      "departmentId": "19",
+      "inei": "200204",
+      "entityId": 1579
+    },
+    {
+      "id": "190204",
+      "name": "Montero",
+      "provinceId": "1902",
+      "departmentId": "19",
+      "inei": "200205",
+      "entityId": 1580
+    },
+    {
+      "id": "190205",
+      "name": "Pacaipampa",
+      "provinceId": "1902",
+      "departmentId": "19",
+      "inei": "200206",
+      "entityId": 1581
+    },
+    {
+      "id": "190210",
+      "name": "Paimas",
+      "provinceId": "1902",
+      "departmentId": "19",
+      "inei": "200207",
+      "entityId": 1582
+    },
+    {
+      "id": "190206",
+      "name": "Sapillica",
+      "provinceId": "1902",
+      "departmentId": "19",
+      "inei": "200208",
+      "entityId": 1583
+    },
+    {
+      "id": "190207",
+      "name": "Sicchez",
+      "provinceId": "1902",
+      "departmentId": "19",
+      "inei": "200209",
+      "entityId": 1584
+    },
+    {
+      "id": "190208",
+      "name": "Suyo",
+      "provinceId": "1902",
+      "departmentId": "19",
+      "inei": "200210",
+      "entityId": 1585
+    }
+  ]
+}

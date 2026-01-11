@@ -1,0 +1,68 @@
+{
+  "department": {
+    "id": "01",
+    "name": "Amazonas"
+  },
+  "province": {
+    "id": "0107",
+    "name": "Utcubamba"
+  },
+  "districts": [
+    {
+      "id": "010701",
+      "name": "Bagua Grande",
+      "provinceId": "0107",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 78
+    },
+    {
+      "id": "010702",
+      "name": "Cajaruro",
+      "provinceId": "0107",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 79
+    },
+    {
+      "id": "010703",
+      "name": "Cumba",
+      "provinceId": "0107",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 80
+    },
+    {
+      "id": "010704",
+      "name": "El Milagro",
+      "provinceId": "0107",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 81
+    },
+    {
+      "id": "010705",
+      "name": "Jamalca",
+      "provinceId": "0107",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 82
+    },
+    {
+      "id": "010706",
+      "name": "Lonya Grande",
+      "provinceId": "0107",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 83
+    },
+    {
+      "id": "010707",
+      "name": "Yamon",
+      "provinceId": "0107",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 84
+    }
+  ]
+}

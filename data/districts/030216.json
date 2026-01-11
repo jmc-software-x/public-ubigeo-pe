@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "03",
+    "name": "Apurimac"
+  },
+  "province": {
+    "id": "0302",
+    "name": "Aymaraes"
+  },
+  "district": {
+    "id": "030216",
+    "name": "San Juan De Chacña",
+    "provinceId": "0302",
+    "departmentId": "03",
+    "inei": "030411",
+    "entityId": 297
+  }
+}

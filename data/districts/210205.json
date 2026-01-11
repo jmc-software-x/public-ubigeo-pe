@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2102",
+    "name": "Huallaga"
+  },
+  "district": {
+    "id": "210205",
+    "name": "Alto Saposoa",
+    "provinceId": "2102",
+    "departmentId": "21",
+    "inei": "220402",
+    "entityId": 1759
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1403",
+    "name": "Canta"
+  },
+  "districts": [
+    {
+      "id": "140302",
+      "name": "Arahuay",
+      "provinceId": "1403",
+      "departmentId": "14",
+      "inei": "150402",
+      "entityId": 1336
+    },
+    {
+      "id": "140301",
+      "name": "Canta",
+      "provinceId": "1403",
+      "departmentId": "14",
+      "inei": "150401",
+      "entityId": 1335
+    },
+    {
+      "id": "140303",
+      "name": "Huamantanga",
+      "provinceId": "1403",
+      "departmentId": "14",
+      "inei": "150403",
+      "entityId": 1337
+    },
+    {
+      "id": "140304",
+      "name": "Huaros",
+      "provinceId": "1403",
+      "departmentId": "14",
+      "inei": "150404",
+      "entityId": 1338
+    },
+    {
+      "id": "140305",
+      "name": "Lachaqui",
+      "provinceId": "1403",
+      "departmentId": "14",
+      "inei": "150405",
+      "entityId": 1339
+    },
+    {
+      "id": "140306",
+      "name": "San Buenaventura",
+      "provinceId": "1403",
+      "departmentId": "14",
+      "inei": "150406",
+      "entityId": 1340
+    },
+    {
+      "id": "140307",
+      "name": "Santa Rosa De Quives",
+      "provinceId": "1403",
+      "departmentId": "14",
+      "inei": "150407",
+      "entityId": 1341
+    }
+  ]
+}

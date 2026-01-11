@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0209",
+    "name": "Mariscal Luzuriaga"
+  },
+  "district": {
+    "id": "020902",
+    "name": "Casca",
+    "provinceId": "0209",
+    "departmentId": "02",
+    "inei": "021302",
+    "entityId": 182
+  }
+}

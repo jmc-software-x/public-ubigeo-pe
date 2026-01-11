@@ -1,0 +1,44 @@
+{
+  "department": {
+    "id": "11",
+    "name": "Junin"
+  },
+  "province": {
+    "id": "1104",
+    "name": "Junin"
+  },
+  "districts": [
+    {
+      "id": "110402",
+      "name": "Carhuamayo",
+      "provinceId": "1104",
+      "departmentId": "11",
+      "inei": "120502",
+      "entityId": 1120
+    },
+    {
+      "id": "110401",
+      "name": "Junin",
+      "provinceId": "1104",
+      "departmentId": "11",
+      "inei": "120501",
+      "entityId": 1119
+    },
+    {
+      "id": "110403",
+      "name": "Ondores",
+      "provinceId": "1104",
+      "departmentId": "11",
+      "inei": "120503",
+      "entityId": 1121
+    },
+    {
+      "id": "110404",
+      "name": "Ulcumayo",
+      "provinceId": "1104",
+      "departmentId": "11",
+      "inei": "120504",
+      "entityId": 1122
+    }
+  ]
+}

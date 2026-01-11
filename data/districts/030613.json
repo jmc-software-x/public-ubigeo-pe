@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "03",
+    "name": "Apurimac"
+  },
+  "province": {
+    "id": "0306",
+    "name": "Grau"
+  },
+  "district": {
+    "id": "030613",
+    "name": "Santa Rosa",
+    "provinceId": "0306",
+    "departmentId": "03",
+    "inei": "030710",
+    "entityId": 330
+  }
+}

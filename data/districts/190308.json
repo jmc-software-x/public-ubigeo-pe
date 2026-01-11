@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "19",
+    "name": "Piura"
+  },
+  "province": {
+    "id": "1903",
+    "name": "Huancabamba"
+  },
+  "district": {
+    "id": "190308",
+    "name": "Lalaquiz",
+    "provinceId": "1903",
+    "departmentId": "19",
+    "inei": "200305",
+    "entityId": 1590
+  }
+}

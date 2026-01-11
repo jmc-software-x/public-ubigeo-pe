@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "13",
+    "name": "Lambayeque"
+  },
+  "province": {
+    "id": "1302",
+    "name": "Ferreñafe"
+  },
+  "district": {
+    "id": "130205",
+    "name": "Pueblo Nuevo",
+    "provinceId": "1302",
+    "departmentId": "13",
+    "inei": "140206",
+    "entityId": 1268
+  }
+}

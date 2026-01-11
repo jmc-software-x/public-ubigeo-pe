@@ -1,0 +1,148 @@
+{
+  "department": {
+    "id": "03",
+    "name": "Apurimac"
+  },
+  "province": {
+    "id": "0302",
+    "name": "Aymaraes"
+  },
+  "districts": [
+    {
+      "id": "030202",
+      "name": "Capaya",
+      "provinceId": "0302",
+      "departmentId": "03",
+      "inei": "030402",
+      "entityId": 288
+    },
+    {
+      "id": "030203",
+      "name": "Caraybamba",
+      "provinceId": "0302",
+      "departmentId": "03",
+      "inei": "030403",
+      "entityId": 289
+    },
+    {
+      "id": "030201",
+      "name": "Chalhuanca",
+      "provinceId": "0302",
+      "departmentId": "03",
+      "inei": "030401",
+      "entityId": 287
+    },
+    {
+      "id": "030206",
+      "name": "Chapimarca",
+      "provinceId": "0302",
+      "departmentId": "03",
+      "inei": "030404",
+      "entityId": 290
+    },
+    {
+      "id": "030204",
+      "name": "Colcabamba",
+      "provinceId": "0302",
+      "departmentId": "03",
+      "inei": "030405",
+      "entityId": 291
+    },
+    {
+      "id": "030205",
+      "name": "Cotaruse",
+      "provinceId": "0302",
+      "departmentId": "03",
+      "inei": "030406",
+      "entityId": 292
+    },
+    {
+      "id": "030207",
+      "name": "Huayllo",
+      "provinceId": "0302",
+      "departmentId": "03",
+      "inei": "030407",
+      "entityId": 293
+    },
+    {
+      "id": "030217",
+      "name": "Justo Apu Sahuaraura",
+      "provinceId": "0302",
+      "departmentId": "03",
+      "inei": "030408",
+      "entityId": 294
+    },
+    {
+      "id": "030208",
+      "name": "Lucre",
+      "provinceId": "0302",
+      "departmentId": "03",
+      "inei": "030409",
+      "entityId": 295
+    },
+    {
+      "id": "030209",
+      "name": "Pocohuanca",
+      "provinceId": "0302",
+      "departmentId": "03",
+      "inei": "030410",
+      "entityId": 296
+    },
+    {
+      "id": "030216",
+      "name": "San Juan De Chacña",
+      "provinceId": "0302",
+      "departmentId": "03",
+      "inei": "030411",
+      "entityId": 297
+    },
+    {
+      "id": "030210",
+      "name": "Sañayca",
+      "provinceId": "0302",
+      "departmentId": "03",
+      "inei": "030412",
+      "entityId": 298
+    },
+    {
+      "id": "030211",
+      "name": "Soraya",
+      "provinceId": "0302",
+      "departmentId": "03",
+      "inei": "030413",
+      "entityId": 299
+    },
+    {
+      "id": "030212",
+      "name": "Tapairihua",
+      "provinceId": "0302",
+      "departmentId": "03",
+      "inei": "030414",
+      "entityId": 300
+    },
+    {
+      "id": "030213",
+      "name": "Tintay",
+      "provinceId": "0302",
+      "departmentId": "03",
+      "inei": "030415",
+      "entityId": 301
+    },
+    {
+      "id": "030214",
+      "name": "Toraya",
+      "provinceId": "0302",
+      "departmentId": "03",
+      "inei": "030416",
+      "entityId": 302
+    },
+    {
+      "id": "030215",
+      "name": "Yanaca",
+      "provinceId": "0302",
+      "departmentId": "03",
+      "inei": "030417",
+      "entityId": 303
+    }
+  ]
+}

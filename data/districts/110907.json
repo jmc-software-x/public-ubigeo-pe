@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "11",
+    "name": "Junin"
+  },
+  "province": {
+    "id": "1109",
+    "name": "Chupaca"
+  },
+  "district": {
+    "id": "110907",
+    "name": "San Juan De Jarpa",
+    "provinceId": "1109",
+    "departmentId": "11",
+    "inei": "120907",
+    "entityId": 1157
+  }
+}

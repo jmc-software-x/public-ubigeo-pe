@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "04",
+    "name": "Arequipa"
+  },
+  "province": {
+    "id": "0403",
+    "name": "Camana"
+  },
+  "district": {
+    "id": "040304",
+    "name": "Mariscal Caceres",
+    "provinceId": "0403",
+    "departmentId": "04",
+    "inei": "040204",
+    "entityId": 367
+  }
+}

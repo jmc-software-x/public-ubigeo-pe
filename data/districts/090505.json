@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "09",
+    "name": "Huanuco"
+  },
+  "province": {
+    "id": "0905",
+    "name": "Marañon"
+  },
+  "district": {
+    "id": "090505",
+    "name": "San Buenaventura",
+    "provinceId": "0905",
+    "departmentId": "09",
+    "inei": "100703",
+    "entityId": 966
+  }
+}

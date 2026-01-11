@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "01",
+    "name": "Amazonas"
+  },
+  "province": {
+    "id": "0107",
+    "name": "Utcubamba"
+  },
+  "district": {
+    "id": "010701",
+    "name": "Bagua Grande",
+    "provinceId": "0107",
+    "departmentId": "01",
+    "inei": null,
+    "entityId": 78
+  }
+}

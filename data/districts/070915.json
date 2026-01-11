@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0709",
+    "name": "La Convencion"
+  },
+  "district": {
+    "id": "070915",
+    "name": "Megantoni",
+    "provinceId": "0709",
+    "departmentId": "07",
+    "inei": "080914",
+    "entityId": 774
+  }
+}

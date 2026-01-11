@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1409",
+    "name": "Barranca"
+  },
+  "district": {
+    "id": "140901",
+    "name": "Barranca",
+    "provinceId": "1409",
+    "departmentId": "14",
+    "inei": "150201",
+    "entityId": 1325
+  }
+}

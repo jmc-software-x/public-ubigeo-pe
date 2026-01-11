@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "22",
+    "name": "Tacna"
+  },
+  "province": {
+    "id": "2201",
+    "name": "Tacna"
+  },
+  "district": {
+    "id": "220102",
+    "name": "Calana",
+    "provinceId": "2201",
+    "departmentId": "22",
+    "inei": "230103",
+    "entityId": 1820
+  }
+}

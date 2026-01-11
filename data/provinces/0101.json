@@ -1,0 +1,180 @@
+{
+  "department": {
+    "id": "01",
+    "name": "Amazonas"
+  },
+  "province": {
+    "id": "0101",
+    "name": "Chachapoyas"
+  },
+  "districts": [
+    {
+      "id": "010102",
+      "name": "Asuncion",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 2
+    },
+    {
+      "id": "010103",
+      "name": "Balsas",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 3
+    },
+    {
+      "id": "010101",
+      "name": "Chachapoyas",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 1
+    },
+    {
+      "id": "010104",
+      "name": "Cheto",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 4
+    },
+    {
+      "id": "010105",
+      "name": "Chiliquin",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 5
+    },
+    {
+      "id": "010106",
+      "name": "Chuquibamba",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 6
+    },
+    {
+      "id": "010107",
+      "name": "Granada",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 7
+    },
+    {
+      "id": "010108",
+      "name": "Huancas",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 8
+    },
+    {
+      "id": "010109",
+      "name": "La Jalca",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 9
+    },
+    {
+      "id": "010110",
+      "name": "Leimebamba",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 10
+    },
+    {
+      "id": "010111",
+      "name": "Levanto",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 11
+    },
+    {
+      "id": "010112",
+      "name": "Magdalena",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 12
+    },
+    {
+      "id": "010113",
+      "name": "Mariscal Castilla",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 13
+    },
+    {
+      "id": "010114",
+      "name": "Molinopampa",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 14
+    },
+    {
+      "id": "010115",
+      "name": "Montevideo",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 15
+    },
+    {
+      "id": "010116",
+      "name": "Olleros",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 16
+    },
+    {
+      "id": "010117",
+      "name": "Quinjalca",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 17
+    },
+    {
+      "id": "010118",
+      "name": "San Francisco De Daguas",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 18
+    },
+    {
+      "id": "010119",
+      "name": "San Isidro De Maino",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 19
+    },
+    {
+      "id": "010120",
+      "name": "Soloco",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 20
+    },
+    {
+      "id": "010121",
+      "name": "Sonche",
+      "provinceId": "0101",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 21
+    }
+  ]
+}

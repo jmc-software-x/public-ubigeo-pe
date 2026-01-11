@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0712",
+    "name": "Quispicanchi"
+  },
+  "district": {
+    "id": "071210",
+    "name": "Ocongate",
+    "provinceId": "0712",
+    "departmentId": "07",
+    "inei": "081210",
+    "entityId": 799
+  }
+}

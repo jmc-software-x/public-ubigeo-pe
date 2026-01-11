@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "20",
+    "name": "Puno"
+  },
+  "province": {
+    "id": "2004",
+    "name": "Chucuito"
+  },
+  "district": {
+    "id": "200402",
+    "name": "Desaguadero",
+    "provinceId": "2004",
+    "departmentId": "20",
+    "inei": "210402",
+    "entityId": 1672
+  }
+}

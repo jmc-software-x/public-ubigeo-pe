@@ -1,0 +1,68 @@
+{
+  "department": {
+    "id": "19",
+    "name": "Piura"
+  },
+  "province": {
+    "id": "1905",
+    "name": "Paita"
+  },
+  "districts": [
+    {
+      "id": "190502",
+      "name": "Amotape",
+      "provinceId": "1905",
+      "departmentId": "19",
+      "inei": "200502",
+      "entityId": 1605
+    },
+    {
+      "id": "190503",
+      "name": "Arenal",
+      "provinceId": "1905",
+      "departmentId": "19",
+      "inei": "200503",
+      "entityId": 1606
+    },
+    {
+      "id": "190505",
+      "name": "Colan",
+      "provinceId": "1905",
+      "departmentId": "19",
+      "inei": "200504",
+      "entityId": 1607
+    },
+    {
+      "id": "190504",
+      "name": "La Huaca",
+      "provinceId": "1905",
+      "departmentId": "19",
+      "inei": "200505",
+      "entityId": 1608
+    },
+    {
+      "id": "190501",
+      "name": "Paita",
+      "provinceId": "1905",
+      "departmentId": "19",
+      "inei": "200501",
+      "entityId": 1604
+    },
+    {
+      "id": "190506",
+      "name": "Tamarindo",
+      "provinceId": "1905",
+      "departmentId": "19",
+      "inei": "200506",
+      "entityId": 1609
+    },
+    {
+      "id": "190507",
+      "name": "Vichayal",
+      "provinceId": "1905",
+      "departmentId": "19",
+      "inei": "200507",
+      "entityId": 1610
+    }
+  ]
+}

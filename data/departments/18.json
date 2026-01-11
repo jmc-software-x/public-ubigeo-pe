@@ -1,0 +1,23 @@
+{
+  "department": {
+    "id": "18",
+    "name": "Pasco"
+  },
+  "provinces": [
+    {
+      "id": "1802",
+      "name": "Daniel Alcides Carrion",
+      "departmentId": "18"
+    },
+    {
+      "id": "1803",
+      "name": "Oxapampa",
+      "departmentId": "18"
+    },
+    {
+      "id": "1801",
+      "name": "Pasco",
+      "departmentId": "18"
+    }
+  ]
+}

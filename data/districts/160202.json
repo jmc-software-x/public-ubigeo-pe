@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "16",
+    "name": "Madre De Dios"
+  },
+  "province": {
+    "id": "1602",
+    "name": "Manu"
+  },
+  "district": {
+    "id": "160202",
+    "name": "Fitzcarrald",
+    "provinceId": "1602",
+    "departmentId": "16",
+    "inei": "170202",
+    "entityId": 1511
+  }
+}

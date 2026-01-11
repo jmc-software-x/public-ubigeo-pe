@@ -1,0 +1,108 @@
+{
+  "department": {
+    "id": "03",
+    "name": "Apurimac"
+  },
+  "province": {
+    "id": "0307",
+    "name": "Chincheros"
+  },
+  "districts": [
+    {
+      "id": "030712",
+      "name": "Ahuayro",
+      "provinceId": "0307",
+      "departmentId": "03",
+      "inei": "030612",
+      "entityId": 1891
+    },
+    {
+      "id": "030705",
+      "name": "Anco-huallo",
+      "provinceId": "0307",
+      "departmentId": "03",
+      "inei": "030602",
+      "entityId": 311
+    },
+    {
+      "id": "030701",
+      "name": "Chincheros",
+      "provinceId": "0307",
+      "departmentId": "03",
+      "inei": "030601",
+      "entityId": 310
+    },
+    {
+      "id": "030704",
+      "name": "Cocharcas",
+      "provinceId": "0307",
+      "departmentId": "03",
+      "inei": "030603",
+      "entityId": 312
+    },
+    {
+      "id": "030710",
+      "name": "El Porvenir",
+      "provinceId": "0307",
+      "departmentId": "03",
+      "inei": "030610",
+      "entityId": 319
+    },
+    {
+      "id": "030706",
+      "name": "Huaccana",
+      "provinceId": "0307",
+      "departmentId": "03",
+      "inei": "030604",
+      "entityId": 313
+    },
+    {
+      "id": "030711",
+      "name": "Los Chankas",
+      "provinceId": "0307",
+      "departmentId": "03",
+      "inei": "030611",
+      "entityId": 320
+    },
+    {
+      "id": "030703",
+      "name": "Ocobamba",
+      "provinceId": "0307",
+      "departmentId": "03",
+      "inei": "030605",
+      "entityId": 314
+    },
+    {
+      "id": "030702",
+      "name": "Ongoy",
+      "provinceId": "0307",
+      "departmentId": "03",
+      "inei": "030606",
+      "entityId": 315
+    },
+    {
+      "id": "030708",
+      "name": "Ranracancha",
+      "provinceId": "0307",
+      "departmentId": "03",
+      "inei": "030608",
+      "entityId": 317
+    },
+    {
+      "id": "030709",
+      "name": "Rocchacc",
+      "provinceId": "0307",
+      "departmentId": "03",
+      "inei": "030609",
+      "entityId": 318
+    },
+    {
+      "id": "030707",
+      "name": "Uranmarca",
+      "provinceId": "0307",
+      "departmentId": "03",
+      "inei": "030607",
+      "entityId": 316
+    }
+  ]
+}

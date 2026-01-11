@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "13",
+    "name": "Lambayeque"
+  },
+  "province": {
+    "id": "1303",
+    "name": "Lambayeque"
+  },
+  "district": {
+    "id": "130301",
+    "name": "Lambayeque",
+    "provinceId": "1303",
+    "departmentId": "13",
+    "inei": "140301",
+    "entityId": 1269
+  }
+}

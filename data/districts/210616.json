@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2106",
+    "name": "San Martin"
+  },
+  "district": {
+    "id": "210616",
+    "name": "San Antonio",
+    "provinceId": "2106",
+    "departmentId": "21",
+    "inei": "220912",
+    "entityId": 1810
+  }
+}

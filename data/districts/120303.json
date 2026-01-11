@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "12",
+    "name": "La Libertad"
+  },
+  "province": {
+    "id": "1203",
+    "name": "Sanchez Carrion"
+  },
+  "district": {
+    "id": "120303",
+    "name": "Curgos",
+    "provinceId": "1203",
+    "departmentId": "12",
+    "inei": "130904",
+    "entityId": 1223
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0605",
+    "name": "Cutervo"
+  },
+  "district": {
+    "id": "060502",
+    "name": "Callayuc",
+    "provinceId": "0605",
+    "departmentId": "06",
+    "inei": "060602",
+    "entityId": 619
+  }
+}

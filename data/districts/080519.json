@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "08",
+    "name": "Huancavelica"
+  },
+  "province": {
+    "id": "0805",
+    "name": "Tayacaja"
+  },
+  "district": {
+    "id": "080519",
+    "name": "Salcabamba",
+    "provinceId": "0805",
+    "departmentId": "08",
+    "inei": "090714",
+    "entityId": 899
+  }
+}

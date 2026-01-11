@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1407",
+    "name": "Yauyos"
+  },
+  "district": {
+    "id": "140732",
+    "name": "Putinza",
+    "provinceId": "1407",
+    "departmentId": "14",
+    "inei": "151023",
+    "entityId": 1442
+  }
+}

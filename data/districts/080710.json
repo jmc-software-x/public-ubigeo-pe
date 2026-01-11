@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "08",
+    "name": "Huancavelica"
+  },
+  "province": {
+    "id": "0807",
+    "name": "Churcampa"
+  },
+  "district": {
+    "id": "080710",
+    "name": "Pachamarca",
+    "provinceId": "0807",
+    "departmentId": "08",
+    "inei": "090510",
+    "entityId": 870
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0608",
+    "name": "Jaen"
+  },
+  "district": {
+    "id": "060804",
+    "name": "Chontali",
+    "provinceId": "0608",
+    "departmentId": "06",
+    "inei": "060803",
+    "entityId": 638
+  }
+}

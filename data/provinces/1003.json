@@ -1,0 +1,52 @@
+{
+  "department": {
+    "id": "10",
+    "name": "Ica"
+  },
+  "province": {
+    "id": "1003",
+    "name": "Nazca"
+  },
+  "districts": [
+    {
+      "id": "100302",
+      "name": "Changuillo",
+      "provinceId": "1003",
+      "departmentId": "10",
+      "inei": "110302",
+      "entityId": 1019
+    },
+    {
+      "id": "100303",
+      "name": "El Ingenio",
+      "provinceId": "1003",
+      "departmentId": "10",
+      "inei": "110303",
+      "entityId": 1020
+    },
+    {
+      "id": "100304",
+      "name": "Marcona",
+      "provinceId": "1003",
+      "departmentId": "10",
+      "inei": "110304",
+      "entityId": 1021
+    },
+    {
+      "id": "100301",
+      "name": "Nazca",
+      "provinceId": "1003",
+      "departmentId": "10",
+      "inei": "110301",
+      "entityId": 1018
+    },
+    {
+      "id": "100305",
+      "name": "Vista Alegre",
+      "provinceId": "1003",
+      "departmentId": "10",
+      "inei": "110305",
+      "entityId": 1022
+    }
+  ]
+}

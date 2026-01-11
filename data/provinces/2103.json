@@ -1,0 +1,100 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2103",
+    "name": "Lamas"
+  },
+  "districts": [
+    {
+      "id": "210315",
+      "name": "Alonso De Alvarado",
+      "provinceId": "2103",
+      "departmentId": "21",
+      "inei": "220502",
+      "entityId": 1765
+    },
+    {
+      "id": "210303",
+      "name": "Barranquita",
+      "provinceId": "2103",
+      "departmentId": "21",
+      "inei": "220503",
+      "entityId": 1766
+    },
+    {
+      "id": "210304",
+      "name": "Caynarachi",
+      "provinceId": "2103",
+      "departmentId": "21",
+      "inei": "220504",
+      "entityId": 1767
+    },
+    {
+      "id": "210305",
+      "name": "Cuñumbuqui",
+      "provinceId": "2103",
+      "departmentId": "21",
+      "inei": "220505",
+      "entityId": 1768
+    },
+    {
+      "id": "210301",
+      "name": "Lamas",
+      "provinceId": "2103",
+      "departmentId": "21",
+      "inei": "220501",
+      "entityId": 1764
+    },
+    {
+      "id": "210306",
+      "name": "Pinto Recodo",
+      "provinceId": "2103",
+      "departmentId": "21",
+      "inei": "220506",
+      "entityId": 1769
+    },
+    {
+      "id": "210307",
+      "name": "Rumisapa",
+      "provinceId": "2103",
+      "departmentId": "21",
+      "inei": "220507",
+      "entityId": 1770
+    },
+    {
+      "id": "210316",
+      "name": "San Roque De Cumbaza",
+      "provinceId": "2103",
+      "departmentId": "21",
+      "inei": "220508",
+      "entityId": 1771
+    },
+    {
+      "id": "210311",
+      "name": "Shanao",
+      "provinceId": "2103",
+      "departmentId": "21",
+      "inei": "220509",
+      "entityId": 1772
+    },
+    {
+      "id": "210313",
+      "name": "Tabalosos",
+      "provinceId": "2103",
+      "departmentId": "21",
+      "inei": "220510",
+      "entityId": 1773
+    },
+    {
+      "id": "210314",
+      "name": "Zapatero",
+      "provinceId": "2103",
+      "departmentId": "21",
+      "inei": "220511",
+      "entityId": 1774
+    }
+  ]
+}

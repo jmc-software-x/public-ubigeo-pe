@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "03",
+    "name": "Apurimac"
+  },
+  "province": {
+    "id": "0306",
+    "name": "Grau"
+  },
+  "district": {
+    "id": "030606",
+    "name": "Micaela Bastidas",
+    "provinceId": "0306",
+    "departmentId": "03",
+    "inei": "030706",
+    "entityId": 326
+  }
+}

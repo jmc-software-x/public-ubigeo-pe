@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "17",
+    "name": "Moquegua"
+  },
+  "province": {
+    "id": "1701",
+    "name": "Mariscal Nieto"
+  },
+  "district": {
+    "id": "170101",
+    "name": "Moquegua",
+    "provinceId": "1701",
+    "departmentId": "17",
+    "inei": "180101",
+    "entityId": 1517
+  }
+}

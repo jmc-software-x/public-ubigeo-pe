@@ -1,0 +1,124 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2106",
+    "name": "San Martin"
+  },
+  "districts": [
+    {
+      "id": "210602",
+      "name": "Alberto Leveau",
+      "provinceId": "2106",
+      "departmentId": "21",
+      "inei": "220902",
+      "entityId": 1800
+    },
+    {
+      "id": "210604",
+      "name": "Cacatachi",
+      "provinceId": "2106",
+      "departmentId": "21",
+      "inei": "220903",
+      "entityId": 1801
+    },
+    {
+      "id": "210606",
+      "name": "Chazuta",
+      "provinceId": "2106",
+      "departmentId": "21",
+      "inei": "220904",
+      "entityId": 1802
+    },
+    {
+      "id": "210607",
+      "name": "Chipurana",
+      "provinceId": "2106",
+      "departmentId": "21",
+      "inei": "220905",
+      "entityId": 1803
+    },
+    {
+      "id": "210608",
+      "name": "El Porvenir",
+      "provinceId": "2106",
+      "departmentId": "21",
+      "inei": "220906",
+      "entityId": 1804
+    },
+    {
+      "id": "210609",
+      "name": "Huimbayoc",
+      "provinceId": "2106",
+      "departmentId": "21",
+      "inei": "220907",
+      "entityId": 1805
+    },
+    {
+      "id": "210610",
+      "name": "Juan Guerra",
+      "provinceId": "2106",
+      "departmentId": "21",
+      "inei": "220908",
+      "entityId": 1806
+    },
+    {
+      "id": "210621",
+      "name": "La Banda De Shilcayo",
+      "provinceId": "2106",
+      "departmentId": "21",
+      "inei": "220909",
+      "entityId": 1807
+    },
+    {
+      "id": "210611",
+      "name": "Morales",
+      "provinceId": "2106",
+      "departmentId": "21",
+      "inei": "220910",
+      "entityId": 1808
+    },
+    {
+      "id": "210612",
+      "name": "Papaplaya",
+      "provinceId": "2106",
+      "departmentId": "21",
+      "inei": "220911",
+      "entityId": 1809
+    },
+    {
+      "id": "210616",
+      "name": "San Antonio",
+      "provinceId": "2106",
+      "departmentId": "21",
+      "inei": "220912",
+      "entityId": 1810
+    },
+    {
+      "id": "210619",
+      "name": "Sauce",
+      "provinceId": "2106",
+      "departmentId": "21",
+      "inei": "220913",
+      "entityId": 1811
+    },
+    {
+      "id": "210620",
+      "name": "Shapaja",
+      "provinceId": "2106",
+      "departmentId": "21",
+      "inei": "220914",
+      "entityId": 1812
+    },
+    {
+      "id": "210601",
+      "name": "Tarapoto",
+      "provinceId": "2106",
+      "departmentId": "21",
+      "inei": "220901",
+      "entityId": 1799
+    }
+  ]
+}

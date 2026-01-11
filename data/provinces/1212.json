@@ -1,0 +1,36 @@
+{
+  "department": {
+    "id": "12",
+    "name": "La Libertad"
+  },
+  "province": {
+    "id": "1212",
+    "name": "Viru"
+  },
+  "districts": [
+    {
+      "id": "121202",
+      "name": "Chao",
+      "provinceId": "1212",
+      "departmentId": "12",
+      "inei": "131202",
+      "entityId": 1241
+    },
+    {
+      "id": "121203",
+      "name": "Guadalupito",
+      "provinceId": "1212",
+      "departmentId": "12",
+      "inei": "131203",
+      "entityId": 1242
+    },
+    {
+      "id": "121201",
+      "name": "Viru",
+      "provinceId": "1212",
+      "departmentId": "12",
+      "inei": "131201",
+      "entityId": 1240
+    }
+  ]
+}

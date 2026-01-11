@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "10",
+    "name": "Ica"
+  },
+  "province": {
+    "id": "1001",
+    "name": "Ica"
+  },
+  "district": {
+    "id": "100111",
+    "name": "Yauca Del Rosario",
+    "provinceId": "1001",
+    "departmentId": "10",
+    "inei": "110114",
+    "entityId": 1006
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "department": {
+    "id": "12",
+    "name": "La Libertad"
+  },
+  "province": {
+    "id": "1207",
+    "name": "Santiago De Chuco"
+  },
+  "districts": [
+    {
+      "id": "120708",
+      "name": "Angasmarca",
+      "provinceId": "1207",
+      "departmentId": "12",
+      "inei": "131002",
+      "entityId": 1229
+    },
+    {
+      "id": "120702",
+      "name": "Cachicadan",
+      "provinceId": "1207",
+      "departmentId": "12",
+      "inei": "131003",
+      "entityId": 1230
+    },
+    {
+      "id": "120703",
+      "name": "Mollebamba",
+      "provinceId": "1207",
+      "departmentId": "12",
+      "inei": "131004",
+      "entityId": 1231
+    },
+    {
+      "id": "120704",
+      "name": "Mollepata",
+      "provinceId": "1207",
+      "departmentId": "12",
+      "inei": "131005",
+      "entityId": 1232
+    },
+    {
+      "id": "120705",
+      "name": "Quiruvilca",
+      "provinceId": "1207",
+      "departmentId": "12",
+      "inei": "131006",
+      "entityId": 1233
+    },
+    {
+      "id": "120706",
+      "name": "Santa Cruz De Chuca",
+      "provinceId": "1207",
+      "departmentId": "12",
+      "inei": "131007",
+      "entityId": 1234
+    },
+    {
+      "id": "120701",
+      "name": "Santiago De Chuco",
+      "provinceId": "1207",
+      "departmentId": "12",
+      "inei": "131001",
+      "entityId": 1228
+    },
+    {
+      "id": "120707",
+      "name": "Sitabamba",
+      "provinceId": "1207",
+      "departmentId": "12",
+      "inei": "131008",
+      "entityId": 1235
+    }
+  ]
+}

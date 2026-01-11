@@ -1,0 +1,276 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1407",
+    "name": "Yauyos"
+  },
+  "districts": [
+    {
+      "id": "140702",
+      "name": "Alis",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151002",
+      "entityId": 1421
+    },
+    {
+      "id": "140703",
+      "name": "Ayauca",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151003",
+      "entityId": 1422
+    },
+    {
+      "id": "140704",
+      "name": "Ayaviri",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151004",
+      "entityId": 1423
+    },
+    {
+      "id": "140705",
+      "name": "Azangaro",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151005",
+      "entityId": 1424
+    },
+    {
+      "id": "140706",
+      "name": "Cacra",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151006",
+      "entityId": 1425
+    },
+    {
+      "id": "140707",
+      "name": "Carania",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151007",
+      "entityId": 1426
+    },
+    {
+      "id": "140733",
+      "name": "Catahuasi",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151008",
+      "entityId": 1427
+    },
+    {
+      "id": "140710",
+      "name": "Chocos",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151009",
+      "entityId": 1428
+    },
+    {
+      "id": "140708",
+      "name": "Cochas",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151010",
+      "entityId": 1429
+    },
+    {
+      "id": "140709",
+      "name": "Colonia",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151011",
+      "entityId": 1430
+    },
+    {
+      "id": "140730",
+      "name": "Hongos",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151012",
+      "entityId": 1431
+    },
+    {
+      "id": "140711",
+      "name": "Huampara",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151013",
+      "entityId": 1432
+    },
+    {
+      "id": "140712",
+      "name": "Huancaya",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151014",
+      "entityId": 1433
+    },
+    {
+      "id": "140713",
+      "name": "Huangascar",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151015",
+      "entityId": 1434
+    },
+    {
+      "id": "140714",
+      "name": "Huantan",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151016",
+      "entityId": 1435
+    },
+    {
+      "id": "140715",
+      "name": "Huañec",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151017",
+      "entityId": 1436
+    },
+    {
+      "id": "140716",
+      "name": "Laraos",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151018",
+      "entityId": 1437
+    },
+    {
+      "id": "140717",
+      "name": "Lincha",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151019",
+      "entityId": 1438
+    },
+    {
+      "id": "140731",
+      "name": "Madean",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151020",
+      "entityId": 1439
+    },
+    {
+      "id": "140718",
+      "name": "Miraflores",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151021",
+      "entityId": 1440
+    },
+    {
+      "id": "140719",
+      "name": "Omas",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151022",
+      "entityId": 1441
+    },
+    {
+      "id": "140732",
+      "name": "Putinza",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151023",
+      "entityId": 1442
+    },
+    {
+      "id": "140720",
+      "name": "Quinches",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151024",
+      "entityId": 1443
+    },
+    {
+      "id": "140721",
+      "name": "Quinocay",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151025",
+      "entityId": 1444
+    },
+    {
+      "id": "140722",
+      "name": "San Joaquin",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151026",
+      "entityId": 1445
+    },
+    {
+      "id": "140723",
+      "name": "San Pedro De Pilas",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151027",
+      "entityId": 1446
+    },
+    {
+      "id": "140724",
+      "name": "Tanta",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151028",
+      "entityId": 1447
+    },
+    {
+      "id": "140725",
+      "name": "Tauripampa",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151029",
+      "entityId": 1448
+    },
+    {
+      "id": "140727",
+      "name": "Tomas",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151030",
+      "entityId": 1449
+    },
+    {
+      "id": "140726",
+      "name": "Tupe",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151031",
+      "entityId": 1450
+    },
+    {
+      "id": "140728",
+      "name": "Viñac",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151032",
+      "entityId": 1451
+    },
+    {
+      "id": "140729",
+      "name": "Vitis",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151033",
+      "entityId": 1452
+    },
+    {
+      "id": "140701",
+      "name": "Yauyos",
+      "provinceId": "1407",
+      "departmentId": "14",
+      "inei": "151001",
+      "entityId": 1420
+    }
+  ]
+}

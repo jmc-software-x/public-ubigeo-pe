@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "08",
+    "name": "Huancavelica"
+  },
+  "province": {
+    "id": "0806",
+    "name": "Huaytara"
+  },
+  "district": {
+    "id": "080603",
+    "name": "Huayacundo Arma",
+    "provinceId": "0806",
+    "departmentId": "08",
+    "inei": "090604",
+    "entityId": 875
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "19",
+    "name": "Piura"
+  },
+  "province": {
+    "id": "1902",
+    "name": "Ayabaca"
+  },
+  "district": {
+    "id": "190205",
+    "name": "Pacaipampa",
+    "provinceId": "1902",
+    "departmentId": "19",
+    "inei": "200206",
+    "entityId": 1581
+  }
+}

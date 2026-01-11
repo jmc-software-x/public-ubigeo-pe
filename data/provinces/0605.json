@@ -1,0 +1,132 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0605",
+    "name": "Cutervo"
+  },
+  "districts": [
+    {
+      "id": "060502",
+      "name": "Callayuc",
+      "provinceId": "0605",
+      "departmentId": "06",
+      "inei": "060602",
+      "entityId": 619
+    },
+    {
+      "id": "060504",
+      "name": "Choros",
+      "provinceId": "0605",
+      "departmentId": "06",
+      "inei": "060603",
+      "entityId": 620
+    },
+    {
+      "id": "060503",
+      "name": "Cujillo",
+      "provinceId": "0605",
+      "departmentId": "06",
+      "inei": "060604",
+      "entityId": 621
+    },
+    {
+      "id": "060501",
+      "name": "Cutervo",
+      "provinceId": "0605",
+      "departmentId": "06",
+      "inei": "060601",
+      "entityId": 618
+    },
+    {
+      "id": "060505",
+      "name": "La Ramada",
+      "provinceId": "0605",
+      "departmentId": "06",
+      "inei": "060605",
+      "entityId": 622
+    },
+    {
+      "id": "060506",
+      "name": "Pimpingos",
+      "provinceId": "0605",
+      "departmentId": "06",
+      "inei": "060606",
+      "entityId": 623
+    },
+    {
+      "id": "060507",
+      "name": "Querocotillo",
+      "provinceId": "0605",
+      "departmentId": "06",
+      "inei": "060607",
+      "entityId": 624
+    },
+    {
+      "id": "060508",
+      "name": "San Andres De Cutervo",
+      "provinceId": "0605",
+      "departmentId": "06",
+      "inei": "060608",
+      "entityId": 625
+    },
+    {
+      "id": "060509",
+      "name": "San Juan De Cutervo",
+      "provinceId": "0605",
+      "departmentId": "06",
+      "inei": "060609",
+      "entityId": 626
+    },
+    {
+      "id": "060510",
+      "name": "San Luis De Lucma",
+      "provinceId": "0605",
+      "departmentId": "06",
+      "inei": "060610",
+      "entityId": 627
+    },
+    {
+      "id": "060511",
+      "name": "Santa Cruz",
+      "provinceId": "0605",
+      "departmentId": "06",
+      "inei": "060611",
+      "entityId": 628
+    },
+    {
+      "id": "060512",
+      "name": "Santo Domingo De La Capilla",
+      "provinceId": "0605",
+      "departmentId": "06",
+      "inei": "060612",
+      "entityId": 629
+    },
+    {
+      "id": "060513",
+      "name": "Santo Tomas",
+      "provinceId": "0605",
+      "departmentId": "06",
+      "inei": "060613",
+      "entityId": 630
+    },
+    {
+      "id": "060514",
+      "name": "Socota",
+      "provinceId": "0605",
+      "departmentId": "06",
+      "inei": "060614",
+      "entityId": 631
+    },
+    {
+      "id": "060515",
+      "name": "Toribio Casanova",
+      "provinceId": "0605",
+      "departmentId": "06",
+      "inei": "060615",
+      "entityId": 632
+    }
+  ]
+}

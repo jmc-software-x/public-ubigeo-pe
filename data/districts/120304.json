@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "12",
+    "name": "La Libertad"
+  },
+  "province": {
+    "id": "1203",
+    "name": "Sanchez Carrion"
+  },
+  "district": {
+    "id": "120304",
+    "name": "Chugay",
+    "provinceId": "1203",
+    "departmentId": "12",
+    "inei": "130902",
+    "entityId": 1221
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "01",
+    "name": "Amazonas"
+  },
+  "province": {
+    "id": "0106",
+    "name": "Condorcanqui"
+  },
+  "district": {
+    "id": "010602",
+    "name": "Rio Santiago",
+    "provinceId": "0106",
+    "departmentId": "01",
+    "inei": "010403",
+    "entityId": 42
+  }
+}

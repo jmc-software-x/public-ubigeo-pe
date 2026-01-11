@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0206",
+    "name": "Corongo"
+  },
+  "district": {
+    "id": "020605",
+    "name": "La Pampa",
+    "provinceId": "0206",
+    "departmentId": "02",
+    "inei": "020905",
+    "entityId": 147
+  }
+}

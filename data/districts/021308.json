@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0213",
+    "name": "Santa"
+  },
+  "district": {
+    "id": "021308",
+    "name": "Coishco",
+    "provinceId": "0213",
+    "departmentId": "02",
+    "inei": "021803",
+    "entityId": 226
+  }
+}

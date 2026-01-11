@@ -1,0 +1,60 @@
+{
+  "department": {
+    "id": "22",
+    "name": "Tacna"
+  },
+  "province": {
+    "id": "2204",
+    "name": "Candarave"
+  },
+  "districts": [
+    {
+      "id": "220402",
+      "name": "Cairani",
+      "provinceId": "2204",
+      "departmentId": "22",
+      "inei": "230202",
+      "entityId": 1830
+    },
+    {
+      "id": "220406",
+      "name": "Camilaca",
+      "provinceId": "2204",
+      "departmentId": "22",
+      "inei": "230203",
+      "entityId": 1831
+    },
+    {
+      "id": "220401",
+      "name": "Candarave",
+      "provinceId": "2204",
+      "departmentId": "22",
+      "inei": "230201",
+      "entityId": 1829
+    },
+    {
+      "id": "220403",
+      "name": "Curibaya",
+      "provinceId": "2204",
+      "departmentId": "22",
+      "inei": "230204",
+      "entityId": 1832
+    },
+    {
+      "id": "220404",
+      "name": "Huanuara",
+      "provinceId": "2204",
+      "departmentId": "22",
+      "inei": "230205",
+      "entityId": 1833
+    },
+    {
+      "id": "220405",
+      "name": "Quilahuani",
+      "provinceId": "2204",
+      "departmentId": "22",
+      "inei": "230206",
+      "entityId": 1834
+    }
+  ]
+}

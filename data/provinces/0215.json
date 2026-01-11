@@ -1,0 +1,76 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0215",
+    "name": "Yungay"
+  },
+  "districts": [
+    {
+      "id": "021502",
+      "name": "Cascapara",
+      "provinceId": "0215",
+      "departmentId": "02",
+      "inei": "022002",
+      "entityId": 244
+    },
+    {
+      "id": "021503",
+      "name": "Mancos",
+      "provinceId": "0215",
+      "departmentId": "02",
+      "inei": "022003",
+      "entityId": 245
+    },
+    {
+      "id": "021504",
+      "name": "Matacoto",
+      "provinceId": "0215",
+      "departmentId": "02",
+      "inei": "022004",
+      "entityId": 246
+    },
+    {
+      "id": "021505",
+      "name": "Quillo",
+      "provinceId": "0215",
+      "departmentId": "02",
+      "inei": "022005",
+      "entityId": 247
+    },
+    {
+      "id": "021506",
+      "name": "Ranrahirca",
+      "provinceId": "0215",
+      "departmentId": "02",
+      "inei": "022006",
+      "entityId": 248
+    },
+    {
+      "id": "021507",
+      "name": "Shupluy",
+      "provinceId": "0215",
+      "departmentId": "02",
+      "inei": "022007",
+      "entityId": 249
+    },
+    {
+      "id": "021508",
+      "name": "Yanama",
+      "provinceId": "0215",
+      "departmentId": "02",
+      "inei": "022008",
+      "entityId": 250
+    },
+    {
+      "id": "021501",
+      "name": "Yungay",
+      "provinceId": "0215",
+      "departmentId": "02",
+      "inei": "022001",
+      "entityId": 243
+    }
+  ]
+}

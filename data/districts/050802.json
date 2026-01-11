@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "05",
+    "name": "Ayacucho"
+  },
+  "province": {
+    "id": "0508",
+    "name": "Huanca Sancos"
+  },
+  "district": {
+    "id": "050802",
+    "name": "Sacsamarca",
+    "provinceId": "0508",
+    "departmentId": "05",
+    "inei": "050303",
+    "entityId": 468
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0711",
+    "name": "Paucartambo"
+  },
+  "district": {
+    "id": "071103",
+    "name": "Colquepata",
+    "provinceId": "0711",
+    "departmentId": "07",
+    "inei": "081104",
+    "entityId": 787
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0215",
+    "name": "Yungay"
+  },
+  "district": {
+    "id": "021505",
+    "name": "Quillo",
+    "provinceId": "0215",
+    "departmentId": "02",
+    "inei": "022005",
+    "entityId": 247
+  }
+}

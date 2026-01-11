@@ -1,0 +1,36 @@
+{
+  "department": {
+    "id": "22",
+    "name": "Tacna"
+  },
+  "province": {
+    "id": "2203",
+    "name": "Jorge Basadre"
+  },
+  "districts": [
+    {
+      "id": "220303",
+      "name": "Ilabaya",
+      "provinceId": "2203",
+      "departmentId": "22",
+      "inei": "230302",
+      "entityId": 1836
+    },
+    {
+      "id": "220302",
+      "name": "Ite",
+      "provinceId": "2203",
+      "departmentId": "22",
+      "inei": "230303",
+      "entityId": 1837
+    },
+    {
+      "id": "220301",
+      "name": "Locumba",
+      "provinceId": "2203",
+      "departmentId": "22",
+      "inei": "230301",
+      "entityId": 1835
+    }
+  ]
+}

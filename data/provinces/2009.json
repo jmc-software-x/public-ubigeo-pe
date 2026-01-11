@@ -1,0 +1,52 @@
+{
+  "department": {
+    "id": "20",
+    "name": "Puno"
+  },
+  "province": {
+    "id": "2009",
+    "name": "San Roman"
+  },
+  "districts": [
+    {
+      "id": "200902",
+      "name": "Cabana",
+      "provinceId": "2009",
+      "departmentId": "20",
+      "inei": "211102",
+      "entityId": 1720
+    },
+    {
+      "id": "200903",
+      "name": "Cabanillas",
+      "provinceId": "2009",
+      "departmentId": "20",
+      "inei": "211103",
+      "entityId": 1721
+    },
+    {
+      "id": "200904",
+      "name": "Caracoto",
+      "provinceId": "2009",
+      "departmentId": "20",
+      "inei": "211104",
+      "entityId": 1722
+    },
+    {
+      "id": "200901",
+      "name": "Juliaca",
+      "provinceId": "2009",
+      "departmentId": "20",
+      "inei": "211101",
+      "entityId": 1719
+    },
+    {
+      "id": "200905",
+      "name": "San Miguel",
+      "provinceId": "2009",
+      "departmentId": "20",
+      "inei": "211105",
+      "entityId": 1723
+    }
+  ]
+}

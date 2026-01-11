@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "19",
+    "name": "Piura"
+  },
+  "province": {
+    "id": "1905",
+    "name": "Paita"
+  },
+  "district": {
+    "id": "190507",
+    "name": "Vichayal",
+    "provinceId": "1905",
+    "departmentId": "19",
+    "inei": "200507",
+    "entityId": 1610
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "department": {
+    "id": "11",
+    "name": "Junin"
+  },
+  "province": {
+    "id": "1101",
+    "name": "Huancayo"
+  },
+  "districts": [
+    {
+      "id": "110103",
+      "name": "Carhuacallanga",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120104",
+      "entityId": 1037
+    },
+    {
+      "id": "110106",
+      "name": "Chacapampa",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120105",
+      "entityId": 1038
+    },
+    {
+      "id": "110107",
+      "name": "Chicche",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120106",
+      "entityId": 1039
+    },
+    {
+      "id": "110108",
+      "name": "Chilca",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120107",
+      "entityId": 1040
+    },
+    {
+      "id": "110109",
+      "name": "Chongos Alto",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120108",
+      "entityId": 1041
+    },
+    {
+      "id": "110112",
+      "name": "Chupuro",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120111",
+      "entityId": 1042
+    },
+    {
+      "id": "110104",
+      "name": "Colca",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120112",
+      "entityId": 1043
+    },
+    {
+      "id": "110105",
+      "name": "Cullhuas",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120113",
+      "entityId": 1044
+    },
+    {
+      "id": "110113",
+      "name": "El Tambo",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120114",
+      "entityId": 1045
+    },
+    {
+      "id": "110114",
+      "name": "Huacrapuquio",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120116",
+      "entityId": 1046
+    },
+    {
+      "id": "110116",
+      "name": "Hualhuas",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120117",
+      "entityId": 1047
+    },
+    {
+      "id": "110118",
+      "name": "Huancan",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120119",
+      "entityId": 1048
+    },
+    {
+      "id": "110101",
+      "name": "Huancayo",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120101",
+      "entityId": 1036
+    },
+    {
+      "id": "110119",
+      "name": "Huasicancha",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120120",
+      "entityId": 1049
+    },
+    {
+      "id": "110120",
+      "name": "Huayucachi",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120121",
+      "entityId": 1050
+    },
+    {
+      "id": "110121",
+      "name": "Ingenio",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120122",
+      "entityId": 1051
+    },
+    {
+      "id": "110122",
+      "name": "Pariahuanca",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120124",
+      "entityId": 1052
+    },
+    {
+      "id": "110123",
+      "name": "Pilcomayo",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120125",
+      "entityId": 1053
+    },
+    {
+      "id": "110124",
+      "name": "Pucara",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120126",
+      "entityId": 1054
+    },
+    {
+      "id": "110125",
+      "name": "Quichuay",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120127",
+      "entityId": 1055
+    },
+    {
+      "id": "110126",
+      "name": "Quilcas",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120128",
+      "entityId": 1056
+    },
+    {
+      "id": "110127",
+      "name": "San Agustin",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120129",
+      "entityId": 1057
+    },
+    {
+      "id": "110128",
+      "name": "San Jeronimo De Tunan",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120130",
+      "entityId": 1058
+    },
+    {
+      "id": "110131",
+      "name": "Santo Domingo De Acobamba",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120135",
+      "entityId": 1062
+    },
+    {
+      "id": "110132",
+      "name": "Saño",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120132",
+      "entityId": 1059
+    },
+    {
+      "id": "110133",
+      "name": "Sapallanga",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120133",
+      "entityId": 1060
+    },
+    {
+      "id": "110134",
+      "name": "Sicaya",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120134",
+      "entityId": 1061
+    },
+    {
+      "id": "110136",
+      "name": "Viques",
+      "provinceId": "1101",
+      "departmentId": "11",
+      "inei": "120136",
+      "entityId": 1063
+    }
+  ]
+}

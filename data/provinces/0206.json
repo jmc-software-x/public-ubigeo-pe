@@ -1,0 +1,68 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0206",
+    "name": "Corongo"
+  },
+  "districts": [
+    {
+      "id": "020602",
+      "name": "Aco",
+      "provinceId": "0206",
+      "departmentId": "02",
+      "inei": "020902",
+      "entityId": 144
+    },
+    {
+      "id": "020603",
+      "name": "Bambas",
+      "provinceId": "0206",
+      "departmentId": "02",
+      "inei": "020903",
+      "entityId": 145
+    },
+    {
+      "id": "020601",
+      "name": "Corongo",
+      "provinceId": "0206",
+      "departmentId": "02",
+      "inei": "020901",
+      "entityId": 143
+    },
+    {
+      "id": "020604",
+      "name": "Cusca",
+      "provinceId": "0206",
+      "departmentId": "02",
+      "inei": "020904",
+      "entityId": 146
+    },
+    {
+      "id": "020605",
+      "name": "La Pampa",
+      "provinceId": "0206",
+      "departmentId": "02",
+      "inei": "020905",
+      "entityId": 147
+    },
+    {
+      "id": "020606",
+      "name": "Yanac",
+      "provinceId": "0206",
+      "departmentId": "02",
+      "inei": "020906",
+      "entityId": 148
+    },
+    {
+      "id": "020607",
+      "name": "Yupan",
+      "provinceId": "0206",
+      "departmentId": "02",
+      "inei": "020907",
+      "entityId": 149
+    }
+  ]
+}

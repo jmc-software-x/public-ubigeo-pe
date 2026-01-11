@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0201",
+    "name": "Huaraz"
+  },
+  "district": {
+    "id": "020103",
+    "name": "Cochabamba",
+    "provinceId": "0201",
+    "departmentId": "02",
+    "inei": "020102",
+    "entityId": 86
+  }
+}

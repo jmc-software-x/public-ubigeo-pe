@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "16",
+    "name": "Madre De Dios"
+  },
+  "province": {
+    "id": "1603",
+    "name": "Tahuamanu"
+  },
+  "district": {
+    "id": "160301",
+    "name": "Iñapari",
+    "provinceId": "1603",
+    "departmentId": "16",
+    "inei": "170301",
+    "entityId": 1514
+  }
+}

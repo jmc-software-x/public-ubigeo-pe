@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0207",
+    "name": "Huaylas"
+  },
+  "district": {
+    "id": "020710",
+    "name": "Santo Toribio",
+    "provinceId": "0207",
+    "departmentId": "02",
+    "inei": "021209",
+    "entityId": 179
+  }
+}

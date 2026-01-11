@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "23",
+    "name": "Tumbes"
+  },
+  "province": {
+    "id": "2303",
+    "name": "Zarumilla"
+  },
+  "district": {
+    "id": "230301",
+    "name": "Zarumilla",
+    "provinceId": "2303",
+    "departmentId": "23",
+    "inei": "240301",
+    "entityId": 1855
+  }
+}

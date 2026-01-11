@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2107",
+    "name": "Bellavista"
+  },
+  "district": {
+    "id": "210703",
+    "name": "San Pablo",
+    "provinceId": "2107",
+    "departmentId": "21",
+    "inei": "220205",
+    "entityId": 1751
+  }
+}

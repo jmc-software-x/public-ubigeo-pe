@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "19",
+    "name": "Piura"
+  },
+  "province": {
+    "id": "1904",
+    "name": "Morropon"
+  },
+  "district": {
+    "id": "190404",
+    "name": "Morropon",
+    "provinceId": "1904",
+    "departmentId": "19",
+    "inei": "200405",
+    "entityId": 1598
+  }
+}

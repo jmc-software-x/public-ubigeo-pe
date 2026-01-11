@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2109",
+    "name": "Picota"
+  },
+  "district": {
+    "id": "210905",
+    "name": "Pucacaca",
+    "provinceId": "2109",
+    "departmentId": "21",
+    "inei": "220705",
+    "entityId": 1784
+  }
+}

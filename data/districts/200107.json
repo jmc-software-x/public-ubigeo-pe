@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "20",
+    "name": "Puno"
+  },
+  "province": {
+    "id": "2001",
+    "name": "Puno"
+  },
+  "district": {
+    "id": "200107",
+    "name": "Huata",
+    "provinceId": "2001",
+    "departmentId": "20",
+    "inei": "210108",
+    "entityId": 1638
+  }
+}

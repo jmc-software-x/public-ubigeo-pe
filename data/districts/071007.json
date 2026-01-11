@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0710",
+    "name": "Paruro"
+  },
+  "district": {
+    "id": "071007",
+    "name": "Yaurisque",
+    "provinceId": "0710",
+    "departmentId": "07",
+    "inei": "081009",
+    "entityId": 783
+  }
+}

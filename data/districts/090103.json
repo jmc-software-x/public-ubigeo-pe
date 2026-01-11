@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "09",
+    "name": "Huanuco"
+  },
+  "province": {
+    "id": "0901",
+    "name": "Huanuco"
+  },
+  "district": {
+    "id": "090103",
+    "name": "Churubamba",
+    "provinceId": "0901",
+    "departmentId": "09",
+    "inei": "100104",
+    "entityId": 912
+  }
+}

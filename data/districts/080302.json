@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "08",
+    "name": "Huancavelica"
+  },
+  "province": {
+    "id": "0803",
+    "name": "Angaraes"
+  },
+  "district": {
+    "id": "080302",
+    "name": "Anchonga",
+    "provinceId": "0803",
+    "departmentId": "08",
+    "inei": "090302",
+    "entityId": 837
+  }
+}

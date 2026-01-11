@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0701",
+    "name": "Cusco"
+  },
+  "district": {
+    "id": "070107",
+    "name": "Saylla",
+    "provinceId": "0701",
+    "departmentId": "07",
+    "inei": "080107",
+    "entityId": 703
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "20",
+    "name": "Puno"
+  },
+  "province": {
+    "id": "2010",
+    "name": "Yunguyo"
+  },
+  "district": {
+    "id": "201006",
+    "name": "Ollaraya",
+    "provinceId": "2010",
+    "departmentId": "20",
+    "inei": "211305",
+    "entityId": 1738
+  }
+}

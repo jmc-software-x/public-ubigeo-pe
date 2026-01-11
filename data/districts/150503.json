@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "15",
+    "name": "Loreto"
+  },
+  "province": {
+    "id": "1505",
+    "name": "Ucayali"
+  },
+  "district": {
+    "id": "150503",
+    "name": "Padre Marquez",
+    "provinceId": "1505",
+    "departmentId": "15",
+    "inei": "160603",
+    "entityId": 1492
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "13",
+    "name": "Lambayeque"
+  },
+  "province": {
+    "id": "1301",
+    "name": "Chiclayo"
+  },
+  "district": {
+    "id": "130106",
+    "name": "Monsefu",
+    "provinceId": "1301",
+    "departmentId": "13",
+    "inei": "140108",
+    "entityId": 1250
+  }
+}

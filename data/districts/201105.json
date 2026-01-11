@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "20",
+    "name": "Puno"
+  },
+  "province": {
+    "id": "2011",
+    "name": "San Antonio De Putina"
+  },
+  "district": {
+    "id": "201105",
+    "name": "Sina",
+    "provinceId": "2011",
+    "departmentId": "20",
+    "inei": "211005",
+    "entityId": 1718
+  }
+}

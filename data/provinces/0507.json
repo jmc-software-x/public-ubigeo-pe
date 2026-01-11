@@ -1,0 +1,108 @@
+{
+  "department": {
+    "id": "05",
+    "name": "Ayacucho"
+  },
+  "province": {
+    "id": "0507",
+    "name": "Victor Fajardo"
+  },
+  "districts": [
+    {
+      "id": "050702",
+      "name": "Alcamenca",
+      "provinceId": "0507",
+      "departmentId": "05",
+      "inei": "051002",
+      "entityId": 544
+    },
+    {
+      "id": "050703",
+      "name": "Apongo",
+      "provinceId": "0507",
+      "departmentId": "05",
+      "inei": "051003",
+      "entityId": 545
+    },
+    {
+      "id": "050715",
+      "name": "Asquipata",
+      "provinceId": "0507",
+      "departmentId": "05",
+      "inei": "051004",
+      "entityId": 546
+    },
+    {
+      "id": "050704",
+      "name": "Canaria",
+      "provinceId": "0507",
+      "departmentId": "05",
+      "inei": "051005",
+      "entityId": 547
+    },
+    {
+      "id": "050706",
+      "name": "Cayara",
+      "provinceId": "0507",
+      "departmentId": "05",
+      "inei": "051006",
+      "entityId": 548
+    },
+    {
+      "id": "050707",
+      "name": "Colca",
+      "provinceId": "0507",
+      "departmentId": "05",
+      "inei": "051007",
+      "entityId": 549
+    },
+    {
+      "id": "050709",
+      "name": "Huamanquiquia",
+      "provinceId": "0507",
+      "departmentId": "05",
+      "inei": "051008",
+      "entityId": 550
+    },
+    {
+      "id": "050701",
+      "name": "Huancapi",
+      "provinceId": "0507",
+      "departmentId": "05",
+      "inei": "051001",
+      "entityId": 543
+    },
+    {
+      "id": "050710",
+      "name": "Huancaraylla",
+      "provinceId": "0507",
+      "departmentId": "05",
+      "inei": "051009",
+      "entityId": 551
+    },
+    {
+      "id": "050708",
+      "name": "Huaya",
+      "provinceId": "0507",
+      "departmentId": "05",
+      "inei": "051010",
+      "entityId": 552
+    },
+    {
+      "id": "050713",
+      "name": "Sarhua",
+      "provinceId": "0507",
+      "departmentId": "05",
+      "inei": "051011",
+      "entityId": 553
+    },
+    {
+      "id": "050714",
+      "name": "Vilcanchos",
+      "provinceId": "0507",
+      "departmentId": "05",
+      "inei": "051012",
+      "entityId": 554
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "09",
+    "name": "Huanuco"
+  },
+  "province": {
+    "id": "0907",
+    "name": "Pachitea"
+  },
+  "district": {
+    "id": "090702",
+    "name": "Chaglla",
+    "provinceId": "0907",
+    "departmentId": "09",
+    "inei": "100802",
+    "entityId": 970
+  }
+}

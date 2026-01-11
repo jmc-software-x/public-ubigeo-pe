@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1401",
+    "name": "Lima"
+  },
+  "district": {
+    "id": "140122",
+    "name": "Rimac",
+    "provinceId": "1401",
+    "departmentId": "14",
+    "inei": "150128",
+    "entityId": 1308
+  }
+}

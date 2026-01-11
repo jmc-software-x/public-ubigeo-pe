@@ -1,0 +1,76 @@
+{
+  "department": {
+    "id": "08",
+    "name": "Huancavelica"
+  },
+  "province": {
+    "id": "0802",
+    "name": "Acobamba"
+  },
+  "districts": [
+    {
+      "id": "080201",
+      "name": "Acobamba",
+      "provinceId": "0802",
+      "departmentId": "08",
+      "inei": "090201",
+      "entityId": 828
+    },
+    {
+      "id": "080203",
+      "name": "Andabamba",
+      "provinceId": "0802",
+      "departmentId": "08",
+      "inei": "090202",
+      "entityId": 829
+    },
+    {
+      "id": "080202",
+      "name": "Anta",
+      "provinceId": "0802",
+      "departmentId": "08",
+      "inei": "090203",
+      "entityId": 830
+    },
+    {
+      "id": "080204",
+      "name": "Caja",
+      "provinceId": "0802",
+      "departmentId": "08",
+      "inei": "090204",
+      "entityId": 831
+    },
+    {
+      "id": "080205",
+      "name": "Marcas",
+      "provinceId": "0802",
+      "departmentId": "08",
+      "inei": "090205",
+      "entityId": 832
+    },
+    {
+      "id": "080206",
+      "name": "Paucara",
+      "provinceId": "0802",
+      "departmentId": "08",
+      "inei": "090206",
+      "entityId": 833
+    },
+    {
+      "id": "080207",
+      "name": "Pomacocha",
+      "provinceId": "0802",
+      "departmentId": "08",
+      "inei": "090207",
+      "entityId": 834
+    },
+    {
+      "id": "080208",
+      "name": "Rosario",
+      "provinceId": "0802",
+      "departmentId": "08",
+      "inei": "090208",
+      "entityId": 835
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0207",
+    "name": "Huaylas"
+  },
+  "district": {
+    "id": "020705",
+    "name": "Mato",
+    "provinceId": "0207",
+    "departmentId": "02",
+    "inei": "021205",
+    "entityId": 175
+  }
+}

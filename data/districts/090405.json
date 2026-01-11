@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "09",
+    "name": "Huanuco"
+  },
+  "province": {
+    "id": "0904",
+    "name": "Huamalies"
+  },
+  "district": {
+    "id": "090405",
+    "name": "Jircan",
+    "provinceId": "0904",
+    "departmentId": "09",
+    "inei": "100505",
+    "entityId": 947
+  }
+}

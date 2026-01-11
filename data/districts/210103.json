@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2101",
+    "name": "Moyobamba"
+  },
+  "district": {
+    "id": "210103",
+    "name": "Habana",
+    "provinceId": "2101",
+    "departmentId": "21",
+    "inei": "220103",
+    "entityId": 1743
+  }
+}

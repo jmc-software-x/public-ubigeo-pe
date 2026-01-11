@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0605",
+    "name": "Cutervo"
+  },
+  "district": {
+    "id": "060512",
+    "name": "Santo Domingo De La Capilla",
+    "provinceId": "0605",
+    "departmentId": "06",
+    "inei": "060612",
+    "entityId": 629
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0710",
+    "name": "Paruro"
+  },
+  "district": {
+    "id": "071003",
+    "name": "Ccapi",
+    "provinceId": "0710",
+    "departmentId": "07",
+    "inei": "081003",
+    "entityId": 777
+  }
+}

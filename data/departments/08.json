@@ -1,0 +1,43 @@
+{
+  "department": {
+    "id": "08",
+    "name": "Huancavelica"
+  },
+  "provinces": [
+    {
+      "id": "0802",
+      "name": "Acobamba",
+      "departmentId": "08"
+    },
+    {
+      "id": "0803",
+      "name": "Angaraes",
+      "departmentId": "08"
+    },
+    {
+      "id": "0804",
+      "name": "Castrovirreyna",
+      "departmentId": "08"
+    },
+    {
+      "id": "0807",
+      "name": "Churcampa",
+      "departmentId": "08"
+    },
+    {
+      "id": "0801",
+      "name": "Huancavelica",
+      "departmentId": "08"
+    },
+    {
+      "id": "0806",
+      "name": "Huaytara",
+      "departmentId": "08"
+    },
+    {
+      "id": "0805",
+      "name": "Tayacaja",
+      "departmentId": "08"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "08",
+    "name": "Huancavelica"
+  },
+  "province": {
+    "id": "0801",
+    "name": "Huancavelica"
+  },
+  "district": {
+    "id": "080112",
+    "name": "Mariscal Caceres",
+    "provinceId": "0801",
+    "departmentId": "08",
+    "inei": "090111",
+    "entityId": 819
+  }
+}

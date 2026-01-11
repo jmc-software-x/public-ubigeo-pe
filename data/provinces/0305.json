@@ -1,0 +1,60 @@
+{
+  "department": {
+    "id": "03",
+    "name": "Apurimac"
+  },
+  "province": {
+    "id": "0305",
+    "name": "Cotabambas"
+  },
+  "districts": [
+    {
+      "id": "030506",
+      "name": "Challhuahuacho",
+      "provinceId": "0305",
+      "departmentId": "03",
+      "inei": null,
+      "entityId": 309
+    },
+    {
+      "id": "030503",
+      "name": "Cotabambas",
+      "provinceId": "0305",
+      "departmentId": "03",
+      "inei": "030502",
+      "entityId": 305
+    },
+    {
+      "id": "030502",
+      "name": "Coyllurqui",
+      "provinceId": "0305",
+      "departmentId": "03",
+      "inei": "030503",
+      "entityId": 306
+    },
+    {
+      "id": "030504",
+      "name": "Haquira",
+      "provinceId": "0305",
+      "departmentId": "03",
+      "inei": null,
+      "entityId": 307
+    },
+    {
+      "id": "030505",
+      "name": "Mara",
+      "provinceId": "0305",
+      "departmentId": "03",
+      "inei": null,
+      "entityId": 308
+    },
+    {
+      "id": "030501",
+      "name": "Tambobamba",
+      "provinceId": "0305",
+      "departmentId": "03",
+      "inei": null,
+      "entityId": 304
+    }
+  ]
+}

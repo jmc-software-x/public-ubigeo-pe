@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "12",
+    "name": "La Libertad"
+  },
+  "province": {
+    "id": "1202",
+    "name": "Bolivar"
+  },
+  "district": {
+    "id": "120204",
+    "name": "Longotea",
+    "provinceId": "1202",
+    "departmentId": "12",
+    "inei": "130304",
+    "entityId": 1182
+  }
+}

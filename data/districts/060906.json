@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0609",
+    "name": "Santa Cruz"
+  },
+  "district": {
+    "id": "060906",
+    "name": "Pulan",
+    "provinceId": "0609",
+    "departmentId": "06",
+    "inei": "061307",
+    "entityId": 685
+  }
+}

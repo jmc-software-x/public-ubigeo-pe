@@ -1,0 +1,36 @@
+{
+  "department": {
+    "id": "16",
+    "name": "Madre De Dios"
+  },
+  "province": {
+    "id": "1603",
+    "name": "Tahuamanu"
+  },
+  "districts": [
+    {
+      "id": "160302",
+      "name": "Iberia",
+      "provinceId": "1603",
+      "departmentId": "16",
+      "inei": "170302",
+      "entityId": 1515
+    },
+    {
+      "id": "160301",
+      "name": "Iñapari",
+      "provinceId": "1603",
+      "departmentId": "16",
+      "inei": "170301",
+      "entityId": 1514
+    },
+    {
+      "id": "160303",
+      "name": "Tahuamanu",
+      "provinceId": "1603",
+      "departmentId": "16",
+      "inei": "170303",
+      "entityId": 1516
+    }
+  ]
+}

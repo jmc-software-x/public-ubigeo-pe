@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "04",
+    "name": "Arequipa"
+  },
+  "province": {
+    "id": "0402",
+    "name": "Caylloma"
+  },
+  "district": {
+    "id": "040212",
+    "name": "Maca",
+    "provinceId": "0402",
+    "departmentId": "04",
+    "inei": "040512",
+    "entityId": 410
+  }
+}

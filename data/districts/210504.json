@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2105",
+    "name": "Rioja"
+  },
+  "district": {
+    "id": "210504",
+    "name": "Yuracyacu",
+    "provinceId": "2105",
+    "departmentId": "21",
+    "inei": "220809",
+    "entityId": 1798
+  }
+}

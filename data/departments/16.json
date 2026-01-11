@@ -1,0 +1,23 @@
+{
+  "department": {
+    "id": "16",
+    "name": "Madre De Dios"
+  },
+  "provinces": [
+    {
+      "id": "1602",
+      "name": "Manu",
+      "departmentId": "16"
+    },
+    {
+      "id": "1603",
+      "name": "Tahuamanu",
+      "departmentId": "16"
+    },
+    {
+      "id": "1601",
+      "name": "Tambopata",
+      "departmentId": "16"
+    }
+  ]
+}

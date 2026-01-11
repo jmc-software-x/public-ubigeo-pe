@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2103",
+    "name": "Lamas"
+  },
+  "district": {
+    "id": "210316",
+    "name": "San Roque De Cumbaza",
+    "provinceId": "2103",
+    "departmentId": "21",
+    "inei": "220508",
+    "entityId": 1771
+  }
+}

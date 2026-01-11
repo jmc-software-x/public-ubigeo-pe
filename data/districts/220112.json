@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "22",
+    "name": "Tacna"
+  },
+  "province": {
+    "id": "2201",
+    "name": "Tacna"
+  },
+  "district": {
+    "id": "220112",
+    "name": "Ciudad Nueva",
+    "provinceId": "2201",
+    "departmentId": "22",
+    "inei": "230104",
+    "entityId": 1821
+  }
+}

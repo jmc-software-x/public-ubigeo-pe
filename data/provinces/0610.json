@@ -1,0 +1,116 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0610",
+    "name": "San Miguel"
+  },
+  "districts": [
+    {
+      "id": "061013",
+      "name": "Bolivar",
+      "provinceId": "0610",
+      "departmentId": "06",
+      "inei": "061102",
+      "entityId": 663
+    },
+    {
+      "id": "061002",
+      "name": "Calquis",
+      "provinceId": "0610",
+      "departmentId": "06",
+      "inei": "061103",
+      "entityId": 664
+    },
+    {
+      "id": "061012",
+      "name": "Catilluc",
+      "provinceId": "0610",
+      "departmentId": "06",
+      "inei": "061104",
+      "entityId": 665
+    },
+    {
+      "id": "061009",
+      "name": "El Prado",
+      "provinceId": "0610",
+      "departmentId": "06",
+      "inei": "061105",
+      "entityId": 666
+    },
+    {
+      "id": "061003",
+      "name": "La Florida",
+      "provinceId": "0610",
+      "departmentId": "06",
+      "inei": "061106",
+      "entityId": 667
+    },
+    {
+      "id": "061004",
+      "name": "Llapa",
+      "provinceId": "0610",
+      "departmentId": "06",
+      "inei": "061107",
+      "entityId": 668
+    },
+    {
+      "id": "061005",
+      "name": "Nanchoc",
+      "provinceId": "0610",
+      "departmentId": "06",
+      "inei": "061108",
+      "entityId": 669
+    },
+    {
+      "id": "061006",
+      "name": "Niepos",
+      "provinceId": "0610",
+      "departmentId": "06",
+      "inei": "061109",
+      "entityId": 670
+    },
+    {
+      "id": "061007",
+      "name": "San Gregorio",
+      "provinceId": "0610",
+      "departmentId": "06",
+      "inei": "061110",
+      "entityId": 671
+    },
+    {
+      "id": "061001",
+      "name": "San Miguel",
+      "provinceId": "0610",
+      "departmentId": "06",
+      "inei": "061101",
+      "entityId": 662
+    },
+    {
+      "id": "061008",
+      "name": "San Silvestre De Cochan",
+      "provinceId": "0610",
+      "departmentId": "06",
+      "inei": "061111",
+      "entityId": 672
+    },
+    {
+      "id": "061011",
+      "name": "Tongod",
+      "provinceId": "0610",
+      "departmentId": "06",
+      "inei": "061112",
+      "entityId": 673
+    },
+    {
+      "id": "061010",
+      "name": "Union Agua Blanca",
+      "provinceId": "0610",
+      "departmentId": "06",
+      "inei": "061113",
+      "entityId": 674
+    }
+  ]
+}

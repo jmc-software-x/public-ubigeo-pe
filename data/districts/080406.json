@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "08",
+    "name": "Huancavelica"
+  },
+  "province": {
+    "id": "0804",
+    "name": "Castrovirreyna"
+  },
+  "district": {
+    "id": "080406",
+    "name": "Cocas",
+    "provinceId": "0804",
+    "departmentId": "08",
+    "inei": "090406",
+    "entityId": 853
+  }
+}

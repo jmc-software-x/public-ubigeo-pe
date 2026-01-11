@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "10",
+    "name": "Ica"
+  },
+  "province": {
+    "id": "1001",
+    "name": "Ica"
+  },
+  "district": {
+    "id": "100110",
+    "name": "Subtanjalla",
+    "provinceId": "1001",
+    "departmentId": "10",
+    "inei": "110112",
+    "entityId": 1004
+  }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Ubigeo Perú</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Ubigeo Perú Público</h1>
+            <p>Explora el padrón nacional de departamentos, provincias y distritos. Diseñado para integrarse en formularios que necesitan datos oficiales sin depender de bases de datos propietarias.</p>
+        </header>
+
+        <section class="grid" aria-label="Selector en cascada">
+            <article class="panel">
+                <h2>Selecciona la ubicación</h2>
+                <label for="departmentSelect">Departamento</label>
+                <select id="departmentSelect" disabled>
+                    <option value="">Cargando...</option>
+                </select>
+
+                <label for="provinceSelect">Provincia</label>
+                <select id="provinceSelect" disabled>
+                    <option value="">Selecciona un departamento</option>
+                </select>
+
+                <label for="districtSelect">Distrito</label>
+                <select id="districtSelect" disabled>
+                    <option value="">Selecciona una provincia</option>
+                </select>
+
+                <p class="status" id="statusMessage">Inicializando datos del padrón...</p>
+            </article>
+
+            <article class="panel">
+                <h2>Consulta por UBIGEO</h2>
+                <label for="ubigeoInput">Código UBIGEO (6 dígitos)</label>
+                <input id="ubigeoInput" type="text" inputmode="numeric" maxlength="6" placeholder="Ej. 150101">
+                <div class="actions">
+                    <button id="ubigeoLookupButton" type="button">Buscar</button>
+                    <button id="resetButton" type="button" class="button-secondary">Limpiar selección</button>
+                </div>
+                <div class="summary" id="selectionSummary">
+                    <p><strong>Departamento:</strong> —</p>
+                    <p><strong>Provincia:</strong> —</p>
+                    <p><strong>Distrito:</strong> —</p>
+                    <p><strong>UBIGEO:</strong> —</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <script src="./js/script.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "10",
+    "name": "Ica"
+  },
+  "province": {
+    "id": "1004",
+    "name": "Pisco"
+  },
+  "district": {
+    "id": "100403",
+    "name": "Humay",
+    "provinceId": "1004",
+    "departmentId": "10",
+    "inei": "110503",
+    "entityId": 1030
+  }
+}

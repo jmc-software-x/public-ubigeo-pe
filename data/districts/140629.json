@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1406",
+    "name": "Huarochiri"
+  },
+  "district": {
+    "id": "140629",
+    "name": "Surco",
+    "provinceId": "1406",
+    "departmentId": "14",
+    "inei": "150732",
+    "entityId": 1401
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "19",
+    "name": "Piura"
+  },
+  "province": {
+    "id": "1908",
+    "name": "Sechura"
+  },
+  "district": {
+    "id": "190806",
+    "name": "Rinconada Llicuar",
+    "provinceId": "1908",
+    "departmentId": "19",
+    "inei": "200806",
+    "entityId": 1630
+  }
+}

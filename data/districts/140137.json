@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1401",
+    "name": "Lima"
+  },
+  "district": {
+    "id": "140137",
+    "name": "San Juan De Lurigancho",
+    "provinceId": "1401",
+    "departmentId": "14",
+    "inei": "150132",
+    "entityId": 1312
+  }
+}

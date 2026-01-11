@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "09",
+    "name": "Huanuco"
+  },
+  "province": {
+    "id": "0911",
+    "name": "Yarowilca"
+  },
+  "district": {
+    "id": "091102",
+    "name": "Aparicio Pomares",
+    "provinceId": "0911",
+    "departmentId": "09",
+    "inei": "101104",
+    "entityId": 988
+  }
+}

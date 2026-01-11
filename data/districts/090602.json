@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "09",
+    "name": "Huanuco"
+  },
+  "province": {
+    "id": "0906",
+    "name": "Leoncio Prado"
+  },
+  "district": {
+    "id": "090602",
+    "name": "Daniel Alomias Robles",
+    "provinceId": "0906",
+    "departmentId": "09",
+    "inei": "100602",
+    "entityId": 955
+  }
+}

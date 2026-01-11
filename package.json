@@ -1,0 +1,12 @@
+{
+  "name": "public-ubigeo-pe",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:data": "node scripts/buildData.js",
+    "serve": "python3 -m http.server 4173"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "11",
+    "name": "Junin"
+  },
+  "province": {
+    "id": "1106",
+    "name": "Yauli"
+  },
+  "district": {
+    "id": "110603",
+    "name": "Huay-huay",
+    "provinceId": "1106",
+    "departmentId": "11",
+    "inei": "120803",
+    "entityId": 1143
+  }
+}

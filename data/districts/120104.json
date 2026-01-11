@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "12",
+    "name": "La Libertad"
+  },
+  "province": {
+    "id": "1201",
+    "name": "Trujillo"
+  },
+  "district": {
+    "id": "120104",
+    "name": "Moche",
+    "provinceId": "1201",
+    "departmentId": "12",
+    "inei": "130107",
+    "entityId": 1166
+  }
+}

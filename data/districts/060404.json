@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0604",
+    "name": "Contumaza"
+  },
+  "district": {
+    "id": "060404",
+    "name": "Guzmango",
+    "provinceId": "0604",
+    "departmentId": "06",
+    "inei": "060504",
+    "entityId": 613
+  }
+}

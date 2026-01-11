@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "03",
+    "name": "Apurimac"
+  },
+  "province": {
+    "id": "0305",
+    "name": "Cotabambas"
+  },
+  "district": {
+    "id": "030505",
+    "name": "Mara",
+    "provinceId": "0305",
+    "departmentId": "03",
+    "inei": null,
+    "entityId": 308
+  }
+}

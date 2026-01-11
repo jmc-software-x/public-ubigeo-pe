@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0611",
+    "name": "San Ignacio"
+  },
+  "district": {
+    "id": "061107",
+    "name": "Tabaconas",
+    "provinceId": "0611",
+    "departmentId": "06",
+    "inei": "060907",
+    "entityId": 654
+  }
+}

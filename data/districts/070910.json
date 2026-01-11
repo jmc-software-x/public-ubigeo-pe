@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0709",
+    "name": "La Convencion"
+  },
+  "district": {
+    "id": "070910",
+    "name": "Pichari",
+    "provinceId": "0709",
+    "departmentId": "07",
+    "inei": "080910",
+    "entityId": 770
+  }
+}

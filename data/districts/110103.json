@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "11",
+    "name": "Junin"
+  },
+  "province": {
+    "id": "1101",
+    "name": "Huancayo"
+  },
+  "district": {
+    "id": "110103",
+    "name": "Carhuacallanga",
+    "provinceId": "1101",
+    "departmentId": "11",
+    "inei": "120104",
+    "entityId": 1037
+  }
+}

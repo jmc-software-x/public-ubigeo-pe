@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "04",
+    "name": "Arequipa"
+  },
+  "province": {
+    "id": "0406",
+    "name": "Condesuyos"
+  },
+  "district": {
+    "id": "040601",
+    "name": "Chuquibamba",
+    "provinceId": "0406",
+    "departmentId": "04",
+    "inei": null,
+    "entityId": 419
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "department": {
+    "id": "01",
+    "name": "Amazonas"
+  },
+  "province": {
+    "id": "0102",
+    "name": "Bagua"
+  },
+  "districts": [
+    {
+      "id": "010202",
+      "name": "Aramango",
+      "provinceId": "0102",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 23
+    },
+    {
+      "id": "010205",
+      "name": "Bagua",
+      "provinceId": "0102",
+      "departmentId": "01",
+      "inei": "010201",
+      "entityId": 22
+    },
+    {
+      "id": "010203",
+      "name": "Copallin",
+      "provinceId": "0102",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 24
+    },
+    {
+      "id": "010204",
+      "name": "El Parco",
+      "provinceId": "0102",
+      "departmentId": "01",
+      "inei": null,
+      "entityId": 25
+    },
+    {
+      "id": "010206",
+      "name": "Imaza",
+      "provinceId": "0102",
+      "departmentId": "01",
+      "inei": "010205",
+      "entityId": 26
+    },
+    {
+      "id": "010201",
+      "name": "La Peca",
+      "provinceId": "0102",
+      "departmentId": "01",
+      "inei": "010206",
+      "entityId": 27
+    }
+  ]
+}

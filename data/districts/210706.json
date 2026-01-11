@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2107",
+    "name": "Bellavista"
+  },
+  "district": {
+    "id": "210706",
+    "name": "Bajo Biavo",
+    "provinceId": "2107",
+    "departmentId": "21",
+    "inei": "220203",
+    "entityId": 1749
+  }
+}

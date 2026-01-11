@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "10",
+    "name": "Ica"
+  },
+  "province": {
+    "id": "1004",
+    "name": "Pisco"
+  },
+  "district": {
+    "id": "100404",
+    "name": "Independencia",
+    "provinceId": "1004",
+    "departmentId": "10",
+    "inei": "110504",
+    "entityId": 1031
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "20",
+    "name": "Puno"
+  },
+  "province": {
+    "id": "2004",
+    "name": "Chucuito"
+  },
+  "district": {
+    "id": "200406",
+    "name": "Pisacoma",
+    "provinceId": "2004",
+    "departmentId": "20",
+    "inei": "210405",
+    "entityId": 1675
+  }
+}

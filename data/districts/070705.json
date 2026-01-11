@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0707",
+    "name": "Chumbivilcas"
+  },
+  "district": {
+    "id": "070705",
+    "name": "Livitaca",
+    "provinceId": "0707",
+    "departmentId": "07",
+    "inei": "080705",
+    "entityId": 749
+  }
+}

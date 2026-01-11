@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1403",
+    "name": "Canta"
+  },
+  "district": {
+    "id": "140306",
+    "name": "San Buenaventura",
+    "provinceId": "1403",
+    "departmentId": "14",
+    "inei": "150406",
+    "entityId": 1340
+  }
+}

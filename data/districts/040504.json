@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "04",
+    "name": "Arequipa"
+  },
+  "province": {
+    "id": "0405",
+    "name": "Castilla"
+  },
+  "district": {
+    "id": "040504",
+    "name": "Chachas",
+    "provinceId": "0405",
+    "departmentId": "04",
+    "inei": "040404",
+    "entityId": 388
+  }
+}

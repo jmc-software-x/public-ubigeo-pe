@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "08",
+    "name": "Huancavelica"
+  },
+  "province": {
+    "id": "0805",
+    "name": "Tayacaja"
+  },
+  "district": {
+    "id": "080518",
+    "name": "Quishuar",
+    "provinceId": "0805",
+    "departmentId": "08",
+    "inei": "090713",
+    "entityId": 898
+  }
+}

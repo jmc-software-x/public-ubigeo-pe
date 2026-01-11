@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0203",
+    "name": "Bolognesi"
+  },
+  "district": {
+    "id": "020313",
+    "name": "Mangas",
+    "provinceId": "0203",
+    "departmentId": "02",
+    "inei": "020512",
+    "entityId": 121
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "department": {
+    "id": "08",
+    "name": "Huancavelica"
+  },
+  "province": {
+    "id": "0803",
+    "name": "Angaraes"
+  },
+  "districts": [
+    {
+      "id": "080302",
+      "name": "Anchonga",
+      "provinceId": "0803",
+      "departmentId": "08",
+      "inei": "090302",
+      "entityId": 837
+    },
+    {
+      "id": "080303",
+      "name": "Callanmarca",
+      "provinceId": "0803",
+      "departmentId": "08",
+      "inei": "090303",
+      "entityId": 838
+    },
+    {
+      "id": "080312",
+      "name": "Ccochaccasa",
+      "provinceId": "0803",
+      "departmentId": "08",
+      "inei": "090304",
+      "entityId": 839
+    },
+    {
+      "id": "080305",
+      "name": "Chincho",
+      "provinceId": "0803",
+      "departmentId": "08",
+      "inei": "090305",
+      "entityId": 840
+    },
+    {
+      "id": "080304",
+      "name": "Congalla",
+      "provinceId": "0803",
+      "departmentId": "08",
+      "inei": "090306",
+      "entityId": 841
+    },
+    {
+      "id": "080307",
+      "name": "Huanca-huanca",
+      "provinceId": "0803",
+      "departmentId": "08",
+      "inei": "090307",
+      "entityId": 842
+    },
+    {
+      "id": "080306",
+      "name": "Huayllay Grande",
+      "provinceId": "0803",
+      "departmentId": "08",
+      "inei": "090308",
+      "entityId": 843
+    },
+    {
+      "id": "080308",
+      "name": "Julcamarca",
+      "provinceId": "0803",
+      "departmentId": "08",
+      "inei": "090309",
+      "entityId": 844
+    },
+    {
+      "id": "080301",
+      "name": "Lircay",
+      "provinceId": "0803",
+      "departmentId": "08",
+      "inei": "090301",
+      "entityId": 836
+    },
+    {
+      "id": "080309",
+      "name": "San Antonio De Antaparco",
+      "provinceId": "0803",
+      "departmentId": "08",
+      "inei": "090310",
+      "entityId": 845
+    },
+    {
+      "id": "080310",
+      "name": "Santo Tomas De Pata",
+      "provinceId": "0803",
+      "departmentId": "08",
+      "inei": "090311",
+      "entityId": 846
+    },
+    {
+      "id": "080311",
+      "name": "Secclla",
+      "provinceId": "0803",
+      "departmentId": "08",
+      "inei": "090312",
+      "entityId": 847
+    }
+  ]
+}

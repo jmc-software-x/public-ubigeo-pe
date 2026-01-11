@@ -1,0 +1,60 @@
+{
+  "department": {
+    "id": "19",
+    "name": "Piura"
+  },
+  "province": {
+    "id": "1907",
+    "name": "Talara"
+  },
+  "districts": [
+    {
+      "id": "190702",
+      "name": "El Alto",
+      "provinceId": "1907",
+      "departmentId": "19",
+      "inei": "200702",
+      "entityId": 1620
+    },
+    {
+      "id": "190703",
+      "name": "La Brea",
+      "provinceId": "1907",
+      "departmentId": "19",
+      "inei": "200703",
+      "entityId": 1621
+    },
+    {
+      "id": "190704",
+      "name": "Lobitos",
+      "provinceId": "1907",
+      "departmentId": "19",
+      "inei": "200704",
+      "entityId": 1622
+    },
+    {
+      "id": "190706",
+      "name": "Los Organos",
+      "provinceId": "1907",
+      "departmentId": "19",
+      "inei": "200705",
+      "entityId": 1623
+    },
+    {
+      "id": "190705",
+      "name": "Mancora",
+      "provinceId": "1907",
+      "departmentId": "19",
+      "inei": "200706",
+      "entityId": 1624
+    },
+    {
+      "id": "190701",
+      "name": "Pariñas",
+      "provinceId": "1907",
+      "departmentId": "19",
+      "inei": "200701",
+      "entityId": 1619
+    }
+  ]
+}

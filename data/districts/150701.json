@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "15",
+    "name": "Loreto"
+  },
+  "province": {
+    "id": "1507",
+    "name": "Datem Del Marañon"
+  },
+  "district": {
+    "id": "150701",
+    "name": "Barranca",
+    "provinceId": "1507",
+    "departmentId": "15",
+    "inei": "160701",
+    "entityId": 1496
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "department": {
+    "id": "23",
+    "name": "Tumbes"
+  },
+  "province": {
+    "id": "2301",
+    "name": "Tumbes"
+  },
+  "districts": [
+    {
+      "id": "230102",
+      "name": "Corrales",
+      "provinceId": "2301",
+      "departmentId": "23",
+      "inei": "240102",
+      "entityId": 1847
+    },
+    {
+      "id": "230103",
+      "name": "La Cruz",
+      "provinceId": "2301",
+      "departmentId": "23",
+      "inei": "240103",
+      "entityId": 1848
+    },
+    {
+      "id": "230104",
+      "name": "Pampas De Hospital",
+      "provinceId": "2301",
+      "departmentId": "23",
+      "inei": "240104",
+      "entityId": 1849
+    },
+    {
+      "id": "230105",
+      "name": "San Jacinto",
+      "provinceId": "2301",
+      "departmentId": "23",
+      "inei": "240105",
+      "entityId": 1850
+    },
+    {
+      "id": "230106",
+      "name": "San Juan De La Virgen",
+      "provinceId": "2301",
+      "departmentId": "23",
+      "inei": "240106",
+      "entityId": 1851
+    },
+    {
+      "id": "230101",
+      "name": "Tumbes",
+      "provinceId": "2301",
+      "departmentId": "23",
+      "inei": "240101",
+      "entityId": 1846
+    }
+  ]
+}

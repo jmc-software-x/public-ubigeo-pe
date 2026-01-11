@@ -1,0 +1,58 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "provinces": [
+    {
+      "id": "1409",
+      "name": "Barranca",
+      "departmentId": "14"
+    },
+    {
+      "id": "1402",
+      "name": "Cajatambo",
+      "departmentId": "14"
+    },
+    {
+      "id": "1403",
+      "name": "Canta",
+      "departmentId": "14"
+    },
+    {
+      "id": "1404",
+      "name": "Cañete",
+      "departmentId": "14"
+    },
+    {
+      "id": "1408",
+      "name": "Huaral",
+      "departmentId": "14"
+    },
+    {
+      "id": "1406",
+      "name": "Huarochiri",
+      "departmentId": "14"
+    },
+    {
+      "id": "1405",
+      "name": "Huaura",
+      "departmentId": "14"
+    },
+    {
+      "id": "1401",
+      "name": "Lima",
+      "departmentId": "14"
+    },
+    {
+      "id": "1410",
+      "name": "Oyon",
+      "departmentId": "14"
+    },
+    {
+      "id": "1407",
+      "name": "Yauyos",
+      "departmentId": "14"
+    }
+  ]
+}

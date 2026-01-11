@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "25",
+    "name": "Ucayali"
+  },
+  "province": {
+    "id": "2501",
+    "name": "Coronel Portillo"
+  },
+  "district": {
+    "id": "250101",
+    "name": "Calleria",
+    "provinceId": "2501",
+    "departmentId": "25",
+    "inei": null,
+    "entityId": 1859
+  }
+}

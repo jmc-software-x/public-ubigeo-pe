@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "11",
+    "name": "Junin"
+  },
+  "province": {
+    "id": "1101",
+    "name": "Huancayo"
+  },
+  "district": {
+    "id": "110131",
+    "name": "Santo Domingo De Acobamba",
+    "provinceId": "1101",
+    "departmentId": "11",
+    "inei": "120135",
+    "entityId": 1062
+  }
+}

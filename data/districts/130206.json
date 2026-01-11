@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "13",
+    "name": "Lambayeque"
+  },
+  "province": {
+    "id": "1302",
+    "name": "Ferreñafe"
+  },
+  "district": {
+    "id": "130206",
+    "name": "Manuel Antonio Mesones Muro",
+    "provinceId": "1302",
+    "departmentId": "13",
+    "inei": "140204",
+    "entityId": 1266
+  }
+}

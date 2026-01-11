@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0601",
+    "name": "Cajamarca"
+  },
+  "district": {
+    "id": "060107",
+    "name": "Los Baños Del Inca",
+    "provinceId": "0601",
+    "departmentId": "06",
+    "inei": "060108",
+    "entityId": 570
+  }
+}

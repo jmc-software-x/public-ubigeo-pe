@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "08",
+    "name": "Huancavelica"
+  },
+  "province": {
+    "id": "0804",
+    "name": "Castrovirreyna"
+  },
+  "district": {
+    "id": "080409",
+    "name": "Huachos",
+    "provinceId": "0804",
+    "departmentId": "08",
+    "inei": "090407",
+    "entityId": 854
+  }
+}

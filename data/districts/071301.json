@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0713",
+    "name": "Urubamba"
+  },
+  "district": {
+    "id": "071301",
+    "name": "Urubamba",
+    "provinceId": "0713",
+    "departmentId": "07",
+    "inei": "081301",
+    "entityId": 802
+  }
+}

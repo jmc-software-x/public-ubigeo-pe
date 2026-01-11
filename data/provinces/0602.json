@@ -1,0 +1,44 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0602",
+    "name": "Cajabamba"
+  },
+  "districts": [
+    {
+      "id": "060202",
+      "name": "Cachachi",
+      "provinceId": "0602",
+      "departmentId": "06",
+      "inei": null,
+      "entityId": 576
+    },
+    {
+      "id": "060201",
+      "name": "Cajabamba",
+      "provinceId": "0602",
+      "departmentId": "06",
+      "inei": null,
+      "entityId": 575
+    },
+    {
+      "id": "060203",
+      "name": "Condebamba",
+      "provinceId": "0602",
+      "departmentId": "06",
+      "inei": null,
+      "entityId": 577
+    },
+    {
+      "id": "060205",
+      "name": "Sitacocha",
+      "provinceId": "0602",
+      "departmentId": "06",
+      "inei": "060204",
+      "entityId": 578
+    }
+  ]
+}

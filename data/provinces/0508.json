@@ -1,0 +1,44 @@
+{
+  "department": {
+    "id": "05",
+    "name": "Ayacucho"
+  },
+  "province": {
+    "id": "0508",
+    "name": "Huanca Sancos"
+  },
+  "districts": [
+    {
+      "id": "050804",
+      "name": "Carapo",
+      "provinceId": "0508",
+      "departmentId": "05",
+      "inei": "050302",
+      "entityId": 467
+    },
+    {
+      "id": "050802",
+      "name": "Sacsamarca",
+      "provinceId": "0508",
+      "departmentId": "05",
+      "inei": "050303",
+      "entityId": 468
+    },
+    {
+      "id": "050801",
+      "name": "Sancos",
+      "provinceId": "0508",
+      "departmentId": "05",
+      "inei": "050301",
+      "entityId": 466
+    },
+    {
+      "id": "050803",
+      "name": "Santiago De Lucanamarca",
+      "provinceId": "0508",
+      "departmentId": "05",
+      "inei": "050304",
+      "entityId": 469
+    }
+  ]
+}

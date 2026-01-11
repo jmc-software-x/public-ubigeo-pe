@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0203",
+    "name": "Bolognesi"
+  },
+  "district": {
+    "id": "020324",
+    "name": "La Primavera",
+    "provinceId": "0203",
+    "departmentId": "02",
+    "inei": "020511",
+    "entityId": 120
+  }
+}

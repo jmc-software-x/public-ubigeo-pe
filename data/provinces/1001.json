@@ -1,0 +1,124 @@
+{
+  "department": {
+    "id": "10",
+    "name": "Ica"
+  },
+  "province": {
+    "id": "1001",
+    "name": "Ica"
+  },
+  "districts": [
+    {
+      "id": "100101",
+      "name": "Ica",
+      "provinceId": "1001",
+      "departmentId": "10",
+      "inei": "110101",
+      "entityId": 993
+    },
+    {
+      "id": "100102",
+      "name": "La Tinguiña",
+      "provinceId": "1001",
+      "departmentId": "10",
+      "inei": "110102",
+      "entityId": 994
+    },
+    {
+      "id": "100103",
+      "name": "Los Aquijes",
+      "provinceId": "1001",
+      "departmentId": "10",
+      "inei": "110103",
+      "entityId": 995
+    },
+    {
+      "id": "100114",
+      "name": "Ocucaje",
+      "provinceId": "1001",
+      "departmentId": "10",
+      "inei": "110104",
+      "entityId": 996
+    },
+    {
+      "id": "100113",
+      "name": "Pachacutec",
+      "provinceId": "1001",
+      "departmentId": "10",
+      "inei": "110105",
+      "entityId": 997
+    },
+    {
+      "id": "100104",
+      "name": "Parcona",
+      "provinceId": "1001",
+      "departmentId": "10",
+      "inei": "110106",
+      "entityId": 998
+    },
+    {
+      "id": "100105",
+      "name": "Pueblo Nuevo",
+      "provinceId": "1001",
+      "departmentId": "10",
+      "inei": "110107",
+      "entityId": 999
+    },
+    {
+      "id": "100106",
+      "name": "Salas",
+      "provinceId": "1001",
+      "departmentId": "10",
+      "inei": "110108",
+      "entityId": 1000
+    },
+    {
+      "id": "100107",
+      "name": "San Jose De Los Molinos",
+      "provinceId": "1001",
+      "departmentId": "10",
+      "inei": "110109",
+      "entityId": 1001
+    },
+    {
+      "id": "100108",
+      "name": "San Juan Bautista",
+      "provinceId": "1001",
+      "departmentId": "10",
+      "inei": "110110",
+      "entityId": 1002
+    },
+    {
+      "id": "100109",
+      "name": "Santiago",
+      "provinceId": "1001",
+      "departmentId": "10",
+      "inei": "110111",
+      "entityId": 1003
+    },
+    {
+      "id": "100110",
+      "name": "Subtanjalla",
+      "provinceId": "1001",
+      "departmentId": "10",
+      "inei": "110112",
+      "entityId": 1004
+    },
+    {
+      "id": "100112",
+      "name": "Tate",
+      "provinceId": "1001",
+      "departmentId": "10",
+      "inei": "110113",
+      "entityId": 1005
+    },
+    {
+      "id": "100111",
+      "name": "Yauca Del Rosario",
+      "provinceId": "1001",
+      "departmentId": "10",
+      "inei": "110114",
+      "entityId": 1006
+    }
+  ]
+}

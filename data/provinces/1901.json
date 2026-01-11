@@ -1,0 +1,92 @@
+{
+  "department": {
+    "id": "19",
+    "name": "Piura"
+  },
+  "province": {
+    "id": "1901",
+    "name": "Piura"
+  },
+  "districts": [
+    {
+      "id": "190103",
+      "name": "Castilla",
+      "provinceId": "1901",
+      "departmentId": "19",
+      "inei": "200104",
+      "entityId": 1567
+    },
+    {
+      "id": "190104",
+      "name": "Catacaos",
+      "provinceId": "1901",
+      "departmentId": "19",
+      "inei": "200105",
+      "entityId": 1568
+    },
+    {
+      "id": "190113",
+      "name": "Cura Mori",
+      "provinceId": "1901",
+      "departmentId": "19",
+      "inei": "200107",
+      "entityId": 1569
+    },
+    {
+      "id": "190114",
+      "name": "El Tallan",
+      "provinceId": "1901",
+      "departmentId": "19",
+      "inei": "200108",
+      "entityId": 1570
+    },
+    {
+      "id": "190105",
+      "name": "La Arena",
+      "provinceId": "1901",
+      "departmentId": "19",
+      "inei": "200109",
+      "entityId": 1571
+    },
+    {
+      "id": "190106",
+      "name": "La Union",
+      "provinceId": "1901",
+      "departmentId": "19",
+      "inei": "200110",
+      "entityId": 1572
+    },
+    {
+      "id": "190107",
+      "name": "Las Lomas",
+      "provinceId": "1901",
+      "departmentId": "19",
+      "inei": "200111",
+      "entityId": 1573
+    },
+    {
+      "id": "190101",
+      "name": "Piura",
+      "provinceId": "1901",
+      "departmentId": "19",
+      "inei": "200101",
+      "entityId": 1566
+    },
+    {
+      "id": "190109",
+      "name": "Tambo Grande",
+      "provinceId": "1901",
+      "departmentId": "19",
+      "inei": "200114",
+      "entityId": 1574
+    },
+    {
+      "id": "190115",
+      "name": "Veintiseis De Octubre",
+      "provinceId": "1901",
+      "departmentId": "19",
+      "inei": "200115",
+      "entityId": 1575
+    }
+  ]
+}

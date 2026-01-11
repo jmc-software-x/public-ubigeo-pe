@@ -1,0 +1,52 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0202",
+    "name": "Aija"
+  },
+  "districts": [
+    {
+      "id": "020201",
+      "name": "Aija",
+      "provinceId": "0202",
+      "departmentId": "02",
+      "inei": null,
+      "entityId": 97
+    },
+    {
+      "id": "020203",
+      "name": "Coris",
+      "provinceId": "0202",
+      "departmentId": "02",
+      "inei": "020202",
+      "entityId": 98
+    },
+    {
+      "id": "020205",
+      "name": "Huacllan",
+      "provinceId": "0202",
+      "departmentId": "02",
+      "inei": "020203",
+      "entityId": 99
+    },
+    {
+      "id": "020206",
+      "name": "La Merced",
+      "provinceId": "0202",
+      "departmentId": "02",
+      "inei": "020204",
+      "entityId": 100
+    },
+    {
+      "id": "020208",
+      "name": "Succha",
+      "provinceId": "0202",
+      "departmentId": "02",
+      "inei": "020205",
+      "entityId": 101
+    }
+  ]
+}

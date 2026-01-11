@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "18",
+    "name": "Pasco"
+  },
+  "province": {
+    "id": "1801",
+    "name": "Pasco"
+  },
+  "district": {
+    "id": "180105",
+    "name": "Huayllay",
+    "provinceId": "1801",
+    "departmentId": "18",
+    "inei": "190104",
+    "entityId": 1540
+  }
+}

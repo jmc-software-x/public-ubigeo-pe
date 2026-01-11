@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "23",
+    "name": "Tumbes"
+  },
+  "province": {
+    "id": "2302",
+    "name": "Contralmirante Villar"
+  },
+  "district": {
+    "id": "230201",
+    "name": "Zorritos",
+    "provinceId": "2302",
+    "departmentId": "23",
+    "inei": "240201",
+    "entityId": 1852
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "20",
+    "name": "Puno"
+  },
+  "province": {
+    "id": "2010",
+    "name": "Yunguyo"
+  },
+  "district": {
+    "id": "201004",
+    "name": "Copani",
+    "provinceId": "2010",
+    "departmentId": "20",
+    "inei": "211303",
+    "entityId": 1736
+  }
+}

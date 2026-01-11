@@ -1,0 +1,116 @@
+{
+  "department": {
+    "id": "04",
+    "name": "Arequipa"
+  },
+  "province": {
+    "id": "0404",
+    "name": "Caraveli"
+  },
+  "districts": [
+    {
+      "id": "040402",
+      "name": "Acari",
+      "provinceId": "0404",
+      "departmentId": "04",
+      "inei": "040302",
+      "entityId": 373
+    },
+    {
+      "id": "040403",
+      "name": "Atico",
+      "provinceId": "0404",
+      "departmentId": "04",
+      "inei": "040303",
+      "entityId": 374
+    },
+    {
+      "id": "040404",
+      "name": "Atiquipa",
+      "provinceId": "0404",
+      "departmentId": "04",
+      "inei": "040304",
+      "entityId": 375
+    },
+    {
+      "id": "040405",
+      "name": "Bella Union",
+      "provinceId": "0404",
+      "departmentId": "04",
+      "inei": "040305",
+      "entityId": 376
+    },
+    {
+      "id": "040406",
+      "name": "Cahuacho",
+      "provinceId": "0404",
+      "departmentId": "04",
+      "inei": "040306",
+      "entityId": 377
+    },
+    {
+      "id": "040401",
+      "name": "Caraveli",
+      "provinceId": "0404",
+      "departmentId": "04",
+      "inei": "040301",
+      "entityId": 372
+    },
+    {
+      "id": "040407",
+      "name": "Chala",
+      "provinceId": "0404",
+      "departmentId": "04",
+      "inei": "040307",
+      "entityId": 378
+    },
+    {
+      "id": "040408",
+      "name": "Chaparra",
+      "provinceId": "0404",
+      "departmentId": "04",
+      "inei": "040308",
+      "entityId": 379
+    },
+    {
+      "id": "040409",
+      "name": "Huanuhuanu",
+      "provinceId": "0404",
+      "departmentId": "04",
+      "inei": "040309",
+      "entityId": 380
+    },
+    {
+      "id": "040410",
+      "name": "Jaqui",
+      "provinceId": "0404",
+      "departmentId": "04",
+      "inei": "040310",
+      "entityId": 381
+    },
+    {
+      "id": "040411",
+      "name": "Lomas",
+      "provinceId": "0404",
+      "departmentId": "04",
+      "inei": "040311",
+      "entityId": 382
+    },
+    {
+      "id": "040412",
+      "name": "Quicacha",
+      "provinceId": "0404",
+      "departmentId": "04",
+      "inei": "040312",
+      "entityId": 383
+    },
+    {
+      "id": "040413",
+      "name": "Yauca",
+      "provinceId": "0404",
+      "departmentId": "04",
+      "inei": "040313",
+      "entityId": 384
+    }
+  ]
+}

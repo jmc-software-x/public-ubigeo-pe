@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "11",
+    "name": "Junin"
+  },
+  "province": {
+    "id": "1106",
+    "name": "Yauli"
+  },
+  "district": {
+    "id": "110610",
+    "name": "Santa Rosa De Sacco",
+    "provinceId": "1106",
+    "departmentId": "11",
+    "inei": "120808",
+    "entityId": 1148
+  }
+}

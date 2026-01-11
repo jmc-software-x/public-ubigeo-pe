@@ -1,0 +1,284 @@
+{
+  "department": {
+    "id": "11",
+    "name": "Junin"
+  },
+  "province": {
+    "id": "1103",
+    "name": "Jauja"
+  },
+  "districts": [
+    {
+      "id": "110302",
+      "name": "Acolla",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120402",
+      "entityId": 1086
+    },
+    {
+      "id": "110303",
+      "name": "Apata",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120403",
+      "entityId": 1087
+    },
+    {
+      "id": "110304",
+      "name": "Ataura",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120404",
+      "entityId": 1088
+    },
+    {
+      "id": "110305",
+      "name": "Canchayllo",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120405",
+      "entityId": 1089
+    },
+    {
+      "id": "110331",
+      "name": "Curicaca",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120406",
+      "entityId": 1090
+    },
+    {
+      "id": "110306",
+      "name": "El Mantaro",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120407",
+      "entityId": 1091
+    },
+    {
+      "id": "110307",
+      "name": "Huamali",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120408",
+      "entityId": 1092
+    },
+    {
+      "id": "110308",
+      "name": "Huaripampa",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120409",
+      "entityId": 1093
+    },
+    {
+      "id": "110309",
+      "name": "Huertas",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120410",
+      "entityId": 1094
+    },
+    {
+      "id": "110310",
+      "name": "Janjaillo",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120411",
+      "entityId": 1095
+    },
+    {
+      "id": "110301",
+      "name": "Jauja",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120401",
+      "entityId": 1085
+    },
+    {
+      "id": "110311",
+      "name": "Julcan",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120412",
+      "entityId": 1096
+    },
+    {
+      "id": "110312",
+      "name": "Leonor Ordoñez",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120413",
+      "entityId": 1097
+    },
+    {
+      "id": "110313",
+      "name": "Llocllapampa",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120414",
+      "entityId": 1098
+    },
+    {
+      "id": "110314",
+      "name": "Marco",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120415",
+      "entityId": 1099
+    },
+    {
+      "id": "110315",
+      "name": "Masma",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120416",
+      "entityId": 1100
+    },
+    {
+      "id": "110332",
+      "name": "Masma Chicche",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120417",
+      "entityId": 1101
+    },
+    {
+      "id": "110316",
+      "name": "Molinos",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120418",
+      "entityId": 1102
+    },
+    {
+      "id": "110317",
+      "name": "Monobamba",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120419",
+      "entityId": 1103
+    },
+    {
+      "id": "110318",
+      "name": "Muqui",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120420",
+      "entityId": 1104
+    },
+    {
+      "id": "110319",
+      "name": "Muquiyauyo",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120421",
+      "entityId": 1105
+    },
+    {
+      "id": "110320",
+      "name": "Paca",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120422",
+      "entityId": 1106
+    },
+    {
+      "id": "110321",
+      "name": "Paccha",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120423",
+      "entityId": 1107
+    },
+    {
+      "id": "110322",
+      "name": "Pancan",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120424",
+      "entityId": 1108
+    },
+    {
+      "id": "110323",
+      "name": "Parco",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120425",
+      "entityId": 1109
+    },
+    {
+      "id": "110324",
+      "name": "Pomacancha",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120426",
+      "entityId": 1110
+    },
+    {
+      "id": "110325",
+      "name": "Ricran",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120427",
+      "entityId": 1111
+    },
+    {
+      "id": "110326",
+      "name": "San Lorenzo",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120428",
+      "entityId": 1112
+    },
+    {
+      "id": "110327",
+      "name": "San Pedro De Chunan",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120429",
+      "entityId": 1113
+    },
+    {
+      "id": "110333",
+      "name": "Sausa",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120430",
+      "entityId": 1114
+    },
+    {
+      "id": "110328",
+      "name": "Sincos",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120431",
+      "entityId": 1115
+    },
+    {
+      "id": "110329",
+      "name": "Tunan Marca",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120432",
+      "entityId": 1116
+    },
+    {
+      "id": "110330",
+      "name": "Yauli",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120433",
+      "entityId": 1117
+    },
+    {
+      "id": "110334",
+      "name": "Yauyos",
+      "provinceId": "1103",
+      "departmentId": "11",
+      "inei": "120434",
+      "entityId": 1118
+    }
+  ]
+}

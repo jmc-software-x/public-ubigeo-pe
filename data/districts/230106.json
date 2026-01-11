@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "23",
+    "name": "Tumbes"
+  },
+  "province": {
+    "id": "2301",
+    "name": "Tumbes"
+  },
+  "district": {
+    "id": "230106",
+    "name": "San Juan De La Virgen",
+    "provinceId": "2301",
+    "departmentId": "23",
+    "inei": "240106",
+    "entityId": 1851
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "19",
+    "name": "Piura"
+  },
+  "province": {
+    "id": "1902",
+    "name": "Ayabaca"
+  },
+  "district": {
+    "id": "190207",
+    "name": "Sicchez",
+    "provinceId": "1902",
+    "departmentId": "19",
+    "inei": "200209",
+    "entityId": 1584
+  }
+}

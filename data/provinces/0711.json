@@ -1,0 +1,60 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0711",
+    "name": "Paucartambo"
+  },
+  "districts": [
+    {
+      "id": "071102",
+      "name": "Caicay",
+      "provinceId": "0711",
+      "departmentId": "07",
+      "inei": "081102",
+      "entityId": 785
+    },
+    {
+      "id": "071104",
+      "name": "Challabamba",
+      "provinceId": "0711",
+      "departmentId": "07",
+      "inei": "081103",
+      "entityId": 786
+    },
+    {
+      "id": "071103",
+      "name": "Colquepata",
+      "provinceId": "0711",
+      "departmentId": "07",
+      "inei": "081104",
+      "entityId": 787
+    },
+    {
+      "id": "071106",
+      "name": "Huancarani",
+      "provinceId": "0711",
+      "departmentId": "07",
+      "inei": "081105",
+      "entityId": 788
+    },
+    {
+      "id": "071105",
+      "name": "Kosñipata",
+      "provinceId": "0711",
+      "departmentId": "07",
+      "inei": "081106",
+      "entityId": 789
+    },
+    {
+      "id": "071101",
+      "name": "Paucartambo",
+      "provinceId": "0711",
+      "departmentId": "07",
+      "inei": "081101",
+      "entityId": 784
+    }
+  ]
+}

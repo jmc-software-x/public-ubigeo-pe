@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "01",
+    "name": "Amazonas"
+  },
+  "province": {
+    "id": "0104",
+    "name": "Luya"
+  },
+  "district": {
+    "id": "010411",
+    "name": "Maria",
+    "provinceId": "0104",
+    "departmentId": "01",
+    "inei": "010511",
+    "entityId": 53
+  }
+}

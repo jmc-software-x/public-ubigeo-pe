@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "05",
+    "name": "Ayacucho"
+  },
+  "province": {
+    "id": "0507",
+    "name": "Victor Fajardo"
+  },
+  "district": {
+    "id": "050707",
+    "name": "Colca",
+    "provinceId": "0507",
+    "departmentId": "05",
+    "inei": "051007",
+    "entityId": 549
+  }
+}

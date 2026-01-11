@@ -1,0 +1,100 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0204",
+    "name": "Carhuaz"
+  },
+  "districts": [
+    {
+      "id": "020402",
+      "name": "Acopampa",
+      "provinceId": "0204",
+      "departmentId": "02",
+      "inei": "020602",
+      "entityId": 126
+    },
+    {
+      "id": "020403",
+      "name": "Amashca",
+      "provinceId": "0204",
+      "departmentId": "02",
+      "inei": "020603",
+      "entityId": 127
+    },
+    {
+      "id": "020404",
+      "name": "Anta",
+      "provinceId": "0204",
+      "departmentId": "02",
+      "inei": "020604",
+      "entityId": 128
+    },
+    {
+      "id": "020405",
+      "name": "Ataquero",
+      "provinceId": "0204",
+      "departmentId": "02",
+      "inei": "020605",
+      "entityId": 129
+    },
+    {
+      "id": "020401",
+      "name": "Carhuaz",
+      "provinceId": "0204",
+      "departmentId": "02",
+      "inei": "020601",
+      "entityId": 125
+    },
+    {
+      "id": "020406",
+      "name": "Marcara",
+      "provinceId": "0204",
+      "departmentId": "02",
+      "inei": "020606",
+      "entityId": 130
+    },
+    {
+      "id": "020407",
+      "name": "Pariahuanca",
+      "provinceId": "0204",
+      "departmentId": "02",
+      "inei": "020607",
+      "entityId": 131
+    },
+    {
+      "id": "020408",
+      "name": "San Miguel De Aco",
+      "provinceId": "0204",
+      "departmentId": "02",
+      "inei": "020608",
+      "entityId": 132
+    },
+    {
+      "id": "020409",
+      "name": "Shilla",
+      "provinceId": "0204",
+      "departmentId": "02",
+      "inei": "020609",
+      "entityId": 133
+    },
+    {
+      "id": "020410",
+      "name": "Tinco",
+      "provinceId": "0204",
+      "departmentId": "02",
+      "inei": "020610",
+      "entityId": 134
+    },
+    {
+      "id": "020411",
+      "name": "Yungar",
+      "provinceId": "0204",
+      "departmentId": "02",
+      "inei": "020611",
+      "entityId": 135
+    }
+  ]
+}

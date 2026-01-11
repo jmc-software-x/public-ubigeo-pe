@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "15",
+    "name": "Loreto"
+  },
+  "province": {
+    "id": "1506",
+    "name": "Mariscal Ramon Castilla"
+  },
+  "district": {
+    "id": "150604",
+    "name": "San Pablo",
+    "provinceId": "1506",
+    "departmentId": "15",
+    "inei": "160404",
+    "entityId": 1478
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "department": {
+    "id": "20",
+    "name": "Puno"
+  },
+  "province": {
+    "id": "2006",
+    "name": "Lampa"
+  },
+  "districts": [
+    {
+      "id": "200602",
+      "name": "Cabanilla",
+      "provinceId": "2006",
+      "departmentId": "20",
+      "inei": "210702",
+      "entityId": 1692
+    },
+    {
+      "id": "200603",
+      "name": "Calapuja",
+      "provinceId": "2006",
+      "departmentId": "20",
+      "inei": "210703",
+      "entityId": 1693
+    },
+    {
+      "id": "200601",
+      "name": "Lampa",
+      "provinceId": "2006",
+      "departmentId": "20",
+      "inei": "210701",
+      "entityId": 1691
+    },
+    {
+      "id": "200604",
+      "name": "Nicasio",
+      "provinceId": "2006",
+      "departmentId": "20",
+      "inei": "210704",
+      "entityId": 1694
+    },
+    {
+      "id": "200605",
+      "name": "Ocuviri",
+      "provinceId": "2006",
+      "departmentId": "20",
+      "inei": "210705",
+      "entityId": 1695
+    },
+    {
+      "id": "200606",
+      "name": "Palca",
+      "provinceId": "2006",
+      "departmentId": "20",
+      "inei": "210706",
+      "entityId": 1696
+    },
+    {
+      "id": "200607",
+      "name": "Paratia",
+      "provinceId": "2006",
+      "departmentId": "20",
+      "inei": "210707",
+      "entityId": 1697
+    },
+    {
+      "id": "200608",
+      "name": "Pucara",
+      "provinceId": "2006",
+      "departmentId": "20",
+      "inei": "210708",
+      "entityId": 1698
+    },
+    {
+      "id": "200609",
+      "name": "Santa Lucia",
+      "provinceId": "2006",
+      "departmentId": "20",
+      "inei": "210709",
+      "entityId": 1699
+    },
+    {
+      "id": "200610",
+      "name": "Vilavila",
+      "provinceId": "2006",
+      "departmentId": "20",
+      "inei": "210710",
+      "entityId": 1700
+    }
+  ]
+}

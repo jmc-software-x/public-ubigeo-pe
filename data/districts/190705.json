@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "19",
+    "name": "Piura"
+  },
+  "province": {
+    "id": "1907",
+    "name": "Talara"
+  },
+  "district": {
+    "id": "190705",
+    "name": "Mancora",
+    "provinceId": "1907",
+    "departmentId": "19",
+    "inei": "200706",
+    "entityId": 1624
+  }
+}

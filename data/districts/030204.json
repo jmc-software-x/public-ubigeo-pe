@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "03",
+    "name": "Apurimac"
+  },
+  "province": {
+    "id": "0302",
+    "name": "Aymaraes"
+  },
+  "district": {
+    "id": "030204",
+    "name": "Colcabamba",
+    "provinceId": "0302",
+    "departmentId": "03",
+    "inei": "030405",
+    "entityId": 291
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0601",
+    "name": "Cajamarca"
+  },
+  "district": {
+    "id": "060111",
+    "name": "Namora",
+    "provinceId": "0601",
+    "departmentId": "06",
+    "inei": null,
+    "entityId": 573
+  }
+}

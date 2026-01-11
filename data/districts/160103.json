@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "16",
+    "name": "Madre De Dios"
+  },
+  "province": {
+    "id": "1601",
+    "name": "Tambopata"
+  },
+  "district": {
+    "id": "160103",
+    "name": "Las Piedras",
+    "provinceId": "1601",
+    "departmentId": "16",
+    "inei": "170103",
+    "entityId": 1508
+  }
+}

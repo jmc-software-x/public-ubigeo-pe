@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "09",
+    "name": "Huanuco"
+  },
+  "province": {
+    "id": "0905",
+    "name": "Marañon"
+  },
+  "district": {
+    "id": "090501",
+    "name": "Huacrachuco",
+    "provinceId": "0905",
+    "departmentId": "09",
+    "inei": "100701",
+    "entityId": 964
+  }
+}

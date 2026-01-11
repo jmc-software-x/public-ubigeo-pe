@@ -1,0 +1,28 @@
+{
+  "department": {
+    "id": "22",
+    "name": "Tacna"
+  },
+  "provinces": [
+    {
+      "id": "2204",
+      "name": "Candarave",
+      "departmentId": "22"
+    },
+    {
+      "id": "2203",
+      "name": "Jorge Basadre",
+      "departmentId": "22"
+    },
+    {
+      "id": "2201",
+      "name": "Tacna",
+      "departmentId": "22"
+    },
+    {
+      "id": "2202",
+      "name": "Tarata",
+      "departmentId": "22"
+    }
+  ]
+}

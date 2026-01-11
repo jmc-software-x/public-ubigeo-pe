@@ -1,0 +1,76 @@
+{
+  "department": {
+    "id": "04",
+    "name": "Arequipa"
+  },
+  "province": {
+    "id": "0403",
+    "name": "Camana"
+  },
+  "districts": [
+    {
+      "id": "040301",
+      "name": "Camana",
+      "provinceId": "0403",
+      "departmentId": "04",
+      "inei": "040201",
+      "entityId": 364
+    },
+    {
+      "id": "040302",
+      "name": "Jose Maria Quimper",
+      "provinceId": "0403",
+      "departmentId": "04",
+      "inei": "040202",
+      "entityId": 365
+    },
+    {
+      "id": "040303",
+      "name": "Mariano Nicolas Valcarcel",
+      "provinceId": "0403",
+      "departmentId": "04",
+      "inei": "040203",
+      "entityId": 366
+    },
+    {
+      "id": "040304",
+      "name": "Mariscal Caceres",
+      "provinceId": "0403",
+      "departmentId": "04",
+      "inei": "040204",
+      "entityId": 367
+    },
+    {
+      "id": "040305",
+      "name": "Nicolas De Pierola",
+      "provinceId": "0403",
+      "departmentId": "04",
+      "inei": "040205",
+      "entityId": 368
+    },
+    {
+      "id": "040306",
+      "name": "Ocoña",
+      "provinceId": "0403",
+      "departmentId": "04",
+      "inei": "040206",
+      "entityId": 369
+    },
+    {
+      "id": "040307",
+      "name": "Quilca",
+      "provinceId": "0403",
+      "departmentId": "04",
+      "inei": "040207",
+      "entityId": 370
+    },
+    {
+      "id": "040308",
+      "name": "Samuel Pastor",
+      "provinceId": "0403",
+      "departmentId": "04",
+      "inei": "040208",
+      "entityId": 371
+    }
+  ]
+}

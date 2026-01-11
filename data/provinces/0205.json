@@ -1,0 +1,44 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0205",
+    "name": "Casma"
+  },
+  "districts": [
+    {
+      "id": "020502",
+      "name": "Buena Vista Alta",
+      "provinceId": "0205",
+      "departmentId": "02",
+      "inei": "020802",
+      "entityId": 140
+    },
+    {
+      "id": "020501",
+      "name": "Casma",
+      "provinceId": "0205",
+      "departmentId": "02",
+      "inei": "020801",
+      "entityId": 139
+    },
+    {
+      "id": "020503",
+      "name": "Comandante Noel",
+      "provinceId": "0205",
+      "departmentId": "02",
+      "inei": "020803",
+      "entityId": 141
+    },
+    {
+      "id": "020505",
+      "name": "Yautan",
+      "provinceId": "0205",
+      "departmentId": "02",
+      "inei": "020804",
+      "entityId": 142
+    }
+  ]
+}

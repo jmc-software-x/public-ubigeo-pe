@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2104",
+    "name": "Mariscal Caceres"
+  },
+  "district": {
+    "id": "210401",
+    "name": "Juanjui",
+    "provinceId": "2104",
+    "departmentId": "21",
+    "inei": "220601",
+    "entityId": 1775
+  }
+}

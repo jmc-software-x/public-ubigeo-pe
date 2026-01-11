@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0707",
+    "name": "Chumbivilcas"
+  },
+  "district": {
+    "id": "070702",
+    "name": "Capacmarca",
+    "provinceId": "0707",
+    "departmentId": "07",
+    "inei": "080702",
+    "entityId": 746
+  }
+}

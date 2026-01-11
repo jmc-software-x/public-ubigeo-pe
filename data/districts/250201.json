@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "25",
+    "name": "Ucayali"
+  },
+  "province": {
+    "id": "2502",
+    "name": "Padre Abad"
+  },
+  "district": {
+    "id": "250201",
+    "name": "Padre Abad",
+    "provinceId": "2502",
+    "departmentId": "25",
+    "inei": "250301",
+    "entityId": 1870
+  }
+}

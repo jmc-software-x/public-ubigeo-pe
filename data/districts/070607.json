@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0706",
+    "name": "Canchis"
+  },
+  "district": {
+    "id": "070607",
+    "name": "San Pedro",
+    "provinceId": "0706",
+    "departmentId": "07",
+    "inei": "080607",
+    "entityId": 743
+  }
+}

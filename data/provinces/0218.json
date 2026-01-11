@@ -1,0 +1,28 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0218",
+    "name": "Asuncion"
+  },
+  "districts": [
+    {
+      "id": "021802",
+      "name": "Acochaca",
+      "provinceId": "0218",
+      "departmentId": "02",
+      "inei": "020402",
+      "entityId": 109
+    },
+    {
+      "id": "021801",
+      "name": "Chacas",
+      "provinceId": "0218",
+      "departmentId": "02",
+      "inei": "020401",
+      "entityId": 108
+    }
+  ]
+}

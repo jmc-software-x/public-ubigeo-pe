@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "20",
+    "name": "Puno"
+  },
+  "province": {
+    "id": "2005",
+    "name": "Huancane"
+  },
+  "district": {
+    "id": "200509",
+    "name": "Vilque Chico",
+    "provinceId": "2005",
+    "departmentId": "20",
+    "inei": "210608",
+    "entityId": 1690
+  }
+}

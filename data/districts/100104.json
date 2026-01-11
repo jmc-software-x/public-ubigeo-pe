@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "10",
+    "name": "Ica"
+  },
+  "province": {
+    "id": "1001",
+    "name": "Ica"
+  },
+  "district": {
+    "id": "100104",
+    "name": "Parcona",
+    "provinceId": "1001",
+    "departmentId": "10",
+    "inei": "110106",
+    "entityId": 998
+  }
+}

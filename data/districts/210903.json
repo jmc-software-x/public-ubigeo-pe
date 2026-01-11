@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2109",
+    "name": "Picota"
+  },
+  "district": {
+    "id": "210903",
+    "name": "Caspisapa",
+    "provinceId": "2109",
+    "departmentId": "21",
+    "inei": "220703",
+    "entityId": 1782
+  }
+}

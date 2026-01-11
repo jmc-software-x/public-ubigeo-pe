@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "20",
+    "name": "Puno"
+  },
+  "province": {
+    "id": "2009",
+    "name": "San Roman"
+  },
+  "district": {
+    "id": "200902",
+    "name": "Cabana",
+    "provinceId": "2009",
+    "departmentId": "20",
+    "inei": "211102",
+    "entityId": 1720
+  }
+}

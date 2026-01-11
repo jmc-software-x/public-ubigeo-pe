@@ -1,0 +1,100 @@
+{
+  "department": {
+    "id": "12",
+    "name": "La Libertad"
+  },
+  "province": {
+    "id": "1201",
+    "name": "Trujillo"
+  },
+  "districts": [
+    {
+      "id": "120110",
+      "name": "El Porvenir",
+      "provinceId": "1201",
+      "departmentId": "12",
+      "inei": "130102",
+      "entityId": 1161
+    },
+    {
+      "id": "120112",
+      "name": "Florencia De Mora",
+      "provinceId": "1201",
+      "departmentId": "12",
+      "inei": "130103",
+      "entityId": 1162
+    },
+    {
+      "id": "120102",
+      "name": "Huanchaco",
+      "provinceId": "1201",
+      "departmentId": "12",
+      "inei": "130104",
+      "entityId": 1163
+    },
+    {
+      "id": "120111",
+      "name": "La Esperanza",
+      "provinceId": "1201",
+      "departmentId": "12",
+      "inei": "130105",
+      "entityId": 1164
+    },
+    {
+      "id": "120103",
+      "name": "Laredo",
+      "provinceId": "1201",
+      "departmentId": "12",
+      "inei": "130106",
+      "entityId": 1165
+    },
+    {
+      "id": "120104",
+      "name": "Moche",
+      "provinceId": "1201",
+      "departmentId": "12",
+      "inei": "130107",
+      "entityId": 1166
+    },
+    {
+      "id": "120109",
+      "name": "Poroto",
+      "provinceId": "1201",
+      "departmentId": "12",
+      "inei": "130108",
+      "entityId": 1167
+    },
+    {
+      "id": "120105",
+      "name": "Salaverry",
+      "provinceId": "1201",
+      "departmentId": "12",
+      "inei": "130109",
+      "entityId": 1168
+    },
+    {
+      "id": "120106",
+      "name": "Simbal",
+      "provinceId": "1201",
+      "departmentId": "12",
+      "inei": "130110",
+      "entityId": 1169
+    },
+    {
+      "id": "120101",
+      "name": "Trujillo",
+      "provinceId": "1201",
+      "departmentId": "12",
+      "inei": "130101",
+      "entityId": 1160
+    },
+    {
+      "id": "120107",
+      "name": "Victor Larco Herrera",
+      "provinceId": "1201",
+      "departmentId": "12",
+      "inei": "130111",
+      "entityId": 1170
+    }
+  ]
+}

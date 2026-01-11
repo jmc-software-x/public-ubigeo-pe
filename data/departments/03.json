@@ -1,0 +1,43 @@
+{
+  "department": {
+    "id": "03",
+    "name": "Apurimac"
+  },
+  "provinces": [
+    {
+      "id": "0301",
+      "name": "Abancay",
+      "departmentId": "03"
+    },
+    {
+      "id": "0303",
+      "name": "Andahuaylas",
+      "departmentId": "03"
+    },
+    {
+      "id": "0304",
+      "name": "Antabamba",
+      "departmentId": "03"
+    },
+    {
+      "id": "0302",
+      "name": "Aymaraes",
+      "departmentId": "03"
+    },
+    {
+      "id": "0307",
+      "name": "Chincheros",
+      "departmentId": "03"
+    },
+    {
+      "id": "0305",
+      "name": "Cotabambas",
+      "departmentId": "03"
+    },
+    {
+      "id": "0306",
+      "name": "Grau",
+      "departmentId": "03"
+    }
+  ]
+}

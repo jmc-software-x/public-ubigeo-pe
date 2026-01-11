@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2109",
+    "name": "Picota"
+  },
+  "district": {
+    "id": "210902",
+    "name": "Buenos Aires",
+    "provinceId": "2109",
+    "departmentId": "21",
+    "inei": "220702",
+    "entityId": 1781
+  }
+}

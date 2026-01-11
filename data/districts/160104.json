@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "16",
+    "name": "Madre De Dios"
+  },
+  "province": {
+    "id": "1601",
+    "name": "Tambopata"
+  },
+  "district": {
+    "id": "160104",
+    "name": "Laberinto",
+    "provinceId": "1601",
+    "departmentId": "16",
+    "inei": "170104",
+    "entityId": 1509
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1410",
+    "name": "Oyon"
+  },
+  "district": {
+    "id": "141006",
+    "name": "Cochamarca",
+    "provinceId": "1410",
+    "departmentId": "14",
+    "inei": "150904",
+    "entityId": 1417
+  }
+}

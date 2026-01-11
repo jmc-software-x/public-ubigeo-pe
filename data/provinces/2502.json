@@ -1,0 +1,68 @@
+{
+  "department": {
+    "id": "25",
+    "name": "Ucayali"
+  },
+  "province": {
+    "id": "2502",
+    "name": "Padre Abad"
+  },
+  "districts": [
+    {
+      "id": "250205",
+      "name": "Alexander Von Humboldt",
+      "provinceId": "2502",
+      "departmentId": "25",
+      "inei": "250305",
+      "entityId": 1874
+    },
+    {
+      "id": "250206",
+      "name": "Boqueron",
+      "provinceId": "2502",
+      "departmentId": "25",
+      "inei": "250307",
+      "entityId": 1882
+    },
+    {
+      "id": "250203",
+      "name": "Curimana",
+      "provinceId": "2502",
+      "departmentId": "25",
+      "inei": "250303",
+      "entityId": 1872
+    },
+    {
+      "id": "250207",
+      "name": "Huipoca",
+      "provinceId": "2502",
+      "departmentId": "25",
+      "inei": "250306",
+      "entityId": 1881
+    },
+    {
+      "id": "250202",
+      "name": "Irazola",
+      "provinceId": "2502",
+      "departmentId": "25",
+      "inei": "250302",
+      "entityId": 1871
+    },
+    {
+      "id": "250204",
+      "name": "Neshuya",
+      "provinceId": "2502",
+      "departmentId": "25",
+      "inei": "250304",
+      "entityId": 1873
+    },
+    {
+      "id": "250201",
+      "name": "Padre Abad",
+      "provinceId": "2502",
+      "departmentId": "25",
+      "inei": "250301",
+      "entityId": 1870
+    }
+  ]
+}

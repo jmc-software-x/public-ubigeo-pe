@@ -1,0 +1,52 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0219",
+    "name": "Huarmey"
+  },
+  "districts": [
+    {
+      "id": "021902",
+      "name": "Cochapeti",
+      "provinceId": "0219",
+      "departmentId": "02",
+      "inei": "021102",
+      "entityId": 167
+    },
+    {
+      "id": "021905",
+      "name": "Culebras",
+      "provinceId": "0219",
+      "departmentId": "02",
+      "inei": "021103",
+      "entityId": 168
+    },
+    {
+      "id": "021901",
+      "name": "Huarmey",
+      "provinceId": "0219",
+      "departmentId": "02",
+      "inei": "021101",
+      "entityId": 166
+    },
+    {
+      "id": "021903",
+      "name": "Huayan",
+      "provinceId": "0219",
+      "departmentId": "02",
+      "inei": "021104",
+      "entityId": 169
+    },
+    {
+      "id": "021904",
+      "name": "Malvas",
+      "provinceId": "0219",
+      "departmentId": "02",
+      "inei": "021105",
+      "entityId": 170
+    }
+  ]
+}

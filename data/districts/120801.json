@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "12",
+    "name": "La Libertad"
+  },
+  "province": {
+    "id": "1208",
+    "name": "Ascope"
+  },
+  "district": {
+    "id": "120801",
+    "name": "Ascope",
+    "provinceId": "1208",
+    "departmentId": "12",
+    "inei": "130201",
+    "entityId": 1171
+  }
+}

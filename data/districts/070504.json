@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0705",
+    "name": "Canas"
+  },
+  "district": {
+    "id": "070504",
+    "name": "Langui",
+    "provinceId": "0705",
+    "departmentId": "07",
+    "inei": "080504",
+    "entityId": 732
+  }
+}

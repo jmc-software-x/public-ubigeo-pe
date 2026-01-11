@@ -1,0 +1,84 @@
+{
+  "department": {
+    "id": "11",
+    "name": "Junin"
+  },
+  "province": {
+    "id": "1107",
+    "name": "Satipo"
+  },
+  "districts": [
+    {
+      "id": "110702",
+      "name": "Coviriali",
+      "provinceId": "1107",
+      "departmentId": "11",
+      "inei": "120602",
+      "entityId": 1124
+    },
+    {
+      "id": "110703",
+      "name": "Llaylla",
+      "provinceId": "1107",
+      "departmentId": "11",
+      "inei": "120603",
+      "entityId": 1125
+    },
+    {
+      "id": "110704",
+      "name": "Mazamari",
+      "provinceId": "1107",
+      "departmentId": "11",
+      "inei": "120604",
+      "entityId": 1126
+    },
+    {
+      "id": "110705",
+      "name": "Pampa Hermosa",
+      "provinceId": "1107",
+      "departmentId": "11",
+      "inei": "120605",
+      "entityId": 1127
+    },
+    {
+      "id": "110706",
+      "name": "Pangoa",
+      "provinceId": "1107",
+      "departmentId": "11",
+      "inei": "120606",
+      "entityId": 1128
+    },
+    {
+      "id": "110707",
+      "name": "Rio Negro",
+      "provinceId": "1107",
+      "departmentId": "11",
+      "inei": "120607",
+      "entityId": 1129
+    },
+    {
+      "id": "110708",
+      "name": "Rio Tambo",
+      "provinceId": "1107",
+      "departmentId": "11",
+      "inei": "120608",
+      "entityId": 1130
+    },
+    {
+      "id": "110701",
+      "name": "Satipo",
+      "provinceId": "1107",
+      "departmentId": "11",
+      "inei": "120601",
+      "entityId": 1123
+    },
+    {
+      "id": "110709",
+      "name": "Vizcatan Del Ene",
+      "provinceId": "1107",
+      "departmentId": "11",
+      "inei": "120609",
+      "entityId": 1131
+    }
+  ]
+}

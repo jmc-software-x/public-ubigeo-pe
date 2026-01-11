@@ -1,0 +1,356 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1401",
+    "name": "Lima"
+  },
+  "districts": [
+    {
+      "id": "140102",
+      "name": "Ancon",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150102",
+      "entityId": 1282
+    },
+    {
+      "id": "140103",
+      "name": "Ate",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150103",
+      "entityId": 1283
+    },
+    {
+      "id": "140125",
+      "name": "Barranco",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150104",
+      "entityId": 1284
+    },
+    {
+      "id": "140104",
+      "name": "Breña",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150105",
+      "entityId": 1285
+    },
+    {
+      "id": "140105",
+      "name": "Carabayllo",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150106",
+      "entityId": 1286
+    },
+    {
+      "id": "140107",
+      "name": "Chaclacayo",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150107",
+      "entityId": 1287
+    },
+    {
+      "id": "140108",
+      "name": "Chorrillos",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150108",
+      "entityId": 1288
+    },
+    {
+      "id": "140139",
+      "name": "Cieneguilla",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150109",
+      "entityId": 1289
+    },
+    {
+      "id": "140106",
+      "name": "Comas",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150110",
+      "entityId": 1290
+    },
+    {
+      "id": "140135",
+      "name": "El Agustino",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150111",
+      "entityId": 1291
+    },
+    {
+      "id": "140134",
+      "name": "Independencia",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150112",
+      "entityId": 1292
+    },
+    {
+      "id": "140133",
+      "name": "Jesus Maria",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150113",
+      "entityId": 1293
+    },
+    {
+      "id": "140110",
+      "name": "La Molina",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150114",
+      "entityId": 1294
+    },
+    {
+      "id": "140109",
+      "name": "La Victoria",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150115",
+      "entityId": 1295
+    },
+    {
+      "id": "140101",
+      "name": "Lima",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150101",
+      "entityId": 1281
+    },
+    {
+      "id": "140111",
+      "name": "Lince",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150116",
+      "entityId": 1296
+    },
+    {
+      "id": "140142",
+      "name": "Los Olivos",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150117",
+      "entityId": 1297
+    },
+    {
+      "id": "140112",
+      "name": "Lurigancho",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150118",
+      "entityId": 1298
+    },
+    {
+      "id": "140113",
+      "name": "Lurin",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150119",
+      "entityId": 1299
+    },
+    {
+      "id": "140114",
+      "name": "Magdalena Del Mar",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150120",
+      "entityId": 1300
+    },
+    {
+      "id": "140115",
+      "name": "Miraflores",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150122",
+      "entityId": 1302
+    },
+    {
+      "id": "140116",
+      "name": "Pachacamac",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150123",
+      "entityId": 1303
+    },
+    {
+      "id": "140118",
+      "name": "Pucusana",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150124",
+      "entityId": 1304
+    },
+    {
+      "id": "140117",
+      "name": "Pueblo Libre",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150121",
+      "entityId": 1301
+    },
+    {
+      "id": "140119",
+      "name": "Puente Piedra",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150125",
+      "entityId": 1305
+    },
+    {
+      "id": "140120",
+      "name": "Punta Hermosa",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150126",
+      "entityId": 1306
+    },
+    {
+      "id": "140121",
+      "name": "Punta Negra",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150127",
+      "entityId": 1307
+    },
+    {
+      "id": "140122",
+      "name": "Rimac",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150128",
+      "entityId": 1308
+    },
+    {
+      "id": "140123",
+      "name": "San Bartolo",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150129",
+      "entityId": 1309
+    },
+    {
+      "id": "140140",
+      "name": "San Borja",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150130",
+      "entityId": 1310
+    },
+    {
+      "id": "140124",
+      "name": "San Isidro",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150131",
+      "entityId": 1311
+    },
+    {
+      "id": "140137",
+      "name": "San Juan De Lurigancho",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150132",
+      "entityId": 1312
+    },
+    {
+      "id": "140136",
+      "name": "San Juan De Miraflores",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150133",
+      "entityId": 1313
+    },
+    {
+      "id": "140138",
+      "name": "San Luis",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150134",
+      "entityId": 1314
+    },
+    {
+      "id": "140126",
+      "name": "San Martin De Porres",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150135",
+      "entityId": 1315
+    },
+    {
+      "id": "140127",
+      "name": "San Miguel",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150136",
+      "entityId": 1316
+    },
+    {
+      "id": "140143",
+      "name": "Santa Anita",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150137",
+      "entityId": 1317
+    },
+    {
+      "id": "140128",
+      "name": "Santa Maria Del Mar",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150138",
+      "entityId": 1318
+    },
+    {
+      "id": "140129",
+      "name": "Santa Rosa",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150139",
+      "entityId": 1319
+    },
+    {
+      "id": "140130",
+      "name": "Santiago De Surco",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150140",
+      "entityId": 1320
+    },
+    {
+      "id": "140131",
+      "name": "Surquillo",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150141",
+      "entityId": 1321
+    },
+    {
+      "id": "140141",
+      "name": "Villa El Salvador",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150142",
+      "entityId": 1322
+    },
+    {
+      "id": "140132",
+      "name": "Villa Maria Del Triunfo",
+      "provinceId": "1401",
+      "departmentId": "14",
+      "inei": "150143",
+      "entityId": 1323
+    }
+  ]
+}

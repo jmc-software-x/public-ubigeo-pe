@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "09",
+    "name": "Huanuco"
+  },
+  "province": {
+    "id": "0901",
+    "name": "Huanuco"
+  },
+  "district": {
+    "id": "090102",
+    "name": "Chinchao",
+    "provinceId": "0901",
+    "departmentId": "09",
+    "inei": "100103",
+    "entityId": 911
+  }
+}

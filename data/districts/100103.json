@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "10",
+    "name": "Ica"
+  },
+  "province": {
+    "id": "1001",
+    "name": "Ica"
+  },
+  "district": {
+    "id": "100103",
+    "name": "Los Aquijes",
+    "provinceId": "1001",
+    "departmentId": "10",
+    "inei": "110103",
+    "entityId": 995
+  }
+}

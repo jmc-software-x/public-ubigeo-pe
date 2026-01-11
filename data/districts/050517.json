@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "05",
+    "name": "Ayacucho"
+  },
+  "province": {
+    "id": "0505",
+    "name": "Lucanas"
+  },
+  "district": {
+    "id": "050517",
+    "name": "Otoca",
+    "provinceId": "0505",
+    "departmentId": "05",
+    "inei": "050613",
+    "entityId": 505
+  }
+}

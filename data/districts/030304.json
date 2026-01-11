@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "03",
+    "name": "Apurimac"
+  },
+  "province": {
+    "id": "0303",
+    "name": "Andahuaylas"
+  },
+  "district": {
+    "id": "030304",
+    "name": "Huancarama",
+    "provinceId": "0303",
+    "departmentId": "03",
+    "inei": "030204",
+    "entityId": 263
+  }
+}

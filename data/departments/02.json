@@ -1,0 +1,108 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "provinces": [
+    {
+      "id": "0202",
+      "name": "Aija",
+      "departmentId": "02"
+    },
+    {
+      "id": "0216",
+      "name": "Antonio Raymondi",
+      "departmentId": "02"
+    },
+    {
+      "id": "0218",
+      "name": "Asuncion",
+      "departmentId": "02"
+    },
+    {
+      "id": "0203",
+      "name": "Bolognesi",
+      "departmentId": "02"
+    },
+    {
+      "id": "0204",
+      "name": "Carhuaz",
+      "departmentId": "02"
+    },
+    {
+      "id": "0217",
+      "name": "Carlos Fermin Fitzcarrald",
+      "departmentId": "02"
+    },
+    {
+      "id": "0205",
+      "name": "Casma",
+      "departmentId": "02"
+    },
+    {
+      "id": "0206",
+      "name": "Corongo",
+      "departmentId": "02"
+    },
+    {
+      "id": "0201",
+      "name": "Huaraz",
+      "departmentId": "02"
+    },
+    {
+      "id": "0208",
+      "name": "Huari",
+      "departmentId": "02"
+    },
+    {
+      "id": "0219",
+      "name": "Huarmey",
+      "departmentId": "02"
+    },
+    {
+      "id": "0207",
+      "name": "Huaylas",
+      "departmentId": "02"
+    },
+    {
+      "id": "0209",
+      "name": "Mariscal Luzuriaga",
+      "departmentId": "02"
+    },
+    {
+      "id": "0220",
+      "name": "Ocros",
+      "departmentId": "02"
+    },
+    {
+      "id": "0210",
+      "name": "Pallasca",
+      "departmentId": "02"
+    },
+    {
+      "id": "0211",
+      "name": "Pomabamba",
+      "departmentId": "02"
+    },
+    {
+      "id": "0212",
+      "name": "Recuay",
+      "departmentId": "02"
+    },
+    {
+      "id": "0213",
+      "name": "Santa",
+      "departmentId": "02"
+    },
+    {
+      "id": "0214",
+      "name": "Sihuas",
+      "departmentId": "02"
+    },
+    {
+      "id": "0215",
+      "name": "Yungay",
+      "departmentId": "02"
+    }
+  ]
+}

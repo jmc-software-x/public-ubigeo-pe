@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "02",
+    "name": "Ancash"
+  },
+  "province": {
+    "id": "0212",
+    "name": "Recuay"
+  },
+  "district": {
+    "id": "021206",
+    "name": "Pararin",
+    "provinceId": "0212",
+    "departmentId": "02",
+    "inei": "021708",
+    "entityId": 221
+  }
+}

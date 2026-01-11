@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2105",
+    "name": "Rioja"
+  },
+  "district": {
+    "id": "210502",
+    "name": "Posic",
+    "provinceId": "2105",
+    "departmentId": "21",
+    "inei": "220806",
+    "entityId": 1795
+  }
+}

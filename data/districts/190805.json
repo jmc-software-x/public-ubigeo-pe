@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "19",
+    "name": "Piura"
+  },
+  "province": {
+    "id": "1908",
+    "name": "Sechura"
+  },
+  "district": {
+    "id": "190805",
+    "name": "Cristo Nos Valga",
+    "provinceId": "1908",
+    "departmentId": "19",
+    "inei": "200804",
+    "entityId": 1628
+  }
+}

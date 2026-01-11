@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "11",
+    "name": "Junin"
+  },
+  "province": {
+    "id": "1103",
+    "name": "Jauja"
+  },
+  "district": {
+    "id": "110321",
+    "name": "Paccha",
+    "provinceId": "1103",
+    "departmentId": "11",
+    "inei": "120423",
+    "entityId": 1107
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "18",
+    "name": "Pasco"
+  },
+  "province": {
+    "id": "1802",
+    "name": "Daniel Alcides Carrion"
+  },
+  "district": {
+    "id": "180207",
+    "name": "Tapuc",
+    "provinceId": "1802",
+    "departmentId": "18",
+    "inei": "190207",
+    "entityId": 1556
+  }
+}

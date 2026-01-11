@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "20",
+    "name": "Puno"
+  },
+  "province": {
+    "id": "2003",
+    "name": "Carabaya"
+  },
+  "district": {
+    "id": "200307",
+    "name": "Ituata",
+    "provinceId": "2003",
+    "departmentId": "20",
+    "inei": "210307",
+    "entityId": 1667
+  }
+}

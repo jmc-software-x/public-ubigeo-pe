@@ -1,0 +1,100 @@
+{
+  "department": {
+    "id": "10",
+    "name": "Ica"
+  },
+  "province": {
+    "id": "1002",
+    "name": "Chincha"
+  },
+  "districts": [
+    {
+      "id": "100209",
+      "name": "Alto Laran",
+      "provinceId": "1002",
+      "departmentId": "10",
+      "inei": "110202",
+      "entityId": 1008
+    },
+    {
+      "id": "100202",
+      "name": "Chavin",
+      "provinceId": "1002",
+      "departmentId": "10",
+      "inei": "110203",
+      "entityId": 1009
+    },
+    {
+      "id": "100201",
+      "name": "Chincha Alta",
+      "provinceId": "1002",
+      "departmentId": "10",
+      "inei": "110201",
+      "entityId": 1007
+    },
+    {
+      "id": "100203",
+      "name": "Chincha Baja",
+      "provinceId": "1002",
+      "departmentId": "10",
+      "inei": "110204",
+      "entityId": 1010
+    },
+    {
+      "id": "100204",
+      "name": "El Carmen",
+      "provinceId": "1002",
+      "departmentId": "10",
+      "inei": "110205",
+      "entityId": 1011
+    },
+    {
+      "id": "100205",
+      "name": "Grocio Prado",
+      "provinceId": "1002",
+      "departmentId": "10",
+      "inei": "110206",
+      "entityId": 1012
+    },
+    {
+      "id": "100210",
+      "name": "Pueblo Nuevo",
+      "provinceId": "1002",
+      "departmentId": "10",
+      "inei": "110207",
+      "entityId": 1013
+    },
+    {
+      "id": "100211",
+      "name": "San Juan De Yanac",
+      "provinceId": "1002",
+      "departmentId": "10",
+      "inei": "110208",
+      "entityId": 1014
+    },
+    {
+      "id": "100206",
+      "name": "San Pedro De Huacarpana",
+      "provinceId": "1002",
+      "departmentId": "10",
+      "inei": "110209",
+      "entityId": 1015
+    },
+    {
+      "id": "100207",
+      "name": "Sunampe",
+      "provinceId": "1002",
+      "departmentId": "10",
+      "inei": "110210",
+      "entityId": 1016
+    },
+    {
+      "id": "100208",
+      "name": "Tambo De Mora",
+      "provinceId": "1002",
+      "departmentId": "10",
+      "inei": "110211",
+      "entityId": 1017
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "19",
+    "name": "Piura"
+  },
+  "province": {
+    "id": "1901",
+    "name": "Piura"
+  },
+  "district": {
+    "id": "190107",
+    "name": "Las Lomas",
+    "provinceId": "1901",
+    "departmentId": "19",
+    "inei": "200111",
+    "entityId": 1573
+  }
+}

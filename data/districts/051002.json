@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "05",
+    "name": "Ayacucho"
+  },
+  "province": {
+    "id": "0510",
+    "name": "Paucar Del Sara Sara"
+  },
+  "district": {
+    "id": "051002",
+    "name": "Colta",
+    "provinceId": "0510",
+    "departmentId": "05",
+    "inei": "050802",
+    "entityId": 523
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "10",
+    "name": "Ica"
+  },
+  "province": {
+    "id": "1001",
+    "name": "Ica"
+  },
+  "district": {
+    "id": "100105",
+    "name": "Pueblo Nuevo",
+    "provinceId": "1001",
+    "departmentId": "10",
+    "inei": "110107",
+    "entityId": 999
+  }
+}

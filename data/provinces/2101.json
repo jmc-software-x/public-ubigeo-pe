@@ -1,0 +1,60 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2101",
+    "name": "Moyobamba"
+  },
+  "districts": [
+    {
+      "id": "210102",
+      "name": "Calzada",
+      "provinceId": "2101",
+      "departmentId": "21",
+      "inei": "220102",
+      "entityId": 1742
+    },
+    {
+      "id": "210103",
+      "name": "Habana",
+      "provinceId": "2101",
+      "departmentId": "21",
+      "inei": "220103",
+      "entityId": 1743
+    },
+    {
+      "id": "210104",
+      "name": "Jepelacio",
+      "provinceId": "2101",
+      "departmentId": "21",
+      "inei": "220104",
+      "entityId": 1744
+    },
+    {
+      "id": "210101",
+      "name": "Moyobamba",
+      "provinceId": "2101",
+      "departmentId": "21",
+      "inei": "220101",
+      "entityId": 1741
+    },
+    {
+      "id": "210105",
+      "name": "Soritor",
+      "provinceId": "2101",
+      "departmentId": "21",
+      "inei": "220105",
+      "entityId": 1745
+    },
+    {
+      "id": "210106",
+      "name": "Yantalo",
+      "provinceId": "2101",
+      "departmentId": "21",
+      "inei": "220106",
+      "entityId": 1746
+    }
+  ]
+}

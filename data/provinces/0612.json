@@ -1,0 +1,68 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0612",
+    "name": "San Marcos"
+  },
+  "districts": [
+    {
+      "id": "061207",
+      "name": "Chancay",
+      "provinceId": "0612",
+      "departmentId": "06",
+      "inei": "061002",
+      "entityId": 656
+    },
+    {
+      "id": "061205",
+      "name": "Eduardo Villanueva",
+      "provinceId": "0612",
+      "departmentId": "06",
+      "inei": "061003",
+      "entityId": 657
+    },
+    {
+      "id": "061203",
+      "name": "Gregorio Pita",
+      "provinceId": "0612",
+      "departmentId": "06",
+      "inei": "061004",
+      "entityId": 658
+    },
+    {
+      "id": "061202",
+      "name": "Ichocan",
+      "provinceId": "0612",
+      "departmentId": "06",
+      "inei": "061005",
+      "entityId": 659
+    },
+    {
+      "id": "061204",
+      "name": "Jose Manuel Quiroz",
+      "provinceId": "0612",
+      "departmentId": "06",
+      "inei": "061006",
+      "entityId": 660
+    },
+    {
+      "id": "061206",
+      "name": "Jose Sabogal",
+      "provinceId": "0612",
+      "departmentId": "06",
+      "inei": "061007",
+      "entityId": 661
+    },
+    {
+      "id": "061201",
+      "name": "Pedro Galvez",
+      "provinceId": "0612",
+      "departmentId": "06",
+      "inei": "061001",
+      "entityId": 655
+    }
+  ]
+}

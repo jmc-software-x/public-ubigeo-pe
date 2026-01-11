@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "19",
+    "name": "Piura"
+  },
+  "province": {
+    "id": "1906",
+    "name": "Sullana"
+  },
+  "district": {
+    "id": "190601",
+    "name": "Sullana",
+    "provinceId": "1906",
+    "departmentId": "19",
+    "inei": "200601",
+    "entityId": 1611
+  }
+}

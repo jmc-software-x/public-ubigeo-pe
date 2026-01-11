@@ -1,0 +1,44 @@
+{
+  "department": {
+    "id": "12",
+    "name": "La Libertad"
+  },
+  "province": {
+    "id": "1210",
+    "name": "Julcan"
+  },
+  "districts": [
+    {
+      "id": "121003",
+      "name": "Calamarca",
+      "provinceId": "1210",
+      "departmentId": "12",
+      "inei": "130502",
+      "entityId": 1189
+    },
+    {
+      "id": "121002",
+      "name": "Carabamba",
+      "provinceId": "1210",
+      "departmentId": "12",
+      "inei": "130503",
+      "entityId": 1190
+    },
+    {
+      "id": "121004",
+      "name": "Huaso",
+      "provinceId": "1210",
+      "departmentId": "12",
+      "inei": "130504",
+      "entityId": 1191
+    },
+    {
+      "id": "121001",
+      "name": "Julcan",
+      "provinceId": "1210",
+      "departmentId": "12",
+      "inei": "130501",
+      "entityId": 1188
+    }
+  ]
+}

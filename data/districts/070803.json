@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0708",
+    "name": "Espinar"
+  },
+  "district": {
+    "id": "070803",
+    "name": "Coporaque",
+    "provinceId": "0708",
+    "departmentId": "07",
+    "inei": "080803",
+    "entityId": 755
+  }
+}

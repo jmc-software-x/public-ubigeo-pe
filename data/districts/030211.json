@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "03",
+    "name": "Apurimac"
+  },
+  "province": {
+    "id": "0302",
+    "name": "Aymaraes"
+  },
+  "district": {
+    "id": "030211",
+    "name": "Soraya",
+    "provinceId": "0302",
+    "departmentId": "03",
+    "inei": "030413",
+    "entityId": 299
+  }
+}

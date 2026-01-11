@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "04",
+    "name": "Arequipa"
+  },
+  "province": {
+    "id": "0404",
+    "name": "Caraveli"
+  },
+  "district": {
+    "id": "040406",
+    "name": "Cahuacho",
+    "provinceId": "0404",
+    "departmentId": "04",
+    "inei": "040306",
+    "entityId": 377
+  }
+}

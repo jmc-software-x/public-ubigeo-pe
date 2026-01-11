@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "03",
+    "name": "Apurimac"
+  },
+  "province": {
+    "id": "0306",
+    "name": "Grau"
+  },
+  "district": {
+    "id": "030602",
+    "name": "Curpahuasi",
+    "provinceId": "0306",
+    "departmentId": "03",
+    "inei": "030702",
+    "entityId": 322
+  }
+}

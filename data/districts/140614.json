@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1406",
+    "name": "Huarochiri"
+  },
+  "district": {
+    "id": "140614",
+    "name": "San Andres De Tupicocha",
+    "provinceId": "1406",
+    "departmentId": "14",
+    "inei": "150715",
+    "entityId": 1384
+  }
+}

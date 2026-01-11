@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "11",
+    "name": "Junin"
+  },
+  "province": {
+    "id": "1107",
+    "name": "Satipo"
+  },
+  "district": {
+    "id": "110703",
+    "name": "Llaylla",
+    "provinceId": "1107",
+    "departmentId": "11",
+    "inei": "120603",
+    "entityId": 1125
+  }
+}

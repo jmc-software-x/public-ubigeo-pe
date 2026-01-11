@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "09",
+    "name": "Huanuco"
+  },
+  "province": {
+    "id": "0908",
+    "name": "Puerto Inca"
+  },
+  "district": {
+    "id": "090803",
+    "name": "Codo Del Pozuzo",
+    "provinceId": "0908",
+    "departmentId": "09",
+    "inei": "100902",
+    "entityId": 974
+  }
+}

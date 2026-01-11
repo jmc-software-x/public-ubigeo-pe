@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "03",
+    "name": "Apurimac"
+  },
+  "province": {
+    "id": "0304",
+    "name": "Antabamba"
+  },
+  "district": {
+    "id": "030405",
+    "name": "Oropesa",
+    "provinceId": "0304",
+    "departmentId": "03",
+    "inei": "030305",
+    "entityId": 284
+  }
+}

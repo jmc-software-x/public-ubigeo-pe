@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "20",
+    "name": "Puno"
+  },
+  "province": {
+    "id": "2006",
+    "name": "Lampa"
+  },
+  "district": {
+    "id": "200609",
+    "name": "Santa Lucia",
+    "provinceId": "2006",
+    "departmentId": "20",
+    "inei": "210709",
+    "entityId": 1699
+  }
+}

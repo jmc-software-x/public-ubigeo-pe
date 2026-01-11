@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "20",
+    "name": "Puno"
+  },
+  "province": {
+    "id": "2009",
+    "name": "San Roman"
+  },
+  "district": {
+    "id": "200901",
+    "name": "Juliaca",
+    "provinceId": "2009",
+    "departmentId": "20",
+    "inei": "211101",
+    "entityId": 1719
+  }
+}

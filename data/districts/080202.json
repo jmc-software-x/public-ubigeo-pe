@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "08",
+    "name": "Huancavelica"
+  },
+  "province": {
+    "id": "0802",
+    "name": "Acobamba"
+  },
+  "district": {
+    "id": "080202",
+    "name": "Anta",
+    "provinceId": "0802",
+    "departmentId": "08",
+    "inei": "090203",
+    "entityId": 830
+  }
+}

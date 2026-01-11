@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0706",
+    "name": "Canchis"
+  },
+  "district": {
+    "id": "070608",
+    "name": "Tinta",
+    "provinceId": "0706",
+    "departmentId": "07",
+    "inei": "080608",
+    "entityId": 744
+  }
+}

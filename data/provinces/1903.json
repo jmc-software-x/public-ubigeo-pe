@@ -1,0 +1,76 @@
+{
+  "department": {
+    "id": "19",
+    "name": "Piura"
+  },
+  "province": {
+    "id": "1903",
+    "name": "Huancabamba"
+  },
+  "districts": [
+    {
+      "id": "190302",
+      "name": "Canchaque",
+      "provinceId": "1903",
+      "departmentId": "19",
+      "inei": "200302",
+      "entityId": 1587
+    },
+    {
+      "id": "190306",
+      "name": "El Carmen De La Frontera",
+      "provinceId": "1903",
+      "departmentId": "19",
+      "inei": "200303",
+      "entityId": 1588
+    },
+    {
+      "id": "190301",
+      "name": "Huancabamba",
+      "provinceId": "1903",
+      "departmentId": "19",
+      "inei": "200301",
+      "entityId": 1586
+    },
+    {
+      "id": "190303",
+      "name": "Huarmaca",
+      "provinceId": "1903",
+      "departmentId": "19",
+      "inei": "200304",
+      "entityId": 1589
+    },
+    {
+      "id": "190308",
+      "name": "Lalaquiz",
+      "provinceId": "1903",
+      "departmentId": "19",
+      "inei": "200305",
+      "entityId": 1590
+    },
+    {
+      "id": "190307",
+      "name": "San Miguel De El Faique",
+      "provinceId": "1903",
+      "departmentId": "19",
+      "inei": "200306",
+      "entityId": 1591
+    },
+    {
+      "id": "190304",
+      "name": "Sondor",
+      "provinceId": "1903",
+      "departmentId": "19",
+      "inei": "200307",
+      "entityId": 1592
+    },
+    {
+      "id": "190305",
+      "name": "Sondorillo",
+      "provinceId": "1903",
+      "departmentId": "19",
+      "inei": "200308",
+      "entityId": 1593
+    }
+  ]
+}

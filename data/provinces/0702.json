@@ -1,0 +1,68 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0702",
+    "name": "Acomayo"
+  },
+  "districts": [
+    {
+      "id": "070201",
+      "name": "Acomayo",
+      "provinceId": "0702",
+      "departmentId": "07",
+      "inei": "080201",
+      "entityId": 705
+    },
+    {
+      "id": "070202",
+      "name": "Acopia",
+      "provinceId": "0702",
+      "departmentId": "07",
+      "inei": "080202",
+      "entityId": 706
+    },
+    {
+      "id": "070203",
+      "name": "Acos",
+      "provinceId": "0702",
+      "departmentId": "07",
+      "inei": "080203",
+      "entityId": 707
+    },
+    {
+      "id": "070207",
+      "name": "Mosoc Llacta",
+      "provinceId": "0702",
+      "departmentId": "07",
+      "inei": "080204",
+      "entityId": 708
+    },
+    {
+      "id": "070204",
+      "name": "Pomacanchi",
+      "provinceId": "0702",
+      "departmentId": "07",
+      "inei": "080205",
+      "entityId": 709
+    },
+    {
+      "id": "070205",
+      "name": "Rondocan",
+      "provinceId": "0702",
+      "departmentId": "07",
+      "inei": "080206",
+      "entityId": 710
+    },
+    {
+      "id": "070206",
+      "name": "Sangarara",
+      "provinceId": "0702",
+      "departmentId": "07",
+      "inei": "080207",
+      "entityId": 711
+    }
+  ]
+}

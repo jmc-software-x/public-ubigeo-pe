@@ -1,0 +1,76 @@
+{
+  "department": {
+    "id": "05",
+    "name": "Ayacucho"
+  },
+  "province": {
+    "id": "0506",
+    "name": "Parinacochas"
+  },
+  "districts": [
+    {
+      "id": "050605",
+      "name": "Chumpi",
+      "provinceId": "0506",
+      "departmentId": "05",
+      "inei": "050702",
+      "entityId": 515
+    },
+    {
+      "id": "050601",
+      "name": "Coracora",
+      "provinceId": "0506",
+      "departmentId": "05",
+      "inei": "050701",
+      "entityId": 514
+    },
+    {
+      "id": "050604",
+      "name": "Coronel Castañeda",
+      "provinceId": "0506",
+      "departmentId": "05",
+      "inei": "050703",
+      "entityId": 516
+    },
+    {
+      "id": "050608",
+      "name": "Pacapausa",
+      "provinceId": "0506",
+      "departmentId": "05",
+      "inei": "050704",
+      "entityId": 517
+    },
+    {
+      "id": "050611",
+      "name": "Pullo",
+      "provinceId": "0506",
+      "departmentId": "05",
+      "inei": "050705",
+      "entityId": 518
+    },
+    {
+      "id": "050612",
+      "name": "Puyusca",
+      "provinceId": "0506",
+      "departmentId": "05",
+      "inei": "050706",
+      "entityId": 519
+    },
+    {
+      "id": "050615",
+      "name": "San Francisco De Ravacayco",
+      "provinceId": "0506",
+      "departmentId": "05",
+      "inei": "050707",
+      "entityId": 520
+    },
+    {
+      "id": "050616",
+      "name": "Upahuacho",
+      "provinceId": "0506",
+      "departmentId": "05",
+      "inei": "050708",
+      "entityId": 521
+    }
+  ]
+}

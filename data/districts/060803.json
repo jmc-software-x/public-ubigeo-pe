@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0608",
+    "name": "Jaen"
+  },
+  "district": {
+    "id": "060803",
+    "name": "Colasay",
+    "provinceId": "0608",
+    "departmentId": "06",
+    "inei": "060804",
+    "entityId": 639
+  }
+}

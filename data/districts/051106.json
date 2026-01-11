@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "05",
+    "name": "Ayacucho"
+  },
+  "province": {
+    "id": "0511",
+    "name": "Sucre"
+  },
+  "district": {
+    "id": "051106",
+    "name": "Santiago De Paucaray",
+    "provinceId": "0511",
+    "departmentId": "05",
+    "inei": "050910",
+    "entityId": 541
+  }
+}

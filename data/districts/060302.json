@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0603",
+    "name": "Celendin"
+  },
+  "district": {
+    "id": "060302",
+    "name": "Cortegana",
+    "provinceId": "0603",
+    "departmentId": "06",
+    "inei": "060303",
+    "entityId": 581
+  }
+}

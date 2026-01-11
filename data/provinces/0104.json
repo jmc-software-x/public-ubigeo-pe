@@ -1,0 +1,196 @@
+{
+  "department": {
+    "id": "01",
+    "name": "Amazonas"
+  },
+  "province": {
+    "id": "0104",
+    "name": "Luya"
+  },
+  "districts": [
+    {
+      "id": "010402",
+      "name": "Camporredondo",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010502",
+      "entityId": 44
+    },
+    {
+      "id": "010403",
+      "name": "Cocabamba",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010503",
+      "entityId": 45
+    },
+    {
+      "id": "010404",
+      "name": "Colcamar",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010504",
+      "entityId": 46
+    },
+    {
+      "id": "010405",
+      "name": "Conila",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010505",
+      "entityId": 47
+    },
+    {
+      "id": "010406",
+      "name": "Inguilpata",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010506",
+      "entityId": 48
+    },
+    {
+      "id": "010401",
+      "name": "Lamud",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010501",
+      "entityId": 43
+    },
+    {
+      "id": "010407",
+      "name": "Longuita",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010507",
+      "entityId": 49
+    },
+    {
+      "id": "010408",
+      "name": "Lonya Chico",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010508",
+      "entityId": 50
+    },
+    {
+      "id": "010409",
+      "name": "Luya",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010509",
+      "entityId": 51
+    },
+    {
+      "id": "010410",
+      "name": "Luya Viejo",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010510",
+      "entityId": 52
+    },
+    {
+      "id": "010411",
+      "name": "Maria",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010511",
+      "entityId": 53
+    },
+    {
+      "id": "010412",
+      "name": "Ocalli",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010512",
+      "entityId": 54
+    },
+    {
+      "id": "010413",
+      "name": "Ocumal",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010513",
+      "entityId": 55
+    },
+    {
+      "id": "010414",
+      "name": "Pisuquia",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010514",
+      "entityId": 56
+    },
+    {
+      "id": "010423",
+      "name": "Providencia",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010515",
+      "entityId": 57
+    },
+    {
+      "id": "010415",
+      "name": "San Cristobal",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010516",
+      "entityId": 58
+    },
+    {
+      "id": "010416",
+      "name": "San Francisco Del Yeso",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010517",
+      "entityId": 59
+    },
+    {
+      "id": "010417",
+      "name": "San Jeronimo",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010518",
+      "entityId": 60
+    },
+    {
+      "id": "010418",
+      "name": "San Juan De Lopecancha",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010519",
+      "entityId": 61
+    },
+    {
+      "id": "010419",
+      "name": "Santa Catalina",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010520",
+      "entityId": 62
+    },
+    {
+      "id": "010420",
+      "name": "Santo Tomas",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010521",
+      "entityId": 63
+    },
+    {
+      "id": "010421",
+      "name": "Tingo",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010522",
+      "entityId": 64
+    },
+    {
+      "id": "010422",
+      "name": "Trita",
+      "provinceId": "0104",
+      "departmentId": "01",
+      "inei": "010523",
+      "entityId": 65
+    }
+  ]
+}

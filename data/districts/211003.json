@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2110",
+    "name": "El Dorado"
+  },
+  "district": {
+    "id": "211003",
+    "name": "Shatoja",
+    "provinceId": "2110",
+    "departmentId": "21",
+    "inei": "220305",
+    "entityId": 1757
+  }
+}

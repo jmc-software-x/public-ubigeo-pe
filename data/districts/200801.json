@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "20",
+    "name": "Puno"
+  },
+  "province": {
+    "id": "2008",
+    "name": "Sandia"
+  },
+  "district": {
+    "id": "200801",
+    "name": "Sandia",
+    "provinceId": "2008",
+    "departmentId": "20",
+    "inei": "211201",
+    "entityId": 1724
+  }
+}

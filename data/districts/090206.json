@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "09",
+    "name": "Huanuco"
+  },
+  "province": {
+    "id": "0902",
+    "name": "Ambo"
+  },
+  "district": {
+    "id": "090206",
+    "name": "San Francisco",
+    "provinceId": "0902",
+    "departmentId": "09",
+    "inei": "100206",
+    "entityId": 927
+  }
+}

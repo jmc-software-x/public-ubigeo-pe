@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0705",
+    "name": "Canas"
+  },
+  "district": {
+    "id": "070501",
+    "name": "Yanaoca",
+    "provinceId": "0705",
+    "departmentId": "07",
+    "inei": "080501",
+    "entityId": 729
+  }
+}

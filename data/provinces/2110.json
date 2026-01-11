@@ -1,0 +1,52 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2110",
+    "name": "El Dorado"
+  },
+  "districts": [
+    {
+      "id": "211002",
+      "name": "Agua Blanca",
+      "provinceId": "2110",
+      "departmentId": "21",
+      "inei": "220302",
+      "entityId": 1754
+    },
+    {
+      "id": "211001",
+      "name": "San Jose De Sisa",
+      "provinceId": "2110",
+      "departmentId": "21",
+      "inei": "220301",
+      "entityId": 1753
+    },
+    {
+      "id": "211004",
+      "name": "San Martin",
+      "provinceId": "2110",
+      "departmentId": "21",
+      "inei": "220303",
+      "entityId": 1755
+    },
+    {
+      "id": "211005",
+      "name": "Santa Rosa",
+      "provinceId": "2110",
+      "departmentId": "21",
+      "inei": "220304",
+      "entityId": 1756
+    },
+    {
+      "id": "211003",
+      "name": "Shatoja",
+      "provinceId": "2110",
+      "departmentId": "21",
+      "inei": "220305",
+      "entityId": 1757
+    }
+  ]
+}

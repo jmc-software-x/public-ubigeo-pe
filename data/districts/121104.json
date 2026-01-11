@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "12",
+    "name": "La Libertad"
+  },
+  "province": {
+    "id": "1211",
+    "name": "Gran Chimu"
+  },
+  "district": {
+    "id": "121104",
+    "name": "Sayapullo",
+    "provinceId": "1211",
+    "departmentId": "12",
+    "inei": "131104",
+    "entityId": 1239
+  }
+}

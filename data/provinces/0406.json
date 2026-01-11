@@ -1,0 +1,76 @@
+{
+  "department": {
+    "id": "04",
+    "name": "Arequipa"
+  },
+  "province": {
+    "id": "0406",
+    "name": "Condesuyos"
+  },
+  "districts": [
+    {
+      "id": "040602",
+      "name": "Andaray",
+      "provinceId": "0406",
+      "departmentId": "04",
+      "inei": null,
+      "entityId": 420
+    },
+    {
+      "id": "040603",
+      "name": "Cayarani",
+      "provinceId": "0406",
+      "departmentId": "04",
+      "inei": null,
+      "entityId": 421
+    },
+    {
+      "id": "040604",
+      "name": "Chichas",
+      "provinceId": "0406",
+      "departmentId": "04",
+      "inei": null,
+      "entityId": 422
+    },
+    {
+      "id": "040601",
+      "name": "Chuquibamba",
+      "provinceId": "0406",
+      "departmentId": "04",
+      "inei": null,
+      "entityId": 419
+    },
+    {
+      "id": "040605",
+      "name": "Iray",
+      "provinceId": "0406",
+      "departmentId": "04",
+      "inei": null,
+      "entityId": 423
+    },
+    {
+      "id": "040608",
+      "name": "Rio Grande",
+      "provinceId": "0406",
+      "departmentId": "04",
+      "inei": "040606",
+      "entityId": 424
+    },
+    {
+      "id": "040606",
+      "name": "Salamanca",
+      "provinceId": "0406",
+      "departmentId": "04",
+      "inei": "040607",
+      "entityId": 425
+    },
+    {
+      "id": "040607",
+      "name": "Yanaquihua",
+      "provinceId": "0406",
+      "departmentId": "04",
+      "inei": "040608",
+      "entityId": 426
+    }
+  ]
+}

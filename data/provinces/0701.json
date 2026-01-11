@@ -1,0 +1,76 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0701",
+    "name": "Cusco"
+  },
+  "districts": [
+    {
+      "id": "070102",
+      "name": "Ccorca",
+      "provinceId": "0701",
+      "departmentId": "07",
+      "inei": "080102",
+      "entityId": 698
+    },
+    {
+      "id": "070101",
+      "name": "Cusco",
+      "provinceId": "0701",
+      "departmentId": "07",
+      "inei": "080101",
+      "entityId": 697
+    },
+    {
+      "id": "070103",
+      "name": "Poroy",
+      "provinceId": "0701",
+      "departmentId": "07",
+      "inei": "080103",
+      "entityId": 699
+    },
+    {
+      "id": "070104",
+      "name": "San Jeronimo",
+      "provinceId": "0701",
+      "departmentId": "07",
+      "inei": "080104",
+      "entityId": 700
+    },
+    {
+      "id": "070105",
+      "name": "San Sebastian",
+      "provinceId": "0701",
+      "departmentId": "07",
+      "inei": "080105",
+      "entityId": 701
+    },
+    {
+      "id": "070106",
+      "name": "Santiago",
+      "provinceId": "0701",
+      "departmentId": "07",
+      "inei": "080106",
+      "entityId": 702
+    },
+    {
+      "id": "070107",
+      "name": "Saylla",
+      "provinceId": "0701",
+      "departmentId": "07",
+      "inei": "080107",
+      "entityId": 703
+    },
+    {
+      "id": "070108",
+      "name": "Wanchaq",
+      "provinceId": "0701",
+      "departmentId": "07",
+      "inei": "080108",
+      "entityId": 704
+    }
+  ]
+}

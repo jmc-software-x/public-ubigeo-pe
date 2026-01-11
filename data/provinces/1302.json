@@ -1,0 +1,60 @@
+{
+  "department": {
+    "id": "13",
+    "name": "Lambayeque"
+  },
+  "province": {
+    "id": "1302",
+    "name": "Ferreñafe"
+  },
+  "districts": [
+    {
+      "id": "130203",
+      "name": "Cañaris",
+      "provinceId": "1302",
+      "departmentId": "13",
+      "inei": "140202",
+      "entityId": 1264
+    },
+    {
+      "id": "130201",
+      "name": "Ferreñafe",
+      "provinceId": "1302",
+      "departmentId": "13",
+      "inei": "140201",
+      "entityId": 1263
+    },
+    {
+      "id": "130202",
+      "name": "Incahuasi",
+      "provinceId": "1302",
+      "departmentId": "13",
+      "inei": "140203",
+      "entityId": 1265
+    },
+    {
+      "id": "130206",
+      "name": "Manuel Antonio Mesones Muro",
+      "provinceId": "1302",
+      "departmentId": "13",
+      "inei": "140204",
+      "entityId": 1266
+    },
+    {
+      "id": "130204",
+      "name": "Pitipo",
+      "provinceId": "1302",
+      "departmentId": "13",
+      "inei": "140205",
+      "entityId": 1267
+    },
+    {
+      "id": "130205",
+      "name": "Pueblo Nuevo",
+      "provinceId": "1302",
+      "departmentId": "13",
+      "inei": "140206",
+      "entityId": 1268
+    }
+  ]
+}

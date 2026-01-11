@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1401",
+    "name": "Lima"
+  },
+  "district": {
+    "id": "140114",
+    "name": "Magdalena Del Mar",
+    "provinceId": "1401",
+    "departmentId": "14",
+    "inei": "150120",
+    "entityId": 1300
+  }
+}

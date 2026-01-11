@@ -1,0 +1,92 @@
+{
+  "department": {
+    "id": "20",
+    "name": "Puno"
+  },
+  "province": {
+    "id": "2003",
+    "name": "Carabaya"
+  },
+  "districts": [
+    {
+      "id": "200302",
+      "name": "Ajoyani",
+      "provinceId": "2003",
+      "departmentId": "20",
+      "inei": "210302",
+      "entityId": 1662
+    },
+    {
+      "id": "200303",
+      "name": "Ayapata",
+      "provinceId": "2003",
+      "departmentId": "20",
+      "inei": "210303",
+      "entityId": 1663
+    },
+    {
+      "id": "200304",
+      "name": "Coasa",
+      "provinceId": "2003",
+      "departmentId": "20",
+      "inei": "210304",
+      "entityId": 1664
+    },
+    {
+      "id": "200305",
+      "name": "Corani",
+      "provinceId": "2003",
+      "departmentId": "20",
+      "inei": "210305",
+      "entityId": 1665
+    },
+    {
+      "id": "200306",
+      "name": "Crucero",
+      "provinceId": "2003",
+      "departmentId": "20",
+      "inei": "210306",
+      "entityId": 1666
+    },
+    {
+      "id": "200307",
+      "name": "Ituata",
+      "provinceId": "2003",
+      "departmentId": "20",
+      "inei": "210307",
+      "entityId": 1667
+    },
+    {
+      "id": "200301",
+      "name": "Macusani",
+      "provinceId": "2003",
+      "departmentId": "20",
+      "inei": "210301",
+      "entityId": 1661
+    },
+    {
+      "id": "200308",
+      "name": "Ollachea",
+      "provinceId": "2003",
+      "departmentId": "20",
+      "inei": "210308",
+      "entityId": 1668
+    },
+    {
+      "id": "200309",
+      "name": "San Gaban",
+      "provinceId": "2003",
+      "departmentId": "20",
+      "inei": "210309",
+      "entityId": 1669
+    },
+    {
+      "id": "200310",
+      "name": "Usicayos",
+      "provinceId": "2003",
+      "departmentId": "20",
+      "inei": "210310",
+      "entityId": 1670
+    }
+  ]
+}

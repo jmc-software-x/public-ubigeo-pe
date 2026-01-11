@@ -1,0 +1,60 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2107",
+    "name": "Bellavista"
+  },
+  "districts": [
+    {
+      "id": "210704",
+      "name": "Alto Biavo",
+      "provinceId": "2107",
+      "departmentId": "21",
+      "inei": "220202",
+      "entityId": 1748
+    },
+    {
+      "id": "210706",
+      "name": "Bajo Biavo",
+      "provinceId": "2107",
+      "departmentId": "21",
+      "inei": "220203",
+      "entityId": 1749
+    },
+    {
+      "id": "210701",
+      "name": "Bellavista",
+      "provinceId": "2107",
+      "departmentId": "21",
+      "inei": "220201",
+      "entityId": 1747
+    },
+    {
+      "id": "210705",
+      "name": "Huallaga",
+      "provinceId": "2107",
+      "departmentId": "21",
+      "inei": "220204",
+      "entityId": 1750
+    },
+    {
+      "id": "210703",
+      "name": "San Pablo",
+      "provinceId": "2107",
+      "departmentId": "21",
+      "inei": "220205",
+      "entityId": 1751
+    },
+    {
+      "id": "210702",
+      "name": "San Rafael",
+      "provinceId": "2107",
+      "departmentId": "21",
+      "inei": "220206",
+      "entityId": 1752
+    }
+  ]
+}

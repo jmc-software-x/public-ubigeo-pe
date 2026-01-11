@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0708",
+    "name": "Espinar"
+  },
+  "district": {
+    "id": "070805",
+    "name": "Pallpata",
+    "provinceId": "0708",
+    "departmentId": "07",
+    "inei": "080805",
+    "entityId": 757
+  }
+}

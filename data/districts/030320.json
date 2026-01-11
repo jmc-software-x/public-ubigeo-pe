@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "03",
+    "name": "Apurimac"
+  },
+  "province": {
+    "id": "0303",
+    "name": "Andahuaylas"
+  },
+  "district": {
+    "id": "030320",
+    "name": "Jose Maria Arguedas",
+    "provinceId": "0303",
+    "departmentId": "03",
+    "inei": "030220",
+    "entityId": 279
+  }
+}

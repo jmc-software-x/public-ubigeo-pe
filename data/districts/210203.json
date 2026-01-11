@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2102",
+    "name": "Huallaga"
+  },
+  "district": {
+    "id": "210203",
+    "name": "Sacanche",
+    "provinceId": "2102",
+    "departmentId": "21",
+    "inei": "220405",
+    "entityId": 1762
+  }
+}

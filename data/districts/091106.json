@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "09",
+    "name": "Huanuco"
+  },
+  "province": {
+    "id": "0911",
+    "name": "Yarowilca"
+  },
+  "district": {
+    "id": "091106",
+    "name": "Obas",
+    "provinceId": "0911",
+    "departmentId": "09",
+    "inei": "101106",
+    "entityId": 990
+  }
+}

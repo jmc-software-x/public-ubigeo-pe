@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "07",
+    "name": "Cusco"
+  },
+  "province": {
+    "id": "0710",
+    "name": "Paruro"
+  },
+  "district": {
+    "id": "071005",
+    "name": "Huanoquite",
+    "provinceId": "0710",
+    "departmentId": "07",
+    "inei": "081005",
+    "entityId": 779
+  }
+}

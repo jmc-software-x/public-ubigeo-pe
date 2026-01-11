@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "05",
+    "name": "Ayacucho"
+  },
+  "province": {
+    "id": "0503",
+    "name": "Huanta"
+  },
+  "district": {
+    "id": "050311",
+    "name": "Uchuraccay",
+    "provinceId": "0503",
+    "departmentId": "05",
+    "inei": "050410",
+    "entityId": 479
+  }
+}

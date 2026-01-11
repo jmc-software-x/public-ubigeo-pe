@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "15",
+    "name": "Loreto"
+  },
+  "province": {
+    "id": "1504",
+    "name": "Requena"
+  },
+  "district": {
+    "id": "150411",
+    "name": "Yaquerana",
+    "provinceId": "1504",
+    "departmentId": "15",
+    "inei": "160511",
+    "entityId": 1489
+  }
+}

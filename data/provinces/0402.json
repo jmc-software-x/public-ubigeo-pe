@@ -1,0 +1,172 @@
+{
+  "department": {
+    "id": "04",
+    "name": "Arequipa"
+  },
+  "province": {
+    "id": "0402",
+    "name": "Caylloma"
+  },
+  "districts": [
+    {
+      "id": "040202",
+      "name": "Achoma",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040502",
+      "entityId": 400
+    },
+    {
+      "id": "040203",
+      "name": "Cabanaconde",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040503",
+      "entityId": 401
+    },
+    {
+      "id": "040205",
+      "name": "Callalli",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040504",
+      "entityId": 402
+    },
+    {
+      "id": "040204",
+      "name": "Caylloma",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040505",
+      "entityId": 403
+    },
+    {
+      "id": "040201",
+      "name": "Chivay",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040501",
+      "entityId": 399
+    },
+    {
+      "id": "040206",
+      "name": "Coporaque",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040506",
+      "entityId": 404
+    },
+    {
+      "id": "040207",
+      "name": "Huambo",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040507",
+      "entityId": 405
+    },
+    {
+      "id": "040208",
+      "name": "Huanca",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040508",
+      "entityId": 406
+    },
+    {
+      "id": "040209",
+      "name": "Ichupampa",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040509",
+      "entityId": 407
+    },
+    {
+      "id": "040210",
+      "name": "Lari",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040510",
+      "entityId": 408
+    },
+    {
+      "id": "040211",
+      "name": "Lluta",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040511",
+      "entityId": 409
+    },
+    {
+      "id": "040212",
+      "name": "Maca",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040512",
+      "entityId": 410
+    },
+    {
+      "id": "040213",
+      "name": "Madrigal",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040513",
+      "entityId": 411
+    },
+    {
+      "id": "040220",
+      "name": "Majes",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040520",
+      "entityId": 418
+    },
+    {
+      "id": "040214",
+      "name": "San Antonio De Chuca",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040514",
+      "entityId": 412
+    },
+    {
+      "id": "040215",
+      "name": "Sibayo",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040515",
+      "entityId": 413
+    },
+    {
+      "id": "040216",
+      "name": "Tapay",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040516",
+      "entityId": 414
+    },
+    {
+      "id": "040217",
+      "name": "Tisco",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040517",
+      "entityId": 415
+    },
+    {
+      "id": "040218",
+      "name": "Tuti",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040518",
+      "entityId": 416
+    },
+    {
+      "id": "040219",
+      "name": "Yanque",
+      "provinceId": "0402",
+      "departmentId": "04",
+      "inei": "040519",
+      "entityId": 417
+    }
+  ]
+}

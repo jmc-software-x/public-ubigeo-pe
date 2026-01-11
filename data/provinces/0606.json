@@ -1,0 +1,164 @@
+{
+  "department": {
+    "id": "06",
+    "name": "Cajamarca"
+  },
+  "province": {
+    "id": "0606",
+    "name": "Chota"
+  },
+  "districts": [
+    {
+      "id": "060602",
+      "name": "Anguia",
+      "provinceId": "0606",
+      "departmentId": "06",
+      "inei": "060402",
+      "entityId": 592
+    },
+    {
+      "id": "060605",
+      "name": "Chadin",
+      "provinceId": "0606",
+      "departmentId": "06",
+      "inei": "060403",
+      "entityId": 593
+    },
+    {
+      "id": "060619",
+      "name": "Chalamarca",
+      "provinceId": "0606",
+      "departmentId": "06",
+      "inei": "060419",
+      "entityId": 609
+    },
+    {
+      "id": "060606",
+      "name": "Chiguirip",
+      "provinceId": "0606",
+      "departmentId": "06",
+      "inei": "060404",
+      "entityId": 594
+    },
+    {
+      "id": "060607",
+      "name": "Chimban",
+      "provinceId": "0606",
+      "departmentId": "06",
+      "inei": "060405",
+      "entityId": 595
+    },
+    {
+      "id": "060618",
+      "name": "Choropampa",
+      "provinceId": "0606",
+      "departmentId": "06",
+      "inei": "060406",
+      "entityId": 596
+    },
+    {
+      "id": "060601",
+      "name": "Chota",
+      "provinceId": "0606",
+      "departmentId": "06",
+      "inei": "060401",
+      "entityId": 591
+    },
+    {
+      "id": "060603",
+      "name": "Cochabamba",
+      "provinceId": "0606",
+      "departmentId": "06",
+      "inei": "060407",
+      "entityId": 597
+    },
+    {
+      "id": "060604",
+      "name": "Conchan",
+      "provinceId": "0606",
+      "departmentId": "06",
+      "inei": "060408",
+      "entityId": 598
+    },
+    {
+      "id": "060608",
+      "name": "Huambos",
+      "provinceId": "0606",
+      "departmentId": "06",
+      "inei": "060409",
+      "entityId": 599
+    },
+    {
+      "id": "060609",
+      "name": "Lajas",
+      "provinceId": "0606",
+      "departmentId": "06",
+      "inei": "060410",
+      "entityId": 600
+    },
+    {
+      "id": "060610",
+      "name": "Llama",
+      "provinceId": "0606",
+      "departmentId": "06",
+      "inei": "060411",
+      "entityId": 601
+    },
+    {
+      "id": "060611",
+      "name": "Miracosta",
+      "provinceId": "0606",
+      "departmentId": "06",
+      "inei": "060412",
+      "entityId": 602
+    },
+    {
+      "id": "060612",
+      "name": "Paccha",
+      "provinceId": "0606",
+      "departmentId": "06",
+      "inei": "060413",
+      "entityId": 603
+    },
+    {
+      "id": "060613",
+      "name": "Pion",
+      "provinceId": "0606",
+      "departmentId": "06",
+      "inei": "060414",
+      "entityId": 604
+    },
+    {
+      "id": "060614",
+      "name": "Querocoto",
+      "provinceId": "0606",
+      "departmentId": "06",
+      "inei": "060415",
+      "entityId": 605
+    },
+    {
+      "id": "060617",
+      "name": "San Juan De Licupis",
+      "provinceId": "0606",
+      "departmentId": "06",
+      "inei": "060416",
+      "entityId": 606
+    },
+    {
+      "id": "060615",
+      "name": "Tacabamba",
+      "provinceId": "0606",
+      "departmentId": "06",
+      "inei": "060417",
+      "entityId": 607
+    },
+    {
+      "id": "060616",
+      "name": "Tocmoche",
+      "provinceId": "0606",
+      "departmentId": "06",
+      "inei": "060418",
+      "entityId": 608
+    }
+  ]
+}

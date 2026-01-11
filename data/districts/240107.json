@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "24",
+    "name": "Callao"
+  },
+  "province": {
+    "id": "2401",
+    "name": "Callao"
+  },
+  "district": {
+    "id": "240107",
+    "name": "Mi Peru",
+    "provinceId": "2401",
+    "departmentId": "24",
+    "inei": "070107",
+    "entityId": 696
+  }
+}

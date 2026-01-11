@@ -1,0 +1,92 @@
+{
+  "department": {
+    "id": "09",
+    "name": "Huanuco"
+  },
+  "province": {
+    "id": "0906",
+    "name": "Leoncio Prado"
+  },
+  "districts": [
+    {
+      "id": "090608",
+      "name": "Castillo Grande",
+      "provinceId": "0906",
+      "departmentId": "09",
+      "inei": "100608",
+      "entityId": 961
+    },
+    {
+      "id": "090602",
+      "name": "Daniel Alomias Robles",
+      "provinceId": "0906",
+      "departmentId": "09",
+      "inei": "100602",
+      "entityId": 955
+    },
+    {
+      "id": "090603",
+      "name": "Hermilio Valdizan",
+      "provinceId": "0906",
+      "departmentId": "09",
+      "inei": "100603",
+      "entityId": 956
+    },
+    {
+      "id": "090606",
+      "name": "Jose Crespo Y Castillo",
+      "provinceId": "0906",
+      "departmentId": "09",
+      "inei": "100604",
+      "entityId": 957
+    },
+    {
+      "id": "090604",
+      "name": "Luyando",
+      "provinceId": "0906",
+      "departmentId": "09",
+      "inei": "100605",
+      "entityId": 958
+    },
+    {
+      "id": "090605",
+      "name": "Mariano Damaso Beraun",
+      "provinceId": "0906",
+      "departmentId": "09",
+      "inei": "100606",
+      "entityId": 959
+    },
+    {
+      "id": "090607",
+      "name": "Pucayacu",
+      "provinceId": "0906",
+      "departmentId": "09",
+      "inei": "100607",
+      "entityId": 960
+    },
+    {
+      "id": "090609",
+      "name": "Pueblo Nuevo",
+      "provinceId": "0906",
+      "departmentId": "09",
+      "inei": "100609",
+      "entityId": 962
+    },
+    {
+      "id": "090601",
+      "name": "Rupa-rupa",
+      "provinceId": "0906",
+      "departmentId": "09",
+      "inei": "100601",
+      "entityId": 954
+    },
+    {
+      "id": "090610",
+      "name": "Santo Domingo De Anda",
+      "provinceId": "0906",
+      "departmentId": "09",
+      "inei": "100610",
+      "entityId": 963
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "23",
+    "name": "Tumbes"
+  },
+  "province": {
+    "id": "2303",
+    "name": "Zarumilla"
+  },
+  "district": {
+    "id": "230304",
+    "name": "Aguas Verdes",
+    "provinceId": "2303",
+    "departmentId": "23",
+    "inei": "240302",
+    "entityId": 1856
+  }
+}

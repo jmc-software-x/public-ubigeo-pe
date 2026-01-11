@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "15",
+    "name": "Loreto"
+  },
+  "province": {
+    "id": "1501",
+    "name": "Maynas"
+  },
+  "district": {
+    "id": "150114",
+    "name": "Teniente Manuel Clavero",
+    "provinceId": "1501",
+    "departmentId": "15",
+    "inei": "160114",
+    "entityId": 1894
+  }
+}

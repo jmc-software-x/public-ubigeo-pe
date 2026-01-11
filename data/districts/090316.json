@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "09",
+    "name": "Huanuco"
+  },
+  "province": {
+    "id": "0903",
+    "name": "Dos De Mayo"
+  },
+  "district": {
+    "id": "090316",
+    "name": "Quivilla",
+    "provinceId": "0903",
+    "departmentId": "09",
+    "inei": "100316",
+    "entityId": 934
+  }
+}

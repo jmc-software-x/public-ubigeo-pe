@@ -1,0 +1,18 @@
+{
+  "department": {
+    "id": "14",
+    "name": "Lima"
+  },
+  "province": {
+    "id": "1401",
+    "name": "Lima"
+  },
+  "district": {
+    "id": "140138",
+    "name": "San Luis",
+    "provinceId": "1401",
+    "departmentId": "14",
+    "inei": "150134",
+    "entityId": 1314
+  }
+}

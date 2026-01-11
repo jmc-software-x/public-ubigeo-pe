@@ -1,0 +1,52 @@
+{
+  "department": {
+    "id": "21",
+    "name": "San Martin"
+  },
+  "province": {
+    "id": "2104",
+    "name": "Mariscal Caceres"
+  },
+  "districts": [
+    {
+      "id": "210402",
+      "name": "Campanilla",
+      "provinceId": "2104",
+      "departmentId": "21",
+      "inei": "220602",
+      "entityId": 1776
+    },
+    {
+      "id": "210403",
+      "name": "Huicungo",
+      "provinceId": "2104",
+      "departmentId": "21",
+      "inei": "220603",
+      "entityId": 1777
+    },
+    {
+      "id": "210401",
+      "name": "Juanjui",
+      "provinceId": "2104",
+      "departmentId": "21",
+      "inei": "220601",
+      "entityId": 1775
+    },
+    {
+      "id": "210404",
+      "name": "Pachiza",
+      "provinceId": "2104",
+      "departmentId": "21",
+      "inei": "220604",
+      "entityId": 1778
+    },
+    {
+      "id": "210405",
+      "name": "Pajarillo",
+      "provinceId": "2104",
+      "departmentId": "21",
+      "inei": "220605",
+      "entityId": 1779
+    }
+  ]
+}

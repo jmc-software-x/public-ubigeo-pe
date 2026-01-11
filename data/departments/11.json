@@ -1,0 +1,53 @@
+{
+  "department": {
+    "id": "11",
+    "name": "Junin"
+  },
+  "provinces": [
+    {
+      "id": "1108",
+      "name": "Chanchamayo",
+      "departmentId": "11"
+    },
+    {
+      "id": "1109",
+      "name": "Chupaca",
+      "departmentId": "11"
+    },
+    {
+      "id": "1102",
+      "name": "Concepcion",
+      "departmentId": "11"
+    },
+    {
+      "id": "1101",
+      "name": "Huancayo",
+      "departmentId": "11"
+    },
+    {
+      "id": "1103",
+      "name": "Jauja",
+      "departmentId": "11"
+    },
+    {
+      "id": "1104",
+      "name": "Junin",
+      "departmentId": "11"
+    },
+    {
+      "id": "1107",
+      "name": "Satipo",
+      "departmentId": "11"
+    },
+    {
+      "id": "1105",
+      "name": "Tarma",
+      "departmentId": "11"
+    },
+    {
+      "id": "1106",
+      "name": "Yauli",
+      "departmentId": "11"
+    }
+  ]
+}
