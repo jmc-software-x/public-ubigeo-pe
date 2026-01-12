@@ -68,8 +68,8 @@
                 <aside class="sidebar" aria-label="Información corporativa y endpoints">
 
                     <article class="qr-card" aria-label="QR de soporte">
-                        <h3>Soporte y aportes</h3>
-                        <p>Escanea un QR para yape o plin cuando necesites soporte prioritario.</p>
+                        <h3>Apoya a los proyectos Open Source</h3>
+                        <p>Escanea un QR para yape o plin para desplegar más proyectos.</p>
                         <div class="qr-grid">
                             <figure>
                                 <img src="./data/images/yape.jpeg" alt="QR de Yape JMC" loading="lazy">
@@ -83,8 +83,8 @@
                     </article>
                     
                     <article class="endpoints-card" aria-label="Endpoints disponibles">
-                        <h3>JSON listos para consumir</h3>
-                        <p>Todos los recursos se sirven desde GitHub Pages y se pueden consumir vía <code>fetch</code> o directamente en el navegador.</p>
+                        <h3>Documentacion y JSON listos para consumir</h3>
+                        <p><a href="https://github.com/jmc-software-x/public-ubigeo-pe" target="_blank" rel="noopener">Repositorio oficial en GitHub</a> Todos los recursos se pueden consumir vía <code>fetch + headers</code> o directamente en el navegador.</p>
                         <pre class="endpoint-code"><code>
     Departamentos
     <a href="https://jmc-software-x.github.io/public-ubigeo-pe/data/hierarchy.json" target="_blank" rel="noopener">hierarchy.json</a>
@@ -103,6 +103,23 @@
             </aside>
         </section>
         <footer> 
+            <article class="endpoints-card documentation" aria-label="Ejemplo de consumo">
+                    <h3>Ejemplo de uso en tu app</h3>
+                    <p>Para evitar preflight CORS, no fuerces <code>Content-Type</code> en peticiones GET; basta con aceptar JSON.</p>
+                    <pre class="endpoint-code"><code>
+const loadHierarchy = async () => {
+const res = await fetch(
+'https://jmc-software-x.github.io/public-ubigeo-pe/data/hierarchy.json',
+{
+headers: { Accept: 'application/json' }
+}
+);
+if (!res.ok) throw new Error(`HTTP ${res.status}`);
+const data = await res.json();
+setTest(data); // Renderiza con &lt;div&gt;{JSON.stringify(data, null, 2)}&lt;/div&gt;
+};
+                    </code></pre>
+            </article>
             <article class="about-card">
                     <p class="about-kicker">JMC-CORPORATION · RUC 20614882027</p>
                     <h2>Tu fuente confiable de datos UBIGEO</h2>

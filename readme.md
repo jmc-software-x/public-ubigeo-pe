@@ -62,6 +62,46 @@ const districtBundle = await response.json();
 
 El mismo patrón aplica a los otros archivos (`hierarchy`, `departments`, `provinces`) para poblar tus selects sin tocar bases de datos.
 
+### Ejemplo práctico (React/Vite)
+
+Cuando se consume desde un frontend moderno, evita fijar `Content-Type` manualmente en peticiones `GET` para no disparar un preflight CORS innecesario. Basta con aceptar JSON:
+
+```tsx
+const loadHierarchy = async () => {
+	try {
+		const res = await fetch(
+			'https://jmc-software-x.github.io/public-ubigeo-pe/data/hierarchy.json',
+			{
+				headers: {
+					Accept: 'application/json',
+				},
+			}
+		);
+
+		if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+		const data = await res.json();
+		setTest(data);
+		console.log('Datos:', data);
+	} catch (err) {
+		console.error('Error fetch:', err);
+		setTest(null);
+	}
+};
+
+useEffect(() => {
+	loadHierarchy();
+}, []);
+```
+
+Y en el JSX puedes renderizar la respuesta directamente:
+
+```jsx
+<pre>{JSON.stringify(test, null, 2)}</pre>
+```
+
+Reemplaza la URL por el endpoint específico que necesites (por ejemplo, `departments/15.json`). Mientras mantengas `Accept: application/json` y no fuerces otros headers, los servidores de GitHub (raw, jsDelivr o Pages con proxy) responderán sin errores de CORS.
+
 ## Sobre JMC-CORPORATION
 
 - **Razón social:** JMC-CORPORATION · RUC 20614882027
