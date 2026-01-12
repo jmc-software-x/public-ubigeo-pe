@@ -68,7 +68,6 @@ header p {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 1.5rem;
 }
 
@@ -140,10 +139,59 @@ button:not(:disabled):hover {
 }
 
 .actions {
-    margin-top: 1rem;
+    margin: 1rem;
     display: flex;
     gap: 0.75rem;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ubigeo-mode {
+    margin-top: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 0.75rem 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.ubigeo-mode legend {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    padding: 0 0.35rem;
+}
+
+.chip-radio {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 0.35rem 0.9rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.chip-radio input {
+    margin: 0;
+}
+
+.chip-radio span {
+    font-weight: 500;
+}
+
+.chip-radio input:checked + span {
+    color: var(--accent);
+}
+
+.ubigeo-hint {
+    margin: 0.5rem 0 0;
+    font-size: 0.85rem;
+    color: var(--muted);
 }
 
 .button-secondary {
@@ -157,12 +205,13 @@ button:not(:disabled):hover {
 }
 
 .status {
-    margin-top: 1rem;
+    margin: 1rem auto;
     font-size: 0.95rem;
     color: var(--muted);
 }
 
 .summary {
+    min-width: 214px;
     margin-top: 1rem;
     border-radius: 12px;
     padding: 1rem;

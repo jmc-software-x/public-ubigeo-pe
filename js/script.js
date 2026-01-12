@@ -28,6 +28,7 @@ class UbigeoRepository {
 		this.departmentsById = new Map();
 		this.provincesById = new Map();
 		this.districtsByUbigeo = new Map();
+		this.districtsByInei = new Map();
 	}
 
 	async bootstrap() {
@@ -51,6 +52,7 @@ class UbigeoRepository {
 		this.departmentsById.clear();
 		this.provincesById.clear();
 		this.districtsByUbigeo.clear();
+		this.districtsByInei.clear();
 
 		const departments = [];
 
@@ -76,6 +78,9 @@ class UbigeoRepository {
 							entityId: metadata.id ?? null,
 						};
 						this.districtsByUbigeo.set(district.id, district);
+						if (district.inei) {
+							this.districtsByInei.set(normalizeUbigeo(district.inei), district);
+						}
 						return district;
 					})
 					.sort((a, b) => collator.compare(a.name, b.name));
@@ -149,6 +154,17 @@ class UbigeoRepository {
 		const department = this.departmentsById.get(district.departmentId);
 		return clone({ department, province, district });
 	}
+
+	lookupByInei(code) {
+		const normalized = normalizeUbigeo(code);
+		const district = this.districtsByInei.get(normalized);
+		if (!district) {
+			return null;
+		}
+		const province = this.provincesById.get(district.provinceId);
+		const department = this.departmentsById.get(district.departmentId);
+		return clone({ department, province, district });
+	}
 }
 
 class UbigeoCascadeController {
@@ -160,6 +176,7 @@ class UbigeoCascadeController {
 			provinceId: null,
 			districtId: null,
 		};
+		this.lookupMode = 'reniec';
 	}
 
 	async init() {
@@ -182,6 +199,27 @@ class UbigeoCascadeController {
 		this.elements.district.addEventListener('change', () => this.handleDistrictChange());
 		this.elements.lookupButton.addEventListener('click', () => this.handleUbigeoLookup());
 		this.elements.resetButton.addEventListener('click', () => this.resetForm());
+		this.bindLookupModeEvents();
+	}
+
+	bindLookupModeEvents() {
+		if (!this.elements.lookupTypeRadios?.length) {
+			return;
+		}
+		this.elements.lookupTypeRadios.forEach((input) => {
+			input.addEventListener('change', () => {
+				if (input.checked) {
+					this.lookupMode = input.value === 'inei' ? 'inei' : 'reniec';
+				}
+			});
+			if (input.checked) {
+				this.lookupMode = input.value === 'inei' ? 'inei' : 'reniec';
+			}
+		});
+	}
+
+	getLookupMode() {
+		return this.lookupMode;
 	}
 
 	populateDepartments() {
@@ -246,9 +284,14 @@ class UbigeoCascadeController {
 			return;
 		}
 
-		const match = this.repository.lookupByUbigeo(numericOnly);
+		const lookupMode = this.getLookupMode();
+		const match =
+			lookupMode === 'inei'
+				? this.repository.lookupByInei(numericOnly)
+				: this.repository.lookupByUbigeo(numericOnly);
 		if (!match) {
-			this.setStatus('No encontramos ese código UBIGEO.', true);
+			const label = lookupMode === 'inei' ? 'INEI' : 'RENIEC';
+			this.setStatus(`No encontramos ese código ${label}.`, true);
 			return;
 		}
 
@@ -256,7 +299,10 @@ class UbigeoCascadeController {
 		this.ensureDepartmentSelected(department.id, province.id);
 		this.ensureProvinceSelected(province.id, district.id);
 		this.ensureDistrictSelected(district.id);
-		this.setStatus(`Encontrado: ${department.name} / ${province.name} / ${district.name}`);
+		const label = lookupMode === 'inei' ? 'INEI' : 'RENIEC';
+		this.setStatus(
+			`Encontrado (${label}): ${department.name} / ${province.name} / ${district.name}`,
+		);
 	}
 
 	ensureDepartmentSelected(departmentId, selectedProvinceId = null) {
@@ -348,7 +394,8 @@ class UbigeoCascadeController {
 			{ label: 'Departamento', value: department?.name ?? PLACEHOLDER },
 			{ label: 'Provincia', value: province?.name ?? PLACEHOLDER },
 			{ label: 'Distrito', value: district?.name ?? PLACEHOLDER },
-			{ label: 'UBIGEO', value: district?.id ?? PLACEHOLDER },
+			{ label: 'UBIGEO (RENIEC)', value: district?.id ?? PLACEHOLDER },
+			{ label: 'UBIGEO (INEI)', value: district?.inei ?? PLACEHOLDER },
 		];
 
 		this.elements.summary.innerHTML = summaryEntries
@@ -366,6 +413,7 @@ const elements = {
 	ubigeoInput: document.getElementById('ubigeoInput'),
 	lookupButton: document.getElementById('ubigeoLookupButton'),
 	resetButton: document.getElementById('resetButton'),
+	lookupTypeRadios: document.querySelectorAll('input[name="ubigeoType"]'),
 };
 
 const repository = new UbigeoRepository(DATA_URL);

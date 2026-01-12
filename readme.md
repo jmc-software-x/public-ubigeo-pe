@@ -43,6 +43,8 @@ Esto permite URLs como:
 - `https://<user>.github.io/<repo>/data/departments/15.json`
 - `https://<user>.github.io/<repo>/data/provinces/1501.json`
 - `https://<user>.github.io/<repo>/data/districts/150101.json`
+- `https://<user>.github.io/<repo>/data/lookup/reniec/150101.json`
+- `https://<user>.github.io/<repo>/data/lookup/inei/150101.json`
 
 ## Uso local
 
@@ -101,6 +103,20 @@ Y en el JSX puedes renderizar la respuesta directamente:
 ```
 
 Reemplaza la URL por el endpoint específico que necesites (por ejemplo, `departments/15.json`). Mientras mantengas `Accept: application/json` y no fuerces otros headers, los servidores de GitHub (raw, jsDelivr o Pages con proxy) responderán sin errores de CORS.
+
+### Búsqueda UBIGEO por fuente oficial
+
+El buscador integrado ahora permite seleccionar la norma que necesitas antes de lanzar la consulta:
+
+- **RENIEC (default):** se usa para trámites civiles y coincide con los códigos `districts/{ubigeo}.json`.
+- **INEI:** útil para padrones estadísticos. Cada distrito incluye su código INEI (`district.inei`) y puedes consumir los catálogos planos `data/ubigeo-reniec.json` y `data/ubigeo-inei.json` si deseas procesarlos fuera del UI.
+
+El selector aparece junto al campo UBIGEO (dos radios RENIEC/INEI). Según la opción elegida, la aplicación busca en el mapa correspondiente y, si encuentra coincidencia, sincroniza automáticamente los selects de departamento, provincia y distrito. Si prefieres consultar desde otra app sin cargar toda la jerarquía, tienes disponibles los endpoints:
+
+- `data/lookup/reniec/{ubigeoReniec}.json`
+- `data/lookup/inei/{ubigeoInei}.json`
+
+Ambos devuelven el paquete completo `department/province/district`, más los metadatos `lookupType` y `lookupCode` para que sepas qué catálogo respondió la coincidencia.
 
 ## Sobre JMC-CORPORATION
 

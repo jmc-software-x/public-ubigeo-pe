@@ -38,12 +38,13 @@ const buildHierarchy = () => {
                     }
                     const departmentId = ubigeo.slice(0, 2);
                     const provinceId = ubigeo.slice(0, 4);
+                    const ineiCode = metadata.inei ? normalizeUbigeo(metadata.inei) : null;
                     return {
                         id: ubigeo,
                         name: normalizeName(districtNameRaw),
                         departmentId,
                         provinceId,
-                        inei: metadata.inei ?? null,
+                        inei: ineiCode && ineiCode !== '000000' ? ineiCode : null,
                         entityId: metadata.id ?? null,
                     };
                 })
@@ -107,6 +108,28 @@ const summarizeDistrict = (district) => ({
     inei: district.inei ?? null,
     entityId: district.entityId ?? null,
 });
+
+const buildDistrictPayload = (department, province, district) => ({
+    department: { id: department.id, name: department.name },
+    province: { id: province.id, name: province.name },
+    district: summarizeDistrict(district),
+});
+
+const writeLookupBundles = (bundle, district) => {
+    writeJson(`lookup/reniec/${district.id}.json`, {
+        lookupType: 'reniec',
+        lookupCode: district.id,
+        ...bundle,
+    });
+
+    if (district.inei) {
+        writeJson(`lookup/inei/${district.inei}.json`, {
+            lookupType: 'inei',
+            lookupCode: district.inei,
+            ...bundle,
+        });
+    }
+};
 
 const buildStaticEndpoints = () => {
     writeJson('hierarchy.json', hierarchy.map(({ id, name }) => ({ id, name })));
@@ -173,11 +196,9 @@ const writeDistrictBundle = (ubigeo) => {
         throw new Error(`Distrito ${ubigeo} no encontrado en la provincia ${provinceId}`);
     }
 
-    writeJson(`districts/${district.id}.json`, {
-        department: { id: department.id, name: department.name },
-        province: { id: province.id, name: province.name },
-        district: summarizeDistrict(district),
-    });
+    const bundle = buildDistrictPayload(department, province, district);
+    writeJson(`districts/${district.id}.json`, bundle);
+    writeLookupBundles(bundle, district);
 };
 
 buildStaticEndpoints();
