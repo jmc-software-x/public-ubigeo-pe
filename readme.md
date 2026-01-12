@@ -10,6 +10,18 @@ Frontend estático listo para GitHub Pages que expone el padrón UBIGEO oficial 
 
 El runtime es 100% cliente, lo que permite alojarlo en GitHub Pages, Cloudflare Pages u otro hosting CDN sin costo.
 
+- **Sitio publicado:** https://jmc-software-x.github.io/public-ubigeo-pe/
+
+## Despliegue automático (GitHub Pages)
+
+La carpeta `.github/workflows/deploy.yml` prepara un flujo 100% automatizado:
+
+1. Cada push a `main` (o un disparo manual `workflow_dispatch`) ejecuta `npm run build:data` en GitHub Actions.
+2. El resultado completo del repositorio se empaqueta como artefacto y se publica en GitHub Pages mediante `actions/deploy-pages`.
+3. Solo tienes que activar Pages en `Settings → Pages → Source → GitHub Actions`. El workflow se encargará del resto.
+
+Cuando el build termina, la URL pública queda registrada en el ambiente `github-pages` dentro del propio workflow.
+
 ## Generar endpoints estáticos
 
 El archivo fuente se parte en bundles listos para ser consumidos como si fueran endpoints REST.
@@ -49,3 +61,12 @@ const districtBundle = await response.json();
 ```
 
 El mismo patrón aplica a los otros archivos (`hierarchy`, `departments`, `provinces`) para poblar tus selects sin tocar bases de datos.
+
+## Sobre JMC-CORPORATION
+
+- **Razón social:** JMC-CORPORATION · RUC 20614882027
+- **Sitio web:** https://www.jmc-corporation.com/
+- **LinkedIn:** https://www.linkedin.com/in/jmc-business
+- **WhatsApp:** https://wa.me/51900284446
+
+> Deseamos unificar las fuentes de información y APIs comúnmente utilizados. Nuestro principal ideal es ayudar a los nuevos ingenieros a incorporar más rápido sus aplicaciones. Escanea los QR disponibles en la sección de soporte (Yape/Plin) para aportar o solicitar ayuda prioritaria.

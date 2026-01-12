@@ -148,6 +148,131 @@ button:not(:disabled):hover {
     min-width: 7rem;
 }
 
+.about {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.about-card,
+.qr-card {
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 1.75rem;
+    background: white;
+    box-shadow: 0 10px 30px rgba(18, 116, 117, 0.05);
+}
+
+.about-kicker {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin: 0 0 0.5rem;
+}
+
+.about-card h2 {
+    margin-top: 0;
+    font-size: 1.6rem;
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    color: var(--muted);
+}
+
+.about-list li + li {
+    margin-top: 0.5rem;
+}
+
+.about-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.4rem 1.2rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 500;
+    transition: background 150ms ease;
+}
+
+.chip:hover {
+    background: var(--accent-soft);
+}
+
+.qr-card h3 {
+    margin-top: 0;
+}
+
+.qr-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.qr-grid figure {
+    margin: 0;
+    text-align: center;
+}
+
+.qr-grid img {
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+}
+
+.qr-grid figcaption {
+    margin-top: 0.35rem;
+    font-size: 0.9rem;
+    color: var(--muted);
+}
+
+.endpoints-card h3 {
+    margin-top: 0;
+}
+
+.endpoint-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.endpoint-list li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.endpoint-list span {
+    font-size: 0.95rem;
+    color: var(--muted);
+}
+
+.endpoint-list a {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--accent);
+    word-break: break-all;
+}
+
+.endpoint-list a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 600px) {
     main {
         padding: 1.5rem;
