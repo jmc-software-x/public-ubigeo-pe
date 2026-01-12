@@ -20,84 +20,69 @@
 <body>
     <main>
         <header>
-            <h1>Ubigeo Perú Público</h1>
+            <h1>Ubigeo Perú Público!</h1>
             <p>Explora el padrón nacional de departamentos, provincias y distritos. Diseñado para integrarse en formularios que necesitan datos oficiales sin depender de bases de datos propietarias.</p>
         </header>
 
-        <div class="layout">
-            <section class="grid" aria-label="Selector en cascada">
-                <article class="panel">
-                    <h2>Selecciona la ubicación</h2>
-                    <label for="departmentSelect">Departamento</label>
-                    <select id="departmentSelect" disabled>
-                        <option value="">Cargando...</option>
-                    </select>
+        <section class="container">
+            <div class="layout">
+                <section class="grid" aria-label="Selector en cascada">
+                    <article class="panel">
+                        <h2>Selecciona la ubicación</h2>
+                        <label for="departmentSelect">Departamento</label>
+                        <select id="departmentSelect" disabled>
+                            <option value="">Cargando...</option>
+                        </select>
 
-                    <label for="provinceSelect">Provincia</label>
-                    <select id="provinceSelect" disabled>
-                        <option value="">Selecciona un departamento</option>
-                    </select>
+                        <label for="provinceSelect">Provincia</label>
+                        <select id="provinceSelect" disabled>
+                            <option value="">Selecciona un departamento</option>
+                        </select>
 
-                    <label for="districtSelect">Distrito</label>
-                    <select id="districtSelect" disabled>
-                        <option value="">Selecciona una provincia</option>
-                    </select>
+                        <label for="districtSelect">Distrito</label>
+                        <select id="districtSelect" disabled>
+                            <option value="">Selecciona una provincia</option>
+                        </select>
 
-                    <p class="status" id="statusMessage">Inicializando datos del padrón...</p>
-                </article>
+                        <p class="status" id="statusMessage">Inicializando datos del padrón...</p>
+                    </article>
 
-                <article class="panel">
-                    <h2>Consulta por UBIGEO</h2>
-                    <label for="ubigeoInput">Código UBIGEO (6 dígitos)</label>
-                    <input id="ubigeoInput" type="text" inputmode="numeric" maxlength="6" placeholder="Ej. 150101">
-                    <div class="actions">
-                        <button id="ubigeoLookupButton" type="button">Buscar</button>
-                        <button id="resetButton" type="button" class="button-secondary">Limpiar selección</button>
-                    </div>
-                    <div class="summary" id="selectionSummary">
-                        <p><strong>Departamento:</strong> —</p>
-                        <p><strong>Provincia:</strong> —</p>
-                        <p><strong>Distrito:</strong> —</p>
-                        <p><strong>UBIGEO:</strong> —</p>
-                    </div>
-                </article>
-            </section>
+                    <article class="panel">
+                        <h2>Consulta por UBIGEO</h2>
+                        <label for="ubigeoInput">Código UBIGEO (6 dígitos)</label>
+                        <input id="ubigeoInput" type="text" inputmode="numeric" maxlength="6" placeholder="Ej. 150101">
+                        <div class="actions">
+                            <button id="ubigeoLookupButton" type="button">Buscar</button>
+                            <button id="resetButton" type="button" class="button-secondary">Limpiar selección</button>
+                        </div>
+                        <div class="summary" id="selectionSummary">
+                            <p><strong>Departamento:</strong> —</p>
+                            <p><strong>Provincia:</strong> —</p>
+                            <p><strong>Distrito:</strong> —</p>
+                            <p><strong>UBIGEO:</strong> —</p>
+                        </div>
+                    </article>
+                </section>
 
-            <aside class="sidebar" aria-label="Información corporativa y endpoints">
-                <article class="about-card">
-                    <p class="about-kicker">JMC-CORPORATION · RUC 20614882027</p>
-                    <h2>Tu fuente confiable de datos UBIGEO</h2>
-                    <p>
-                        Deseamos unificar las fuentes de información y APIs comúnmente utilizados para que los nuevos
-                        ingenieros aceleren sus integraciones. Este servicio público garantiza datos oficiales sin fricción.
-                    </p>
-                    <ul class="about-list">
-                        <li>Web corporativa: <a href="https://www.jmc-corporation.com/" target="_blank" rel="noopener">jmc-corporation.com</a></li>
-                        <li>LinkedIn: <a href="https://www.linkedin.com/in/jmc-business" target="_blank" rel="noopener">/in/jmc-business</a></li>
-                        <li>WhatsApp: <a href="https://wa.me/51900284446" target="_blank" rel="noopener">+51 900 284 446</a></li>
-                        <li>Correo: <a href="mailto:contacto@jmc-corporation.com">contacto@jmc-corporation.com</a></li>
-                    </ul>
-                    <div class="about-links">
-                        <a class="chip" href="https://www.jmc-corporation.com/" target="_blank" rel="noopener">Visitar sitio</a>
-                        <a class="chip" href="https://www.linkedin.com/in/jmc-business" target="_blank" rel="noopener">LinkedIn</a>
-                        <a class="chip" href="https://wa.me/51900284446" target="_blank" rel="noopener">Contactar por WhatsApp</a>
-                    </div>
-                </article>
-                <article class="qr-card" aria-label="QR de soporte">
-                    <h3>Soporte y aportes</h3>
-                    <p>Escanea un QR para yape o plin cuando necesites soporte prioritario.</p>
-                    <div class="qr-grid">
-                        <figure>
-                            <img src="./data/images/yape.jpeg" alt="QR de Yape JMC" loading="lazy">
-                            <figcaption>Yape</figcaption>
-                        </figure>
-                        <figure>
-                            <img src="./data/images/plin.jpeg" alt="QR de Plin JMC" loading="lazy">
-                            <figcaption>Plin</figcaption>
-                        </figure>
-                    </div>
-                </article>
-                <article class="endpoints-card" aria-label="Endpoints disponibles">
+            </div>
+                <aside class="sidebar" aria-label="Información corporativa y endpoints">
+
+                    <article class="qr-card" aria-label="QR de soporte">
+                        <h3>Soporte y aportes</h3>
+                        <p>Escanea un QR para yape o plin cuando necesites soporte prioritario.</p>
+                        <div class="qr-grid">
+                            <figure>
+                                <img src="./data/images/yape.jpeg" alt="QR de Yape JMC" loading="lazy">
+                                <figcaption>Yape</figcaption>
+                            </figure>
+                            <figure>
+                                <img src="./data/images/plin.jpeg" alt="QR de Plin JMC" loading="lazy">
+                                <figcaption>Plin</figcaption>
+                            </figure>
+                        </div>
+                    </article>
+                    
+                    <article class="endpoints-card" aria-label="Endpoints disponibles">
                     <h3>JSON listos para consumir</h3>
                     <p>Todos los recursos se sirven desde GitHub Pages y se pueden consumir vía <code>fetch</code> o directamente en el navegador.</p>
                     <ul class="endpoint-list">
@@ -120,7 +105,28 @@
                     </ul>
                 </article>
             </aside>
-        </div>
+        </section>
+        <footer> 
+            <article class="about-card">
+                    <p class="about-kicker">JMC-CORPORATION · RUC 20614882027</p>
+                    <h2>Tu fuente confiable de datos UBIGEO</h2>
+                    <p>
+                        Deseamos unificar las fuentes de información y APIs comúnmente utilizados para que los nuevos
+                        ingenieros aceleren sus integraciones. Este servicio público garantiza datos oficiales sin fricción.
+                    </p>
+                    <ul class="about-list">
+                        <li>Web corporativa: <a href="https://www.jmc-corporation.com/" target="_blank" rel="noopener">jmc-corporation.com</a></li>
+                        <li>LinkedIn: <a href="https://www.linkedin.com/in/jmc-business" target="_blank" rel="noopener">/in/jmc-business</a></li>
+                        <li>WhatsApp: <a href="https://wa.me/51900284446" target="_blank" rel="noopener">+51 900 284 446</a></li>
+                        <li>Correo: <a href="mailto:contacto@jmc-corporation.com">contacto@jmc-corporation.com</a></li>
+                    </ul>
+                    <div class="about-links">
+                        <a class="chip" href="https://www.jmc-corporation.com/" target="_blank" rel="noopener">Visitar sitio</a>
+                        <a class="chip" href="https://www.linkedin.com/in/jmc-business" target="_blank" rel="noopener">LinkedIn</a>
+                        <a class="chip" href="https://wa.me/51900284446" target="_blank" rel="noopener">Contactar por WhatsApp</a>
+                    </div>
+                </article>
+        </footer>
     </main>
 
     <script src="./js/script.js" type="module"></script>
