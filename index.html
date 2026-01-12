@@ -54,7 +54,7 @@
                         <div style="display: flex; max-width: 500px; gap: 2rem; flex-wrap: wrap; justify-content: center;">
                             <div style="display: grid; gap: 1rem; max-width: 240px;">
                                 <fieldset class="ubigeo-mode" aria-label="Fuente del código UBIGEO">
-                                    <legend>Tipo de Busqueda</legend>
+                                    <legend>Tipo de búsqueda</legend>
                                     <label class="chip-radio">
                                         <input type="radio" name="ubigeoType" value="reniec" checked>
                                         <span>RENIEC</span>
@@ -66,7 +66,7 @@
                                 </fieldset>
                                 <label for="ubigeoInput">Código UBIGEO (6 dígitos)</label>
                                 <input id="ubigeoInput" type="text" inputmode="numeric" maxlength="6" placeholder="Ej. 150101">
-                                    <p class="ubigeo-hint">RENIEC se usa para trámites civiles. Cambia a INEI si trabajas con padrones estadísticos.</p>
+                                    <p class="ubigeo-hint">El buscador descarga <code>ubigeo-reniec.json</code> y <code>ubigeo-inei.json</code> para resolver coincidencias completamente en el navegador, sin endpoints adicionales.</p>
                                 <div class="actions">
                                     <button id="ubigeoLookupButton" type="button">Buscar</button>
                                     <button id="resetButton" type="button" class="button-secondary">Limpiar selección</button>
@@ -76,7 +76,8 @@
                                 <p><strong>Departamento:</strong> —</p>
                                 <p><strong>Provincia:</strong> —</p>
                                 <p><strong>Distrito:</strong> —</p>
-                                <p><strong>UBIGEO:</strong> —</p>
+                                <p><strong>UBIGEO RENIEC:</strong> —</p>
+                                <p><strong>UBIGEO INEI:</strong> —</p>
                             </div>
                         </div>
                     </article>
@@ -116,14 +117,10 @@
     Detalle directo por UBIGEO
     <a href="https://jmc-software-x.github.io/public-ubigeo-pe/data/districts/150101.json" target="_blank" rel="noopener">districts/{ubigeo}.json</a>
     -------------------
-    Catálogos completos por fuente
+    Catálogos completos para búsquedas JS
     <a href="https://jmc-software-x.github.io/public-ubigeo-pe/data/ubigeo-reniec.json" target="_blank" rel="noopener">ubigeo-reniec.json</a>
     <a href="https://jmc-software-x.github.io/public-ubigeo-pe/data/ubigeo-inei.json" target="_blank" rel="noopener">ubigeo-inei.json</a>
-    -------------------
-    Búsqueda directa por RENIEC
-    <a href="https://jmc-software-x.github.io/public-ubigeo-pe/data/lookup/reniec/150101.json" target="_blank" rel="noopener">lookup/reniec/{ubigeoReniec}.json</a>
-    Búsqueda directa por INEI
-    <a href="https://jmc-software-x.github.io/public-ubigeo-pe/data/lookup/inei/150101.json" target="_blank" rel="noopener">lookup/inei/{ubigeoInei}.json</a>
+    (El UI los procesa en memoria)
     -------------------
                         </code></pre>
                     </article>

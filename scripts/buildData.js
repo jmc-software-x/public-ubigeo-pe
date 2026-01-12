@@ -1,7 +1,11 @@
 const fs = require('node:fs');
 const path = require('node:path');
 
-const sourcePath = path.resolve(__dirname, '../data/code_ubigeo_dep_prov_dis.json');
+const ROOT_DIR = path.resolve(__dirname, '..');
+const DIST_ROOT = path.join(ROOT_DIR, 'dist');
+const DIST_DATA_ROOT = path.join(DIST_ROOT, 'data');
+
+const sourcePath = path.join(ROOT_DIR, 'data/code_ubigeo_dep_prov_dis.json');
 const rawHierarchy = JSON.parse(fs.readFileSync(sourcePath, 'utf8'));
 
 const collator = new Intl.Collator('es', { sensitivity: 'base' });
@@ -82,14 +86,12 @@ const buildHierarchy = () => {
 
 const { departments: hierarchy, departmentsById, provincesById } = buildHierarchy();
 
-const OUTPUT_ROOT = path.resolve(__dirname, '../data');
-
 const ensureDir = (dirPath) => {
     fs.mkdirSync(dirPath, { recursive: true });
 };
 
 const writeJson = (relativePath, payload) => {
-    const targetPath = path.join(OUTPUT_ROOT, relativePath);
+    const targetPath = path.join(DIST_DATA_ROOT, relativePath);
     ensureDir(path.dirname(targetPath));
     fs.writeFileSync(targetPath, JSON.stringify(payload, null, 2), 'utf8');
 };
@@ -114,22 +116,6 @@ const buildDistrictPayload = (department, province, district) => ({
     province: { id: province.id, name: province.name },
     district: summarizeDistrict(district),
 });
-
-const writeLookupBundles = (bundle, district) => {
-    writeJson(`lookup/reniec/${district.id}.json`, {
-        lookupType: 'reniec',
-        lookupCode: district.id,
-        ...bundle,
-    });
-
-    if (district.inei) {
-        writeJson(`lookup/inei/${district.inei}.json`, {
-            lookupType: 'inei',
-            lookupCode: district.inei,
-            ...bundle,
-        });
-    }
-};
 
 const buildStaticEndpoints = () => {
     writeJson('hierarchy.json', hierarchy.map(({ id, name }) => ({ id, name })));
@@ -198,9 +184,44 @@ const writeDistrictBundle = (ubigeo) => {
 
     const bundle = buildDistrictPayload(department, province, district);
     writeJson(`districts/${district.id}.json`, bundle);
-    writeLookupBundles(bundle, district);
 };
 
-buildStaticEndpoints();
+const resetDist = () => {
+    fs.rmSync(DIST_ROOT, { recursive: true, force: true });
+    ensureDir(DIST_DATA_ROOT);
+};
 
-console.log('Bundles generados en la carpeta data/.');
+const STATIC_ASSETS = [
+    ['index.html', 'index.html'],
+    ['style', 'style'],
+    ['js', 'js'],
+    ['data/images', 'data/images'],
+    ['data/ubigeo-reniec.json', 'data/ubigeo-reniec.json'],
+    ['data/ubigeo-inei.json', 'data/ubigeo-inei.json'],
+    ['data/code_ubigeo_dep_prov_dis.json', 'data/code_ubigeo_dep_prov_dis.json'],
+];
+
+const copyEntry = (fromRelative, toRelative) => {
+    const fromPath = path.join(ROOT_DIR, fromRelative);
+    if (!fs.existsSync(fromPath)) {
+        return;
+    }
+    const toPath = path.join(DIST_ROOT, toRelative);
+    const stats = fs.statSync(fromPath);
+    if (stats.isDirectory()) {
+        fs.cpSync(fromPath, toPath, { recursive: true });
+    } else {
+        ensureDir(path.dirname(toPath));
+        fs.copyFileSync(fromPath, toPath);
+    }
+};
+
+const copyStaticAssets = () => {
+    STATIC_ASSETS.forEach(([from, to]) => copyEntry(from, to));
+};
+
+resetDist();
+buildStaticEndpoints();
+copyStaticAssets();
+
+console.log('Bundles generados en la carpeta dist/.');

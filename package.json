@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "build:data": "node scripts/buildData.js",
-    "serve": "python3 -m http.server 4173"
+    "preserve": "npm run build:data",
+    "serve": "python3 -m http.server 4173 --directory dist"
   },
   "engines": {
     "node": ">=18"

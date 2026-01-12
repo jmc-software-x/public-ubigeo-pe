@@ -30,7 +30,7 @@ El archivo fuente se parte en bundles listos para ser consumidos como si fueran 
 npm run build:data
 ```
 
-La tarea anterior deja estos recursos dentro de `data/`:
+La tarea anterior deja estos recursos dentro de `dist/data/` (la carpeta `data/` del repo actúa como fuente y nunca se publica tal cual):
 
 - `hierarchy.json`: listado total de departamentos.
 - `departments/{departmentId}.json`: provincias por departamento.
@@ -43,15 +43,15 @@ Esto permite URLs como:
 - `https://<user>.github.io/<repo>/data/departments/15.json`
 - `https://<user>.github.io/<repo>/data/provinces/1501.json`
 - `https://<user>.github.io/<repo>/data/districts/150101.json`
-- `https://<user>.github.io/<repo>/data/lookup/reniec/150101.json`
-- `https://<user>.github.io/<repo>/data/lookup/inei/150101.json`
+
+Todo el contenido desplegable vive en `dist/`, que está gitignoreado y se regenera con cada `npm run build:data`. Los workflows de GitHub Pages suben únicamente esa carpeta.
 
 ## Uso local
 
-1. `npm run build:data` (solo si cambiaste el padrón base).
-2. `npm run serve` para abrir un server en `http://localhost:4173`.
-3. Navega a `http://localhost:4173/index.html` y prueba el flujo en cascada.
-4. Usa el cuadro de búsqueda para validar los endpoints `districts/{ubigeo}.json`.
+1. `npm run build:data` para generar `dist/` (el comando se ejecuta también como paso previo automático de `npm run serve`).
+2. `npm run serve` levanta `python -m http.server` apuntando a `dist/` en `http://localhost:4173`.
+3. Navega a `http://localhost:4173/` y prueba el flujo en cascada.
+4. Usa el cuadro de búsqueda para validar los catálogos `ubigeo-reniec.json` y `ubigeo-inei.json` funcionando desde el navegador.
 
 ## Integración con otros frontends
 
@@ -106,17 +106,12 @@ Reemplaza la URL por el endpoint específico que necesites (por ejemplo, `depart
 
 ### Búsqueda UBIGEO por fuente oficial
 
-El buscador integrado ahora permite seleccionar la norma que necesitas antes de lanzar la consulta:
+El buscador integrado descarga en paralelo los catálogos planos `data/ubigeo-reniec.json` e `data/ubigeo-inei.json` y resuelve todo en memoria, sin endpoints adicionales:
 
-- **RENIEC (default):** se usa para trámites civiles y coincide con los códigos `districts/{ubigeo}.json`.
-- **INEI:** útil para padrones estadísticos. Cada distrito incluye su código INEI (`district.inei`) y puedes consumir los catálogos planos `data/ubigeo-reniec.json` y `data/ubigeo-inei.json` si deseas procesarlos fuera del UI.
+- **RENIEC (default):** ideal para trámites civiles y coincide con los códigos `districts/{ubigeo}.json`.
+- **INEI:** pensado para padrones estadísticos; cada distrito conserva su código INEI en `district.inei`.
 
-El selector aparece junto al campo UBIGEO (dos radios RENIEC/INEI). Según la opción elegida, la aplicación busca en el mapa correspondiente y, si encuentra coincidencia, sincroniza automáticamente los selects de departamento, provincia y distrito. Si prefieres consultar desde otra app sin cargar toda la jerarquía, tienes disponibles los endpoints:
-
-- `data/lookup/reniec/{ubigeoReniec}.json`
-- `data/lookup/inei/{ubigeoInei}.json`
-
-Ambos devuelven el paquete completo `department/province/district`, más los metadatos `lookupType` y `lookupCode` para que sepas qué catálogo respondió la coincidencia.
+Cuando eliges la fuente (radios RENIEC/INEI) y escribes un código de 6 dígitos, el frontend valida el catálogo correspondiente, traduce la coincidencia contra el padrón base y sincroniza los selects del formulario. Si necesitas hacer la misma operación fuera del UI, basta con consumir los archivos `data/ubigeo-reniec.json` o `data/ubigeo-inei.json` desde tu aplicación y replicar la lógica de búsqueda en tu propio runtime.
 
 ## Sobre JMC-CORPORATION
 

@@ -1,4 +1,6 @@
 const DATA_URL = './data/code_ubigeo_dep_prov_dis.json';
+const INEI_INDEX_URL = './data/ubigeo-inei.json';
+const RENIEC_INDEX_URL = './data/ubigeo-reniec.json';
 const PLACEHOLDER = '—';
 const collator = new Intl.Collator('es', { sensitivity: 'base' });
 
@@ -67,6 +69,7 @@ class UbigeoRepository {
 				const districts = Object.entries(districtsRaw)
 					.map(([districtNameRaw, metadata]) => {
 						const ubigeo = normalizeUbigeo(metadata.ubigeo);
+						const ineiCode = metadata.inei ? normalizeUbigeo(metadata.inei) : null;
 						const departmentId = ubigeo.slice(0, 2);
 						const provinceId = ubigeo.slice(0, 4);
 						const district = {
@@ -74,12 +77,12 @@ class UbigeoRepository {
 							name: normalizeName(districtNameRaw),
 							departmentId,
 							provinceId,
-							inei: metadata.inei ?? null,
+							inei: ineiCode,
 							entityId: metadata.id ?? null,
 						};
 						this.districtsByUbigeo.set(district.id, district);
 						if (district.inei) {
-							this.districtsByInei.set(normalizeUbigeo(district.inei), district);
+							this.districtsByInei.set(district.inei, district);
 						}
 						return district;
 					})
@@ -155,8 +158,8 @@ class UbigeoRepository {
 		return clone({ department, province, district });
 	}
 
-	lookupByInei(code) {
-		const normalized = normalizeUbigeo(code);
+	lookupByInei(ineiCode) {
+		const normalized = normalizeUbigeo(ineiCode);
 		const district = this.districtsByInei.get(normalized);
 		if (!district) {
 			return null;
@@ -165,24 +168,82 @@ class UbigeoRepository {
 		const department = this.departmentsById.get(district.departmentId);
 		return clone({ department, province, district });
 	}
+
 }
 
+class UbigeoCatalogIndex {
+	constructor(sourceUrl, { label = 'UBIGEO' } = {}) {
+		this.sourceUrl = sourceUrl;
+		this.label = label;
+		this.readyPromise = null;
+		this.records = new Map();
+	}
+
+	async bootstrap() {
+		if (!this.readyPromise) {
+			this.readyPromise = this.loadIndex();
+		}
+		return this.readyPromise;
+	}
+
+	async loadIndex() {
+		const response = await fetch(this.sourceUrl);
+		if (!response.ok) {
+			throw new Error(`No se pudo cargar el catálogo ${this.label}.`);
+		}
+		const payload = await response.json();
+		this.buildIndex(payload);
+		return this.records;
+	}
+
+	buildIndex(entries = []) {
+		this.records.clear();
+		entries.forEach((entry) => {
+			const departmentId = String(entry.departamento).padStart(2, '0');
+			const provincePart = String(entry.provincia).padStart(2, '0');
+			const districtPart = String(entry.distrito).padStart(2, '0');
+			if (districtPart === '00') {
+				return;
+			}
+			const provinceId = `${departmentId}${provincePart}`;
+			const code = normalizeUbigeo(`${departmentId}${provincePart}${districtPart}`);
+			this.records.set(code, {
+				code,
+				departmentId,
+				provinceId,
+				districtId: code,
+				name: entry.nombre ? normalizeName(entry.nombre) : null,
+			});
+		});
+	}
+
+	lookup(code) {
+		return this.records.get(normalizeUbigeo(code)) ?? null;
+	}
+}
+
+
 class UbigeoCascadeController {
-	constructor({ repository, elements }) {
+	constructor({ repository, ineiIndex, reniecIndex, elements }) {
 		this.repository = repository;
+		this.ineiIndex = ineiIndex;
+		this.reniecIndex = reniecIndex;
 		this.elements = elements;
 		this.currentSelection = {
 			departmentId: null,
 			provinceId: null,
 			districtId: null,
 		};
-		this.lookupMode = 'reniec';
 	}
 
 	async init() {
-		this.setStatus('Descargando padrón nacional…');
+		this.setStatus('Descargando padrón nacional y catálogos RENIEC/INEI…');
 		try {
-			await this.repository.bootstrap();
+			await Promise.all([
+				this.repository.bootstrap(),
+				this.ineiIndex.bootstrap(),
+				this.reniecIndex.bootstrap(),
+			]);
 			this.populateDepartments();
 			this.bindEvents();
 			this.setStatus('Listo. Selecciona un departamento para comenzar.');
@@ -199,27 +260,12 @@ class UbigeoCascadeController {
 		this.elements.district.addEventListener('change', () => this.handleDistrictChange());
 		this.elements.lookupButton.addEventListener('click', () => this.handleUbigeoLookup());
 		this.elements.resetButton.addEventListener('click', () => this.resetForm());
-		this.bindLookupModeEvents();
 	}
 
-	bindLookupModeEvents() {
-		if (!this.elements.lookupTypeRadios?.length) {
-			return;
-		}
-		this.elements.lookupTypeRadios.forEach((input) => {
-			input.addEventListener('change', () => {
-				if (input.checked) {
-					this.lookupMode = input.value === 'inei' ? 'inei' : 'reniec';
-				}
-			});
-			if (input.checked) {
-				this.lookupMode = input.value === 'inei' ? 'inei' : 'reniec';
-			}
-		});
-	}
-
-	getLookupMode() {
-		return this.lookupMode;
+	getSelectedLookupMode() {
+		const options = this.elements.ubigeoTypeInputs ?? [];
+		const selected = options.find((input) => input.checked);
+		return selected ? selected.value : 'reniec';
 	}
 
 	populateDepartments() {
@@ -284,14 +330,21 @@ class UbigeoCascadeController {
 			return;
 		}
 
-		const lookupMode = this.getLookupMode();
+		const selectedMode = this.getSelectedLookupMode();
+		const modeLabel = selectedMode.toUpperCase();
+		const catalog = selectedMode === 'inei' ? this.ineiIndex : this.reniecIndex;
+		const catalogRecord = catalog.lookup(numericOnly);
+		if (!catalogRecord) {
+			this.setStatus(`No encontramos ese código ${modeLabel}.`, true);
+			return;
+		}
+
 		const match =
-			lookupMode === 'inei'
-				? this.repository.lookupByInei(numericOnly)
-				: this.repository.lookupByUbigeo(numericOnly);
+			selectedMode === 'inei'
+				? this.repository.lookupByInei(catalogRecord.code)
+				: this.repository.lookupByUbigeo(catalogRecord.code);
 		if (!match) {
-			const label = lookupMode === 'inei' ? 'INEI' : 'RENIEC';
-			this.setStatus(`No encontramos ese código ${label}.`, true);
+			this.setStatus(`El código ${modeLabel} no está sincronizado con el padrón base.`, true);
 			return;
 		}
 
@@ -299,10 +352,7 @@ class UbigeoCascadeController {
 		this.ensureDepartmentSelected(department.id, province.id);
 		this.ensureProvinceSelected(province.id, district.id);
 		this.ensureDistrictSelected(district.id);
-		const label = lookupMode === 'inei' ? 'INEI' : 'RENIEC';
-		this.setStatus(
-			`Encontrado (${label}): ${department.name} / ${province.name} / ${district.name}`,
-		);
+		this.setStatus(`Encontrado (${modeLabel}): ${department.name} / ${province.name} / ${district.name}`);
 	}
 
 	ensureDepartmentSelected(departmentId, selectedProvinceId = null) {
@@ -413,11 +463,13 @@ const elements = {
 	ubigeoInput: document.getElementById('ubigeoInput'),
 	lookupButton: document.getElementById('ubigeoLookupButton'),
 	resetButton: document.getElementById('resetButton'),
-	lookupTypeRadios: document.querySelectorAll('input[name="ubigeoType"]'),
+	ubigeoTypeInputs: Array.from(document.querySelectorAll('input[name="ubigeoType"]')),
 };
 
 const repository = new UbigeoRepository(DATA_URL);
-const controller = new UbigeoCascadeController({ repository, elements });
+const ineiIndex = new UbigeoCatalogIndex(INEI_INDEX_URL, { label: 'INEI' });
+const reniecIndex = new UbigeoCatalogIndex(RENIEC_INDEX_URL, { label: 'RENIEC' });
+const controller = new UbigeoCascadeController({ repository, ineiIndex, reniecIndex, elements });
 controller.init().catch(() => {
 	/* Se maneja el error dentro del controlador */
 });
